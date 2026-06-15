@@ -1,0 +1,1203 @@
+[
+  {
+    "nivel": 1,
+    "preguntas": [
+      {"p":"Si 1=5, 2=25, 3=125, ¿5=?","r":"1","exp":"Lógica inversa: al principio se dijo 1=5, por lo tanto 5=1","pista":"Lee el inicio del acertijo"},
+      {"p":"¿Qué va hacia arriba pero nunca regresa abajo?","r":"la edad","exp":"El tiempo avanza de forma lineal e irreversible","pista":"Cumpleaños"},
+      {"p":"Tengo hojas pero no soy árbol, tengo lomo pero no soy animal. ¿Qué soy?","r":"libro","exp":"Los libros poseen páginas u hojas y lomo de encuadernación","pista":"Se lee"},
+      {"p":"Si un tren eléctrico va hacia el norte, ¿hacia dónde va el humo?","r":"ningun lado","exp":"Los trenes electricos no generan humo","pista":"Tipo de energía"},
+      {"p":"¿Qué se encuentra en medio de la nada?","r":"la letra a","exp":"Análisis de caracteres de la palabra 'n-a-d-a'","pista":"Ortografía"}
+    ]
+  },
+  {
+    "nivel": 2,
+    "preguntas": [
+      {"p":"1, 11, 21, 1211, 111221, ?","r":"312211","exp":"Secuencia de lectura de frecuencias del paso anterior","pista":"Lee los números en voz alta"},
+      {"p":"¿Cuál es el número que no tiene valor por sí solo pero altera a los demás a su derecha?","r":"0","exp":"El cero a la derecha multiplica por diez en base decimal","pista":"Figura redonda"},
+      {"p":"¿Qué objeto tiene llaves pero no abre ninguna cerradura física?","r":"Piano","exp":"Las teclas de los instrumentos musicales se denominan llaves o notas","pista":"Produce música"},
+      {"p":"Si tres gatos cazan tres ratones en tres minutos, ¿cuánto tarda un gato en cazar uno?","r":"3","exp":"La tasa de ejecución se mantiene constante e individual","pista":"Tiempo unitario"},
+      {"p":"¿Qué se moja continuamente mientras realiza la acción de secar?","r":"la toalla","exp":"La tela absorbe la humedad transfiriéndola a sí misma","pista":"Elemento de baño"}
+    ]
+  },
+  {
+    "nivel": 3,
+    "preguntas": [
+      {"p":"Un pastor tiene 15 ovejas. Mueren todas menos nueve. ¿Cuántas quedan?","r":"9","exp":"Comprensión literal: el texto indica que quedan exactamente 9 vivas","pista":"Presta atención al enunciado"},
+      {"p":"¿Qué elemento pesa más en la báscula: un kilogramo de oro puro o un kilogramo de paja?","r":"pesan lo mismo","exp":"Ambos objetos poseen exactamente la misma masa métrica (1 kg)","pista":"Evalúa la unidad"},
+      {"p":"¿Qué parte del cuerpo humano tiene la propiedad de mirar fijamente pero carece de visión propia?","r":"el ojo de la aguja","exp":"Metáfora estructural del orificio de enhebrado","pista":"Utensilio de costura"},
+      {"p":"¿Qué se puede romper con facilidad sin necesidad de emplear la fuerza física?","r":"una promesa","exp":"Acto abstracto de incumplir un acuerdo verbal o escrito","pista":"Compromiso ético"},
+      {"p":"¿Qué término de cinco letras se acorta drásticamente al añadirle dos letras más?","r":"corta","exp":"Estructura léxica: Corta + dos da como resultado la palabra 'Cortados'","pista":"Analiza el adjetivo"}
+    ]
+  },
+  {
+    "nivel": 4,
+    "preguntas": [
+      {"p":"2, 5, 10, 17, 26, ?","r":"37","exp":"Suma progresiva de números impares consecutivos (+3, +5, +7, +9, +11)","pista":"Diferencia incremental"},
+      {"p":"¿Qué objeto cuenta con cuatro ruedas operacionales y atrae moscas constantemente?","r":"camion de basura","exp":"Vehículo de recolección de desechos orgánicos en descomposición","pista":"Sanidad urbana"},
+      {"p":"¿Cuál es el inicio del infinito y la conclusión del tiempo y el espacio?","r":"la letra i","exp":"Análisis de la letra inicial y final de los respectivos vocablos","pista":"Gráfico alfabético"},
+      {"p":"¿Qué mes del año regular cuenta con la presencia de 28 días en su estructura?","r":"todos","exp":"Todos los meses del calendario gregoriano poseen al menos 28 días continuos","pista":"No es exclusivo"},
+      {"p":"Si tengo tres manzanas y me quitas dos, ¿cuántas manzanas posees tú ahora?","r":"2","exp":"Tú has tomado físicamente la cantidad que retiraste de mis manos","pista":"Propiedad de posesión"}
+    ]
+  },
+  {
+    "nivel": 5,
+    "preguntas": [
+      {"p":"Si TIERRA = 6, MAR = 3, CIELO = 5, ¿UNIVERSO=?","r":"8","exp":"Correspondencia directa al número total de letras de la palabra","pista":"Cuenta los caracteres"},
+      {"p":"¿Qué elemento arquitectónico permite subir y bajar de nivel sin alterar su posición física?","r":"la escalera","exp":"Estructura estática diseñada para la transición vertical de coordenadas","pista":"Peldaños fijados"},
+      {"p":"¿Qué objeto posee una corona circular completa pero carece de cabeza o cerebro?","r":"un reloj","exp":"La corona es el componente mecánico de ajuste horario","pista":"Mide las horas"},
+      {"p":"¿Qué entra en el agua de forma fluida y limpia pero no se moja bajo ninguna circunstancia?","r":"la luz","exp":"La radiación electromagnética atraviesa medios translúcidos por refracción","pista":"Fenómeno óptico"},
+      {"p":"¿Qué se hace más grande a medida que se le extrae más material de su interior?","r":"un agujero","exp":"Remoción de volumen de una masa sólida compacta","pista":"Espacio vacío"}
+    ]
+  },
+  {
+    "nivel": 6,
+    "preguntas": [
+      {"p":"Padre de Rosa tiene 5 hijas: Fana, Fena, Fina, Fona... ¿Quién es la quinta?","r":"rosa","exp":"Identidad revelada en la premisa inicial del enunciado","pista":"Relee con atención"},
+      {"p":"¿Qué tiene un cuello alargado pero carece por completo de una cabeza superior?","r":"una botella","exp":"Designación anatómica del estrechamiento superior del contenedor","pista":"Envase de líquidos"},
+      {"p":"¿Qué tiene dientes alineados de forma simétrica pero no ejerce masticación mecánica?","r":"un peine","exp":"Púas paralelas empleadas exclusivamente para el ordenamiento capilar","pista":"Uso estético"},
+      {"p":"¿Qué ciudad del mundo se puede encontrar mapeada sin edificios reales ni habitantes?","r":"una maqueta","exp":"Representación volumétrica a escala reducida de entornos urbanos","pista":"Modelo a escala"},
+      {"p":"¿Qué objeto se destruye instantáneamente al pronunciar su propio nombre en voz alta?","r":"el silencio","exp":"Estado físico de ausencia acústica total que se anula con ondas sonoras","pista":"Cero decibelios"}
+    ]
+  },
+  {
+    "nivel": 7,
+    "preguntas": [
+      {"p":"88, 64, 24, ?","r":"8","exp":"Multiplicación sucesiva de los componentes numéricos individuales (2x4=8)","pista":"Operación entre dígitos"},
+      {"p":"¿Qué día del ciclo solar anual posee una duración exacta de 24 horas y 2 minutos?","r":"ninguno","exp":"Todos los días astronómicos estándar computan una duración fija homogénea","pista":"Tiempo absoluto"},
+      {"p":"¿Qué objeto requiere ser colocado completamente de lado para representar el todo abstracto?","r":"8","exp":"Rotación espacial del dígito 8 para convertirse en el símbolo de infinito","pista":"Geometría digital"},
+      {"p":"¿Qué animal extinto o vivo conserva siempre la misma posición de salto dentro de un tablero?","r":"el caballo","exp":"Patrón de movimiento ortogonal rígido en el ajedrez (forma de L)","pista":"Pieza de juego"},
+      {"p":"¿Qué elemento formal de la escritura posee ojos pero es incapaz de procesar imágenes?","r":"la letra i","exp":"El punto superior estilizado se asocia analógicamente a un ojo","pista":"Grafía elemental"}
+    ]
+  },
+  {
+    "nivel": 8,
+    "preguntas": [
+      {"p":"¿Qué tiene 4 ruedas y moscas?","r":"camion de basura","exp":"Vehículo de recolección de residuos que genera focos biológicos de insectos","pista":"Residuos urbanos"},
+      {"p":"¿Qué operación matemática resulta si divides el número 30 entre 0.5 y le sumas 10?","r":"70","exp":"Cálculo algebraico estricto: (30 / 0.5) + 10 = 60 + 10 = 70","pista":"División fraccionaria"},
+      {"p":"¿Qué objeto de valor se adquiere para ser consumido pero nunca es tragado?","r":"un chicle","exp":"Goma base elástica formulada para la extracción de sabores por masticación","pista":"Goma masticable"},
+      {"p":"¿Cuántas letras contiene de forma exacta el alfabeto completo?","r":"8","exp":"Conteo de letras del término lingüístico específico: 'a-l-f-a-b-e-t-o'","pista":"Juego semántico"},
+      {"p":"¿Qué elemento es capaz de llenar una habitación entera sin ocupar volumen físico?","r":"la luz","exp":"Propagación de fotones que satura el espacio tridimensional","pista":"Emisión de energía"}
+    ]
+  },
+  {
+    "nivel": 9,
+    "preguntas": [
+      {"p":"A, D, G, J, ?","r":"m","exp":"Desplazamiento lineal uniforme saltando dos posiciones alfabéticas cada vez","pista":"Abecedario secuencial"},
+      {"p":"¿Qué extremidad es posible sostener fijamente con la mano derecha pero jamás con la izquierda?","r":"el codo izquierdo","exp":"Imposibilidad cinemática de articulación y flexión del propio brazo","pista":"Anatomía articular"},
+      {"p":"¿Qué elemento avanza de forma constante sin detenerse pero nunca cambia de posición espacial?","r":"el tiempo","exp":"Dimensión física que transcurre independientemente de la ubicación","pista":"Flujo continuo"},
+      {"p":"¿Qué objeto posee pies bien definidos en su base pero es incapaz de caminar autónomamente?","r":"una mesa","exp":"Soportes estructurales verticales que estabilizan la superficie plana","pista":"Mobiliario común"},
+      {"p":"¿Qué término describe al hijo de tu propio padre que no corresponde a tu hermano?","r":"yo","exp":"Autorreferencia de identidad del individuo que formula o responde","pista":"Primera persona"}
+    ]
+  },
+  {
+    "nivel": 10,
+    "preguntas": [
+      {"p":"¿Cuántos meses tienen 28 días?","r":"12","exp":"Análisis inclusivo: todos los meses contienen al menos los primeros 28 días","pista":"Revisa el calendario"},
+      {"p":"Si dos pintores tardan dos horas en pintar dos murales, ¿cuánto tarda un pintor en uno?","r":"2","exp":"La velocidad de producción individual es constante en el sistema paralelo","pista":"Análisis de ratio"},
+      {"p":"¿Qué término numérico se reduce en valor absoluto si lo rotas 180 grados verticales?","r":"9","exp":"Inversión gráfica: el número 9 se transforma en el dígito 6 al voltearse","pista":"Cambio posicional"},
+      {"p":"¿Qué tipo de arco es imposible de visualizar en el cielo nocturno o diurno?","r":"el arco iris","exp":"No es un objeto sólido, requiere refracción solar directa para manifestarse","pista":"Efecto óptico"},
+      {"p":"¿Qué palabra mantiene la misma pronunciación exacta al eliminar cuatro de sus cinco letras?","r":"cuyo","exp":"Estructura fonética donde el sonido no varía al aislar fonemas homófonos","pista":"Pronombre relativo"}
+    ]
+  },
+  
+  {
+    "nivel": 11,
+    "preguntas": [
+      {"p":"1, 8, 27, 64, ?","r":"125","exp":"Serie basada en la progresión de números enteros elevados a la tercera potencia (5³)","pista":"Cúbicos perfectos"},
+      {"p":"¿Qué número sigue en la secuencia: 3, 5, 9, 17, ?","r":"33","exp":"El incremento entre términos se duplica en cada iteración (+2, +4, +8, +16)","pista":"Doble del cambio"},
+      {"p":"¿Qué ecuación describe el valor de X si 2X + 5 = 15?","r":"5","exp":"Despeje de variable lineal estándar en álgebra elemental","pista":"Resta y divide"},
+      {"p":"¿Qué figura geométrica plana posee el menor número posible de lados cerrados?","r":"triangulo","exp":"Se requieren mínimo tres líneas rectas intersecadas para delimitar un área","pista":"Tres vértices"},
+      {"p":"¿Cuál es el resultado exacto de la operación aritmética 10 - 10 x 10 + 10?","r":"-80","exp":"Aplicación estricta del orden de operaciones (PEMDAS): 10 - 100 + 10 = -80","pista":"Multiplicación primero"}
+    ]
+  },
+  {
+    "nivel": 12,
+    "preguntas": [
+      {"p":"¿Qué letra sigue? E, F, M, A, M, J, J, A, S, O, N, ?","r":"d","exp":"Acrónimo secuencial correspondiente a los meses del año (Diciembre)","pista":"Cronología anual"},
+      {"p":"¿Cuál es el valor del ángulo interno de un triángulo equilátero regular?","r":"60","exp":"La suma interna de 180 grados dividida equitativamente entre tres vértices","pista":"Ángulo agudo"},
+      {"p":"¿Qué número primo sigue inmediatamente después del número entero 11?","r":"13","exp":"El siguiente entero divisible únicamente por sí mismo y por la unidad","pista":"Siguiente impar"},
+      {"p":"¿Cuál es la raíz cuadrada exacta del valor numérico 144?","r":"12","exp":"Operación inversa del cuadrado perfecto: 12 por 12 es igual a 144","pista":"Docena clásica"},
+      {"p":"¿Qué sistema numérico utiliza únicamente los dígitos binarios 0 y 1?","r":"binario","exp":"Lenguaje computacional de base dos para procesamiento lógico lógico","pista":"Base digital"}
+    ]
+  },
+  {
+    "nivel": 13,
+    "preguntas": [
+      {"p":"Si 3 agentes cazan 3 moscas en 3 min, ¿cuánto tarda 1 agente en cazar 1 mosca?","r":"3","exp":"La tasa de rendimiento unitario no se altera con la escala paralela","pista":"Misma velocidad"},
+      {"p":"¿Cuál es el perímetro de un cuadrado que posee un área exacta de 16 metros cuadrados?","r":"16","exp":"Lado igual a 4 metros; por lo tanto, el perímetro es 4x4 = 16 metros","pista":"Suma de lados"},
+      {"p":"¿Qué número entero representa el opuesto aditivo directo del valor 7?","r":"-7","exp":"Valor numérico que al sumarse con el original anula el resultado a cero","pista":"Signo inverso"},
+      {"p":"¿Cuál es el factor común más grande entre los números enteros 12 y 18?","r":"6","exp":"Máximo común divisor (MCD) obtenido por descomposición de factores primos","pista":"MCD"},
+      {"p":"¿Qué valor se obtiene al elevar cualquier número real no nulo a la potencia cero?","r":"1","exp":"Propiedad exponencial axiomática fundamental en matemáticas y álgebra","pista":"Resultado unitario"}
+    ]
+  },
+  {
+    "nivel": 14,
+    "preguntas": [
+      {"p":"Busca el intruso: Martillo, Destornillador, Clavo, Alicates","r":"clavo","exp":"El clavo clasifica como material de fijación, el resto son herramientas mecánicas","pista":"Uso funcional"},
+      {"p":"¿Qué cuerpo geométrico tridimensional carece por completo de caras planas o aristas?","r":"esfera","exp":"Superficie curva continua cuyos puntos equidistan de un centro común","pista":"Forma de pelota"},
+      {"p":"Si un ángulo mide exactamente 90 grados rectos, ¿cómo se clasifica geométricamente?","r":"recto","exp":"Definición formal de perpendicularidad absoluta entre dos rectas intersecadas","pista":"Ángulo ortogonal"},
+      {"p":"¿Qué fracción equivale de forma exacta a la expresión decimal periódica 0.5?","r":"1/2","exp":"Simplificación de la razón matemática elemental de la mitad de una unidad","pista":"Un medio"},
+      {"p":"¿Cuántos lados paralelos posee un hexágono regular estructurado de forma simétrica?","r":"3 pares","exp":"Tres conjuntos de lados paralelos opuestos distribuidos uniformemente","pista":"Geometría analítica"}
+    ]
+  },
+  {
+    "nivel": 15,
+    "preguntas": [
+      {"p":"¿Cuál es el número que si le quitas la mitad vale cero?","r":"8","exp":"División gráfica horizontal del carácter tipográfico del número ocho","pista":"Visualiza el trazo"},
+      {"p":"¿Qué número sigue en la secuencia lógica: 2, 4, 8, 16, ?","r":"32","exp":"Progresión geométrica exponencial con razón constante igual a dos (x2)","pista":"Multiplica por 2"},
+      {"p":"¿Cuál es el valor del número romano representado por el carácter tipográfico L?","r":"50","exp":"Asignación posicional clásica del sistema de numeración del imperio romano","pista":"Medio centenar"},
+      {"p":"¿Qué línea recta interseca un círculo uniendo dos puntos sin pasar por el centro?","r":"cuerda","exp":"Definición técnica de un segmento geométrico dentro de una circunferencia","pista":"No es el diámetro"},
+      {"p":"¿Qué propiedad matemática indica que el orden de los factores no altera el producto?","r":"conmutativa","exp":"Ley algebraica aplicada a la adición y multiplicación de números reales","pista":"Intercambio"}
+    ]
+  },
+  {
+    "nivel": 16,
+    "preguntas": [
+      {"p":"121, 144, 169, 196, ?","r":"225","exp":"Serie matemática basada en los cuadrados de enteros consecutivos (11² a 15²)","pista":"15 al cuadrado"},
+      {"p":"¿Qué número sigue en la serie: 100, 90, 81, 73, ?","r":"66","exp":"Resta incremental progresiva decreciente: -10, -9, -8, -7 en cada paso","pista":"Pérdida variable"},
+      {"p":"¿Qué valor es el recíproco o inverso multiplicativo directo de la fracción 3/4?","r":"4/3","exp":"Inversión de los términos del numerador y denominador matemático","pista":"Voltea la fracción"},
+      {"p":"¿Cuál es el menor número de dos dígitos que clasifica como número primo?","r":"11","exp":"Primer valor entero de base diez divisible solo por sí mismo y por uno","pista":"Dos dígitos iguales"},
+      {"p":"¿Qué prefijo numérico métrico denota la multiplicación exacta por un factor de mil?","r":"kilo","exp":"Unidad estandarizada del Sistema Internacional para escala de millar","pista":"KM o KG"}
+    ]
+  },
+  {
+    "nivel": 17,
+    "preguntas": [
+      {"p":"Un pato y un niño nacen el mismo día. Al cabo de un año, ¿quién es mayor?","r":"el pato","exp":"El pato alcanza la madurez biológica adulta, el niño sigue siendo un lactante","pista":"Escala evolutiva"},
+      {"p":"¿Qué número completa la analogía: 4 es a 12 como 5 es a...?","r":"15","exp":"Relación de proporcionalidad directa basada en el factor multiplicador tres","pista":"Triplica el valor"},
+      {"p":"¿Cuántos segundos exactos se encuentran contenidos en un intervalo de diez minutos?","r":"600","exp":"Conversión de unidades de tiempo: 10 minutos multiplicados por 60 segundos","pista":"Multiplica por 60"},
+      {"p":"¿Qué figura tridimensional posee seis caras cuadradas idénticas unidas por aristas?","r":"cubo","exp":"Hexaedro regular ortogonal estable en geometría euclidiana","pista":"Dado de juego"},
+      {"p":"¿Cuál es el promedio aritmético simple de los valores enteros 4, 8 y 12?","r":"8","exp":"Cálculo: (4 + 8 + 12) / 3 = 24 / 3 = 8 como punto medio ponderado","pista":"Suma y divide"}
+    ]
+  },
+  {
+    "nivel": 18,
+    "preguntas": [
+      {"p":"3, 4, 7, 11, 18, ?","r":"29","exp":"Cada término subsiguiente se calcula sumando los dos valores inmediatamente anteriores","pista":"Suma de vecinos"},
+      {"p":"¿Qué número sigue en la serie: 1, 3, 9, 27, ?","r":"81","exp":"Crecimiento geométrico basado en potencias sucesivas de base tres","pista":"Multiplica por 3"},
+      {"p":"¿Cuál es el área de un rectángulo que mide 5 metros de base por 4 de altura?","r":"20","exp":"Cálculo geométrico plano básico empleando la fórmula estándar base por altura","pista":"Multiplicación directa"},
+      {"p":"¿Qué número entero es el antecesor directo del valor negativo -5?","r":"-6","exp":"En la recta numérica de reales, los valores decrecen hacia la izquierda","pista":"Más negativo"},
+      {"p":"¿Cuántas líneas de simetría axial exactas posee un círculo perfecto?","r":"infinitas","exp":"Cualquier recta diametral que cruce el centro divide la figura simétricamente","pista":"Sin límite"}
+    ]
+  },
+  {
+    "nivel": 19,
+    "preguntas": [
+      {"p":"¿Qué palabra de 5 letras se hace más corta al añadirle dos?","r":"corta","exp":"Estructura léxica: la palabra 'corta' se expande gráficamente a 'cortados'","pista":"Análisis morfológico"},
+      {"p":"¿Qué número impar no puede ser representado como la suma de dos primos?","r":"1","exp":"El uno no es primo por definición formal, imposibilitando la operación","pista":"Primer entero"},
+      {"p":"¿Qué polígono regular cuenta con exactamente ocho lados simétricos en su perímetro?","r":"octagono","exp":"Definición formal de una figura geométrica de ocho ángulos internos","pista":"Señal de stop"},
+      {"p":"Si sumas los números de las páginas de un libro del 1 al 5, ¿qué total obtienes?","r":"15","exp":"Sumatoria lineal simple: 1 + 2 + 3 + 4 + 5 = 15","pista":"Serie consecutiva"},
+      {"p":"¿Qué instrumento óptico matemático se emplea para medir ángulos sexagesimales?","r":"transportador","exp":"Herramienta de geometría semicircular graduada en grados estándar","pista":"Regla curva"}
+    ]
+  },
+  {
+    "nivel": 20,
+    "preguntas": [
+      {"p":"Si 1+4=5, 2+5=12, 3+6=21, ¿8+11=?","r":"96","exp":"Aplicación del patrón algorítmico estructurado como: A + (A x B) -> 8 + (8 x 11)","pista":"Multiplica y luego suma"},
+      {"p":"¿Qué número sigue en la secuencia lógica: 80, 40, 20, 10, ?","r":"5","exp":"División sucesiva sistemática entre la constante numérica dos (/2)","pista":"La mitad"},
+      {"p":"¿Cuál es el valor absoluto entero resultante del número negativo -99?","r":"99","exp":"Distancia escalar pura respecto al origen cero en la recta real","pista":"Quita el signo"},
+      {"p":"¿Cuántos minutos exactos componen una fracción de tres cuartos de hora?","r":"45","exp":"Cálculo cronológico estándar: 60 minutos divididos entre cuatro por tres","pista":"Tiempo de juego"},
+      {"p":"¿Qué ciencia formal estudia las propiedades de los números y figuras geométricas?","r":"matematicas","exp":"Definición de la disciplina lógica deductiva universal","pista":"Área académica"}
+    ]
+  },
+  {
+    "nivel": 21,
+    "preguntas": [
+      {"p":"¿Qué número sigue: 2, 10, 12, 16, 17, 18, 19, ?","r":"200","exp":"Niveles de nomenclatura idiomática: números cuya inicial fonética es la letra D","pista":"Nombres con D"},
+      {"p":"¿Cuál es el siguiente número primo mayor a 13?","r":"17","exp":"Número entero sin divisores exactos intermedios","pista":"Siguiente primo"},
+      {"p":"¿Qué número representa la cuarta parte de un centenar completo?","r":"25","exp":"Operación aritmética de fraccionamiento: 100 dividido entre 4","pista":"Un cuarto"},
+      {"p":"Si X - 7 = 10, ¿cuál es el valor de la incógnita X?","r":"17","exp":"Despeje básico de ecuación de primer grado sumando el término al opuesto","pista":"Suma 7"},
+      {"p":"¿Qué nombre recibe el polígono cerrado que posee cinco vértices en su plano?","r":"pentagono","exp":"Definición geométrica formal basada en raíces griegas de construcción","pista":"Cinco lados"}
+    ]
+  },
+  {
+    "nivel": 22,
+    "preguntas": [
+      {"p":"S, O, N, D, J, F, M, A, ?","r":"m","exp":"Secuencia de las letras iniciales de los meses en orden cronológico regresivo","pista":"Meses al revés"},
+      {"p":"¿Cuál es el resultado de multiplicar 0.1 por 100?","r":"10","exp":"Desplazamiento del punto decimal dos posiciones hacia la derecha","pista":"División de base"},
+      {"p":"¿Qué tipo de triángulo posee dos lados de igual longitud y uno diferente?","r":"isosceles","exp":"Clasificación geométrica basada en la relación de proporcionalidad lateral","pista":"Lados gemelos"},
+      {"p":"¿Cuántas caras posee una pirámide de base cuadrada en total?","r":"5","exp":"Cuatro caras triangulares laterales y una cara basal cuadrada de soporte","pista":"Estructura egipcia"},
+      {"p":"¿Cuál es la mitad exacta de la tercera parte del número entero 18?","r":"3","exp":"Operaciones sucesivas: 18 / 3 = 6; luego la mitad de 6 es igual a 3","pista":"Divide dos veces"}
+    ]
+  },
+  {
+    "nivel": 23,
+    "preguntas": [
+      {"p":"¿Cuántos 9 hay entre el 1 y el 100?","r":"20","exp":"Conteo exhaustivo considerando tanto las unidades como la decena entera de los noventa","pista":"Cuenta los noventas"},
+      {"p":"¿Cuál es el cuadrado del número entero 9?","r":"81","exp":"Multiplicación de un factor entero por sí mismo en álgebra: 9 x 9 = 81","pista":"Nueve por nueve"},
+      {"p":"¿Qué número entero es equivalente al doble de 24 disminuido en 6?","r":"42","exp":"Expresión algebraica traducida: (24 x 2) - 6 = 48 - 6 = 42","pista":"Operación compuesta"},
+      {"p":"¿Cuántos lados posee un rombo regular en su estructura geométrica?","r":"4","exp":"Cuadrilátero cuyos cuatro lados tienen longitudes exactamente idénticas","pista":"Forma de diamante"},
+      {"p":"¿Qué número sigue en la secuencia: 0, 1, 4, 9, 16, ?","r":"25","exp":"Progresión basada en elevar los números enteros consecutivos al cuadrado","pista":"Cuadrados perfectos"}
+    ]
+  },
+  {
+    "nivel": 24,
+    "preguntas": [
+      {"p":"A es el hermano de B. B es el hermano de C. C es el padre de D. ¿Qué es A de D?","r":"tio","exp":"Parentesco familiar: hermano varón del progenitor directo","pista":"Línea colateral"},
+      {"p":"¿Cuál es el volumen de un cubo que tiene 2 metros de arista?","r":"8","exp":"Fórmula de volumen cúbico elemental: arista elevada a la tercera potencia (2³)","pista":"Dos al cubo"},
+      {"p":"¿Qué número es divisible exactamente entre todos los números del 1 al 3?","r":"6","exp":"Mínimo común múltiplo (MCM) de la serie numérica inicial","pista":"MCM de 1, 2, 3"},
+      {"p":"¿Qué porcentaje de una unidad representa la fracción matemática 1/5?","r":"20%","exp":"Conversión de escala: división decimal 0.20 expresada en valor porcentual","pista":"Quinta parte"},
+      {"p":"¿Cuántas dimensiones físicas posee un punto geométrico puro en el espacio?","r":"0","exp":"El punto representa una entidad de posición adimensional absoluta","pista":"Sin extensión"}
+    ]
+  },
+  {
+    "nivel": 25,
+    "preguntas": [
+      {"p":"0, 2, 6, 12, 20, ?","r":"30","exp":"Secuencia matemática descrita por la función polinomial de segundo grado n² - n","pista":"Diferencia par"},
+      {"p":"¿Cuál es el valor del término matemático pi redondeado a dos decimales?","r":"3.14","exp":"Constante geométrica que relaciona el diámetro y la longitud de la circunferencia","pista":"Decimal común"},
+      {"p":"¿Qué número sigue en la serie decreciente: 50, 45, 39, 32, ?","r":"24","exp":"Resta con decremento variable secuencial: -5, -6, -7, -8 en cada paso","pista":"Resta mayor"},
+      {"p":"¿Cuántos vértices tiene un cubo regular estable en el espacio tridimensional?","r":"8","exp":"Puntos de intersección donde confluyen tres aristas ortogonales del cuerpo","pista":"Esquinas del dado"},
+      {"p":"Si un triángulo tiene lados de longitud 3, 4 y 5, ¿qué tipo de triángulo es?","r":"rectangulo","exp":"Cumplimiento exacto del teorema de Pitágoras clásico: 3² + 4² = 5²","pista":"Ángulo recto"}
+    ]
+  },
+  {
+    "nivel": 26,
+    "preguntas": [
+      {"p":"Tengo ciudades pero no casas, montañas pero no árboles. ¿Qué soy?","r":"mapa","exp":"Abstracción gráfica y cartográfica de accidentes geográficos a escala","pista":"Papel cartográfico"},
+      {"p":"¿Cuál es la sumatoria total de los ángulos internos de cualquier cuadrilátero?","r":"360","exp":"Propiedad geométrica euclidiana equivalente a dos triángulos acoplados","pista":"Vuelta completa"},
+      {"p":"¿Qué número sigue en la serie alternativa: 2, 1, 4, 3, 6, 5, ?","r":"8","exp":"Patrón doble intercalado que alterna operaciones de resta y suma secuencial","pista":"Patrón dual"},
+      {"p":"¿Cuál es el triple del número entero 33?","r":"99","exp":"Operación aritmética de amplificación directa por el factor tres","pista":"Multiplica por 3"},
+      {"p":"¿Cómo se denomina formalmente la línea recta que toca un solo punto de la circunferencia?","r":"tangente","exp":"Concepto geométrico fundamental de tangencialidad lineal pura","pista":"Un solo punto"}
+    ]
+  },
+  {
+    "nivel": 27,
+    "preguntas": [
+      {"p":"6, 2, 5, 5, 4, 5, 6, 3, 7, ?","r":"6","exp":"Conteo físico de los segmentos LED requeridos para dibujar los dígitos del 0 al 9","pista":"Display digital"},
+      {"p":"¿Cuál es la raíz cúbica exacta del valor entero 27?","r":"3","exp":"Operación inversa exponencial: tres multiplicado tres veces por sí mismo da 27","pista":"3x3x3"},
+      {"p":"¿Cuántos milímetros se encuentran contenidos en un metro estándar internacional?","r":"1000","exp":"Conversión de unidades de escala dentro del sistema métrico decimal","pista":"Factor de mil"},
+      {"p":"¿Qué número entero se encuentra exactamente en medio de -3 y 3 en la recta?","r":"0","exp":"Punto de origen neutro y simétrico de los números reales","pista":"Elemento neutro"},
+      {"p":"Si duplicas el área de un cuadrado, ¿por qué factor se multiplica su lado?","r":"raiz de 2","exp":"Relación geométrica proporcional derivada de la fórmula del área","pista":"Factor radical"}
+    ]
+  },
+  {
+    "nivel": 28,
+    "preguntas": [
+      {"p":"¿Qué día del año tiene 24h y 2 min?","r":"ninguno","exp":"Acertijo conceptual: los estándares de rotación planetaria definen días homogéneos","pista":"Trampa de tiempo"},
+      {"p":"¿Cuál es el valor de 15 por 4 dividido entre 2?","r":"30","exp":"Cálculo: 15 x 4 = 60; la mitad de 60 resulta exactamente en 30","pista":"Operación lineal"},
+      {"p":"¿Qué número primo es el único valor par aceptado en matemáticas?","r":"2","exp":"Único entero par divisible exclusivamente por sí mismo y por la unidad","pista":"Primer primo"},
+      {"p":"¿Cuántos lados posee un heptágono regular geométrico?","r":"7","exp":"Polígono cerrado definido formalmente por siete vértices perimetrales","pista":"Siete esquinas"},
+      {"p":"¿Cuál es la inversa de la operación matemática de la exponenciación?","r":"logaritmo","exp":"Función matemática que determina el exponente requerido para una base","pista":"Operación inversa"}
+    ]
+  },
+  {
+    "nivel": 29,
+    "preguntas": [
+      {"p":"Ponme de lado y soy todo, córtame a la mitad y soy nada. ¿Qué soy?","r":"8","exp":"Analogía visual gráfica del número ocho con el infinito y el cero","pista":"Grafía digital"},
+      {"p":"¿Cuál es el resultado exacto de sumar 1/4 y 2/4 en una sola fracción?","r":"3/4","exp":"Adición directa de fracciones homogéneas que comparten el mismo denominador","pista":"Mismo denominador"},
+      {"p":"¿Qué número sigue en la secuencia: 10, 20, 40, 80, ?","r":"160","exp":"Duplicación exponencial progresiva geométrica de base dos","pista":"Siguiente doble"},
+      {"p":"¿Cuál es el valor de la hipotenusa si los catetos de un triángulo miden 6 y 8?","r":"10","exp":"Aplicación del teorema de Pitágoras: raíz cuadrada de (36 + 64) = 10","pista":"Pitágoras"},
+      {"p":"¿Qué nombre recibe el sistema de coordenadas formado por dos ejes perpendiculares?","r":"cartesiano","exp":"Ejes X e Y desarrollados por René Descartes para geometría analítica","pista":"Plano de ejes"}
+    ]
+  },
+  {
+    "nivel": 30,
+    "preguntas": [
+      {"p":"Si 5 máquinas hacen 5 artículos en 5 min, ¿100 máquinas hacen 100 en?","r":"5","exp":"La capacidad operativa del sistema distribuido mantiene los tiempos individuales","pista":"Tiempo de procesamiento"},
+      {"p":"¿Cuál es el Máximo Común Divisor de los números 20 y 30?","r":"10","exp":"El entero más grande capaz de dividir exactamente a ambos valores reales","pista":"MCD común"},
+      {"p":"¿Qué número completa la serie de progresión aritmética: 5, 11, 17, 23, ?","r":"29","exp":"Incremento constante lineal mediante la suma fija del valor seis (+6)","pista":"Suma constante"},
+      {"p":"¿Cuántos lados posee un dodecágono regular plano?","r":"12","exp":"Figura geométrica cerrada constituida por doce ángulos internos","pista":"Doce lados"},
+      {"p":"¿Cuál es el resultado de la operación combinada 6 + 2 x 5?","r":"16","exp":"Jerarquía matemática: la multiplicación se procesa antes que la adición","pista":"Multiplica antes"}
+    ]
+  },
+  {
+    "nivel": 31,
+    "preguntas": [
+      {"p":"Entra duro y sale blando y pegajoso. ¿Qué es?","r":"chicle","exp":"Cambio de estado mecánico de la goma base por efecto de la masticación","pista":"Goma de mascar"},
+      {"p":"¿Qué objeto tiene ojos pero es totalmente incapaz de percibir luz?","r":"una aguja","exp":"Metáfora estructural para el orificio pasante de hilos","pista":"Para coser"},
+      {"p":"¿Qué elemento arquitectónico sube y baja pero permanece siempre fijo?","r":"una escalera","exp":"Dispositivo estático que facilita la transición de niveles espaciales","pista":"Peldaños fijados"},
+      {"p":"¿Qué se puede escuchar pero es imposible de ver u tocar físicamente?","r":"la voz","exp":"Propagación mecánica de ondas de sonido a través del aire","pista":"Emisión humana"},
+      {"p":"¿Qué ciudad del mapa carece por completo de calles transitables reales?","r":"una maqueta","exp":"Réplica a escala reducida de una infraestructura civil","pista":"Modelo físico"}
+    ]
+  },
+  {
+    "nivel": 32,
+    "preguntas": [
+      {"p":"4, 8, 6, 12, 10, ?","r":"20","exp":"Patrón operacional secuencial alternado intermitente: multiplicar por dos, restar dos","pista":"Duplica y reduce"},
+      {"p":"¿Qué tiene un lomo completo pero no posee esqueleto ni masa muscular?","r":"un libro","exp":"Componente de unión de las páginas encuadernadas de un volumen impreso","pista":"Contiene texto"},
+      {"p":"¿Qué elemento corre constantemente por la geografía sin poseer piernas físicas?","r":"el rio","exp":"Flujo de agua continuo que se desplaza por gravedad hacia el nivel del mar","pista":"Caudal hídrico"},
+      {"p":"¿Qué objeto se compra para la mesa pero nunca llega a ser ingerido?","r":"el plato","exp":"Vajilla de soporte mecánico destinada a contener las raciones alimenticias","pista":"Vajilla"},
+      {"p":"¿Qué palabra de longitud extensa contiene todas las vocales del idioma de forma única?","r":"murcielago","exp":"Análisis morfológico del vocablo castellano clásico","pista":"Mamífero volador"}
+    ]
+  },
+  {
+    "nivel": 33,
+    "preguntas": [
+      {"p":"¿Qué letra sigue? U, D, T, C, C, S, S, O, N, ?","r":"d","exp":"Iniciales gramaticales de la serie numérica natural básica (Uno a Diez)","pista":"Serie de conteo"},
+      {"p":"¿Qué tiene un pie en cada extremo lateral y uno justo en el medio físico?","r":"un patio","exp":"Juego semántico fonético basado en la división de sílabas del término","pista":"Espacio abierto"},
+      {"p":"¿Qué elemento cruza extensiones territoriales de agua pero jamás se moja?","r":"un puente","exp":"Estructura aérea de ingeniería civil para conectar dos márgenes secos","pista":"Paso elevado"},
+      {"p":"¿Qué se pierde irremediablemente al ponerse de pie de forma vertical?","r":"el regazo","exp":"Espacio plano virtual generado únicamente al flexionar las rodillas sentado","pista":"Sentado existe"},
+      {"p":"¿Qué tiene una llave maestra pero es incapaz de abrir un cerrojo de metal?","r":"un piano","exp":"Disposición lineal de teclas musicales o notas de afinación de frecuencias","pista":"Instrumento armónico"}
+    ]
+  },
+  {
+    "nivel": 34,
+    "preguntas": [
+      {"p":"Si subo, no bajo. Si bajo, no subo. ¿Qué soy?","r":"escalera","exp":"Estructura fija dedicada al cambio altimétrico de posición en el espacio","pista":"Estructura de pasos"},
+      {"p":"¿Qué se hace más largo si se le recorta material en sus extremos libres?","r":"un pantalon","exp":"Metáfora de costura: recortar las piernas acorta el traje pero alarga la vista del miembro","pista":"Prenda de vestir"},
+      {"p":"¿Qué tiene un corazón que no late ni bombea sangre biológica?","r":"una alcachofa","exp":"Denominación botánica del núcleo tierno comestible de ciertos vegetales","pista":"Vegetal denso"},
+      {"p":"¿Qué objeto te permite mirar directamente a través de muros de concreto sólidos?","r":"una ventana","exp":"Abertura traslúcida integrada en la mampostería de las edificaciones","pista":"Vidrio en pared"},
+      {"p":"¿Qué elemento nace directamente en la cabeza pero carece de pensamientos propios?","r":"el pelo","exp":"Filamento queratinoso que crece de forma subcutánea en el cuero cabelludo","pista":"Hebras capilares"}
+    ]
+  },
+  {
+    "nivel": 35,
+    "preguntas": [
+      {"p":"1, 3, 4, 7, 11, ?","r":"18","exp":"Desarrollo de la serie matemática de Lucas donde cada número es la suma de los anteriores","pista":"Suma sucesiva"},
+      {"p":"¿Qué es lo que entra a un bosque frondoso pero nunca llega a salir de él?","r":"un camino","exp":"Infraestructura lineal estática que delimita el tránsito por el entorno","pista":"Ruta trazada"},
+      {"p":"¿Qué objeto posee una esfera de cristal pero carece de la facultad de ver?","r":"un reloj","exp":"Cubierta translúcida de protección mecánica del dial de medición temporal","pista":"Mide segundos"},
+      {"p":"¿Qué se puede sostener indefinidamente en la mano sin esfuerzo pero cuesta retener en el agua?","r":"el hielo","exp":"Cambio de fase sólida a líquida por transferencia térmica del cuerpo humano","pista":"Agua sólida"},
+      {"p":"¿Qué elemento posee un ojo central pero es incapaz de enfocar imágenes ópticas?","r":"un huracan","exp":"Fenómeno meteorológico cuya zona de baja presión central se denomina ojo","pista":"Tormenta masiva"}
+    ]
+  },
+  {
+    "nivel": 36,
+    "preguntas": [
+      {"p":"Cien pies pero no camina. ¿Qué es?","r":"cienpies muerto","exp":"Lógica literal y biológica aplicada a un espécimen sin signos vitales","pista":"Falta de vida"},
+      {"p":"¿Qué prenda de vestir cubre de forma total los dedos pero carece de uñas físicas?","r":"un guante","exp":"Accesorio textil diseñado para la protección anatómica térmica de las manos","pista":"Accesorio de mano"},
+      {"p":"¿Qué objeto vuela por los aires de forma continua sin poseer plumas ni alas orgánicas?","r":"un avion","exp":"Aeronave mecánica sustentada aerodinámicamente por motores de empuje","pista":"Transporte aéreo"},
+      {"p":"¿Qué elemento se ensucia notablemente al cumplir su función de blanquear superficies?","r":"la tiza","exp":"Barra de yeso soluble que se desgasta y transfiere su masa a la pizarra","pista":"Escribir en pizarra"},
+      {"p":"¿Qué tiene una boca grande pero carece de la facultad de hablar o emitir palabras?","r":"un rio","exp":"Término hidrográfico para designar el punto final de desembocadura de un caudal","pista":"Accidente fluvial"}
+    ]
+  },
+  {
+    "nivel": 37,
+    "preguntas": [
+      {"p":"¿Qué es lo que puedes sostener con tu mano derecha pero nunca con la izquierda?","r":"mano izquierda","exp":"Geometría anatómica euclidiana elemental y límites mecánicos del brazo","pista":"Tu extremidad opuesta"},
+      {"p":"¿Qué tiene costillas rígidas de protección pero carece de órganos internos vitales?","r":"un paraguas","exp":"Varillas metálicas de soporte estructural de la lona impermeable de protección","pista":"Para la lluvia"},
+      {"p":"¿Qué objeto posee patas estables pero carece de la facultad de sentarse en ellas?","r":"una silla","exp":"Mobiliario diseñado con soportes para permitir el descanso de terceros usuarios","pista":"Para el usuario"},
+      {"p":"¿Qué elemento arquitectónico carece de puertas pero cuenta con estancias definidas?","r":"un laberinto","exp":"Red compleja de caminos e intersecciones diseñada para desorientar el tránsito","pista":"Caminos cruzados"},
+      {"p":"¿Qué elemento posee una lengua física pero es incapaz de emitir sonidos fonéticos?","r":"un zapato","exp":"Componente textil o de cuero situado bajo los cordones de ajuste del calzado","pista":"Prenda de calzar"}
+    ]
+  },
+  {
+    "nivel": 38,
+    "preguntas": [
+      {"p":"7, 14, 28, 56, ?","r":"112","exp":"Multiplicación sistemática lineal empleando una razón geométrica fija igual a dos","pista":"Duplicación continua"},
+      {"p":"¿Qué objeto viaja por todo el planeta Tierra permaneciendo fijo en una esquina?","r":"un sello","exp":"Estampilla postal adherida inmóvil al ángulo superior del sobre de envío","pista":"Correo postal"},
+      {"p":"¿Qué elemento posee un orificio central pero carece de la capacidad de respirar aire?","r":"una dona","exp":"Producto de repostería con geometría toroidal característica de rosquilla","pista":"Pan dulce frito"},
+      {"p":"¿Qué se vuelve más húmedo a medida que se incrementa la evaporación del ambiente?","r":"la niebla","exp":"Condensación de vapor microbiano suspendido a nivel del suelo por humedad","pista":"Fenómeno de baja visibilidad"},
+      {"p":"¿Qué objeto posee hojas afiladas pero carece de tallo, raíz o savia vegetal?","r":"una tijera","exp":"Herramienta de corte constituida por dos hojas metálicas pivotantes articuladas","pista":"Para cortar papel"}
+    ]
+  },
+  {
+    "nivel": 39,
+    "preguntas": [
+      {"p":"En una carrera, adelantas al segundo. ¿En qué posición estás?","r":"segundo","exp":"Ocupas exactamente la posición de orden que ostentaba el competidor rebasado","pista":"No lideras la carrera"},
+      {"p":"¿Qué se incrementa de tamaño al añadirle más peso o volumen elástico de aire?","r":"un globo","exp":"Contenedor de látex que expande su superficie por presión neumática interna","pista":"Juguete inflable"},
+      {"p":"¿Qué objeto emite luz propia constante sin estar conectado a ninguna red eléctrica?","r":"una luciernaga","exp":"Insecto capaz de generar bioluminiscencia por reacciones metabólicas internas","pista":"Insecto brillante"},
+      {"p":"¿Qué se desgasta de forma progresiva a medida que registra trazos de escritura?","r":"un lapiz","exp":"Barra de grafito revestida de madera que cede material por fricción mecánica","pista":"Para escribir mano"},
+      {"p":"¿Qué elemento carece de cuerpo físico pero puede ser capturado por un lente óptico?","r":"una sombra","exp":"Proyección de ausencia de luz debido a la interposición de un objeto opaco","pista":"Silueta oscura"}
+    ]
+  },
+  {
+    "nivel": 40,
+    "preguntas": [
+      {"p":"¿Cuál es el final de todo?","r":"o","exp":"Análisis de la tipografía y ortografía de la letra final del vocablo 't-o-d-o'","pista":"Gramática estricta"},
+      {"p":"¿Qué objeto posee alas desplegables pero carece de vida biológica autónoma?","r":"un avion","exp":"Aeronave de ala fija controlada mecánicamente para el transporte de masa","pista":"Medio de transporte"},
+      {"p":"¿Qué elemento arquitectónico separa habitaciones pero se cruza constantemente?","r":"una puerta","exp":"Componente móvil diseñado para habilitar o restringir el paso físico","pista":"Abertura de pared"},
+      {"p":"¿Qué se produce de forma instantánea al encender una fuente emisora térmica de calor?","r":"el fuego","exp":"Reacción química exotérmica de oxidación rápida con desprendimiento lumínico","pista":"Combustión activa"},
+      {"p":"¿Qué elemento posee un valor infinito en matemáticas pero ocupa un solo dígito gráfico?","r":"8","exp":"Asociación simbólica al rotar horizontalmente la representación del ocho","pista":"Infinito visual"}
+    ]
+  },
+  {
+    "nivel": 41,
+    "preguntas": [
+      {"p":"10, 11, 12, 13, 14, 15, 16, ?","r":"17","exp":"Conteo aritmético incremental continuo estándar con factor de distracción mental","pista":"Siguiente entero"},
+      {"p":"¿Qué objeto se rompe de forma definitiva antes de poder ser utilizado efectivamente?","r":"un huevo","exp":"Estructura calcárea de protección que requiere fractura para liberar el contenido","pista":"Alimento avícola"},
+      {"p":"¿Qué se puede ver reflejado fielmente pero es imposible de tocar con las manos?","r":"el reflejo","exp":"Fenómeno óptico de rebote de fotones sobre una superficie especular pulida","pista":"Efecto de espejo"},
+      {"p":"¿Qué objeto posee una aguja magnética pero carece de hilos para costura?","r":"una brujula","exp":"Instrumento de orientación que alinea su aguja con el campo magnético terrestre","pista":"Indica el norte"},
+      {"p":"¿Qué elemento posee un tallo rígido pero carece de flores, hojas o frutos?","r":"una copa","exp":"Vaso estilizado provisto de una columna de soporte denominada tallo mecánico","pista":"Para brindar"}
+    ]
+  },
+  {
+    "nivel": 42,
+    "preguntas": [
+      {"p":"Vuela sin alas, llora sin ojos. ¿Qué es?","r":"nube","exp":"Metáfora meteorológica: desplazamiento por corrientes de aire y precipitación líquida","pista":"Condensación celeste"},
+      {"p":"¿Qué elemento posee una raíz subterránea oculta pero carece de hojas verdes?","r":"un diente","exp":"Componente anatómico óseo incrustado en los alvéolos maxilares de la boca","pista":"Estructura dental"},
+      {"p":"¿Qué objeto posee una cara fija pero carece por completo de ojos o boca biológica?","r":"un reloj","exp":"Superficie frontal o dial donde se proyectan las marcas de medición horaria","pista":"Marca las horas"},
+      {"p":"¿Qué se puede ganar de forma inmediata en competencia pero es imposible de comprar?","r":"una carrera","exp":"Victoria deportiva obtenida por rendimiento y velocidad en pista","pista":"Triunfo atlético"},
+      {"p":"¿Qué elemento posee hilos conductores internos pero carece de tela o costuras?","r":"un cable","exp":"Conductor de cobre o aluminio diseñado para el transporte de corriente eléctrica","pista":"Transmite energía"}
+    ]
+  },
+  {
+    "nivel": 43,
+    "preguntas": [
+      {"p":"31, 28, 31, 30, 31, ?","r":"30","exp":"Serie cronológica correspondiente al total de días de los meses sucesivos del año","pista":"Días del calendario"},
+      {"p":"¿Qué objeto posee teclas funcionales pero carece de la capacidad de emitir música?","r":"un teclado","exp":"Periférico de entrada computacional diseñado para el ingreso de caracteres de texto","pista":"Dispositivo de PC"},
+      {"p":"¿Qué elemento posee un fondo oscuro pero es visible a grandes distancias?","r":"el espacio","exp":"Vacío cósmico que alberga cuerpos celestes emisores o reflectores de radiación","pista":"Entorno estelar"},
+      {"p":"¿Qué se vuelve de color blanco brillante al ser sometido a agitación mecánica activa?","r":"la espuma","exp":"Dispersión coloidal de aire atrapado en un medio líquido tensioactivo","pista":"Efecto de jabón"},
+      {"p":"¿Qué objeto posee un cable de alimentación pero carece de componentes electrónicos?","r":"una cuerda","exp":"Segmento textil trenzado empleado para tracción mecánica o saltos deportivos","pista":"Lazo trenzado"}
+    ]
+  },
+  {
+    "nivel": 44,
+    "preguntas": [
+      {"p":"¿Qué pesa más: un kilo de plumas o un kilo de plomo?","r":"pesan lo mismo","exp":"Ambas cantidades se definen bajo la misma magnitud de masa estandarizada (1kg)","pista":"Misma masa métrica"},
+      {"p":"¿Qué objeto posee un cañón cilíndrico pero carece por completo de municiones explosivas?","r":"un boligrafo","exp":"Estructura plástica o metálica interna que aloja el tubo de tinta de escritura","pista":"Útil de oficina"},
+      {"p":"¿Qué elemento posee una red trenzada pero es incapaz de capturar peces marinos?","r":"una raqueta","exp":"Herramienta deportiva tensada con hilos de nailon para el impacto de pelotas","pista":"Uso en tenis"},
+      {"p":"¿Qué se puede perder de forma definitiva sin perder la vida o la salud física?","r":"el tiempo","exp":"Dimensión temporal que transcurre irreversiblemente de forma continua","pista":"Recurso finito"},
+      {"p":"¿Qué objeto posee una cabeza redonda de metal pero carece de extremidades corporales?","r":"un clavo","exp":"Elemento de fijación mecánica diseñado para ser impactado por un martillo","pista":"Fijación de madera"}
+    ]
+  },
+  {
+    "nivel": 45,
+    "preguntas": [
+      {"p":"1, 2, 4, 5, 8, 10, ?","r":"13","exp":"Patrón numérico basado en la adición sistemática de la serie de números primos más uno","pista":"Serie matemática dual"},
+      {"p":"¿Qué objeto posee una banda de rodadura elástica pero carece de pies para avanzar?","r":"una llanta","exp":"Componente neumático vehicular de caucho diseñado para la tracción sobre asfalto","pista":"Rueda de coche"},
+      {"p":"¿Qué elemento posee una cadena de eslabones pero carece de candados de seguridad?","r":"una bicicleta","exp":"Vehículo de propulsión humana que emplea transmisión por cadena mecánica","pista":"Transporte de pedales"},
+      {"p":"¿Qué se vuelve de mayor tamaño a medida que se remueve más volumen de tierra?","r":"un foso","exp":"Excavación lineal o concéntrica realizada sobre una superficie sólida","pista":"Zanja profunda"},
+      {"p":"¿Qué objeto posee un marco perimetral rígido pero carece de pinturas de arte?","r":"una ventana","exp":"Estructura de soporte arquitectónico para la sujeción de paneles de vidrio","pista":"Abertura traslúcida"}
+    ]
+  },
+  {
+    "nivel": 46,
+    "preguntas": [
+      {"p":"¿Qué sube pero nunca baja?","r":"la edad","exp":"Progresión irreversible del tiempo biológico medido en años de existencia","pista":"Cumpleaños continuo"},
+      {"p":"¿Qué objeto posee un plato de pesaje pero carece de alimentos para servir?","r":"una balanza","exp":"Instrumento técnico diseñado para la medición de masa y fuerza de gravedad","pista":"Mide el peso"},
+      {"p":"¿Qué elemento posee una campana metálica pero carece de iglesias o templos?","r":"un telefono","exp":"Dispositivo de comunicación clásico que empleaba timbres de campana internos","pista":"Aparato de llamadas"},
+      {"p":"¿Qué se puede encender de forma química sin necesidad de aplicar chispas eléctricas?","r":"un fosforo","exp":"Fricción mecánica de elementos reactivos que desatan una combustión controlada","pista":"Caja de cerillos"},
+      {"p":"¿Qué objeto posee una zapata de soporte pero carece de pies anatómicos propios?","r":"un freno","exp":"Mecanismo de fricción empleado para decelerar el movimiento de un eje de rotación","pista":"Detiene el coche"}
+    ]
+  },
+  {
+    "nivel": 47,
+    "preguntas": [
+      {"p":"Rojo, Marrón, Amarillo, ?","r":"verde","exp":"Secuencia de transiciones de color típicas observadas en la maduración de frutos","pista":"Ciclo natural vegetal"},
+      {"p":"¿Qué objeto posee una tapa roscada pero carece de ollas de cocina asociadas?","r":"un frasco","exp":"Contenedor cilíndrico de vidrio o plástico destinado a conservar muestras","pista":"Envase de vidrio"},
+      {"p":"¿Qué elemento posee un abanico de plumas o varillas pero carece de motores eléctricos?","r":"un pavo real","exp":"Espécimen aviar caracterizado por el despliegue estético de su plumaje caudal","pista":"Ave ornamental"},
+      {"p":"¿Qué se puede doblar de forma elástica repetidas veces sin llegar a fracturarse?","r":"el papel","exp":"Lámina de fibras vegetales entrelazadas maleable de bajo espesor mecánico","pista":"Material de origen celulosa"},
+      {"p":"¿Qué objeto posee una aguja de metal pero es incapaz de suturar heridas biológicas?","r":"un tocadiscos","exp":"Dispositivo analógico que lee surcos de vinilo mediante una aguja fonocaptora","pista":"Dispositivo musical vintage"}
+    ]
+  },
+  {
+    "nivel": 48,
+    "preguntas": [
+      {"p":"¿Qué va de un punto a otro alternando niveles sin alterar su coordenada de base?","r":"escalera","exp":"Estructura fija destinada exclusivamente a solventar desniveles topográficos","pista":"Medio de acceso vertical"},
+      {"p":"¿Qué objeto posee una caja de resonancia rígida pero carece de herramientas de embalaje?","r":"una guitarra","exp":"Instrumento musical de cuerda que amplifica el sonido de forma puramente acústica","pista":"Seis cuerdas clásicas"},
+      {"p":"¿Qué elemento posee un filtro de purificación pero carece de cafeteras mecánicas?","r":"un cigarrillo","exp":"Cilindro de tabaco provisto de un elemento de filtrado de acetato de celulosa","pista":"Elemento de combustión fumable"},
+      {"p":"¿Qué se puede romper con una sola mirada directa de desaprobación o autoridad?","r":"el hielo social","exp":"Metáfora de interacción humana para describir la disolución de la tensión inicial","pista":"Tensión relacional"},
+      {"p":"¿Qué objeto posee una corona dentada metálica pero carece de monarquías de gobierno?","r":"un pinon","exp":"Rueda dentada de un mecanismo de engranajes encargada de transmitir par motor","pista":"Componente mecánico"}
+    ]
+  },
+  {
+    "nivel": 49,
+    "preguntas": [
+      {"p":"Si 2 es 6, 3 es 12, 4 es 20, ¿5 es?","r":"30","exp":"Algoritmo exponencial basado en la multiplicación por el entero sucesivo: n x (n+1)","pista":"Cinco por seis"},
+      {"p":"¿Qué objeto posee una manga de tela textil pero carece de brazos anatómicos?","r":"una camisa","exp":"Prenda de vestir estructurada con tubos de tela para la cobertura de extremidades","pista":"Ropa de vestir"},
+      {"p":"¿Qué elemento posee una red de datos compleja pero carece de arañas biológicas?","r":"internet","exp":"Interconexión global descentralizada de sistemas informáticos y nodos lógicos","pista":"Red de computadoras"},
+      {"p":"¿Qué se puede perder temporalmente al dormir sin sufrir daños patológicos graves?","r":"la conciencia","exp":"Estado neurológico reversible de suspensión de la vigilia sensorial estándar","pista":"Estado de sueño"},
+      {"p":"¿Qué objeto posee un brazo mecánico móvil pero carece de hombros o manos biológicas?","r":"una grua","exp":"Maquinaria pesada diseñada para la elevación y desplazamiento de cargas masivas","pista":"Maquinaria de obra"}
+    ]
+  },
+  {
+    "nivel": 50,
+    "preguntas": [
+      {"p":"¿Qué tiene ojos pero no puede ver?","r":"aguja","exp":"Denominación formal del orificio pasante para el enhebrado de filamentos de costura","pista":"Para coser textiles"},
+      {"p":"¿Qué objeto posee un cañón metálico largo pero carece de pólvora o proyectiles explosivos?","r":"un telescopio","exp":"Instrumento óptico tubular diseñado para la observación de cuerpos celestes distantes","pista":"Mira las estrellas"},
+      {"p":"¿Qué elemento posee una falda perimetral cónica pero carece de piernas para caminar?","r":"una mesa camilla","exp":"Mobiliario tradicional cubierto por un textil grueso protector hasta el suelo","pista":"Mueble textil"},
+      {"p":"¿Qué se puede derretir de forma progresiva a temperatura ambiente sin usar fuego directo?","r":"el hielo","exp":"Transición térmica de fase sólida a líquida por encima de los cero grados centígrados","pista":"Agua congelada"},
+      {"p":"¿Qué objeto posee un espejo plano de vidrio pero carece de vanidad o ego personal?","r":"un retrovisor","exp":"Dispositivo de seguridad vehicular diseñado para la visualización del tráfico posterior","pista":"Espejo de coche"}
+    ]
+  },
+  {
+    "nivel": 51,
+    "preguntas": [
+      {"p":"Siguiente número: 1, 4, 10, 22, 46, ?","r":"94","exp":"Patrón de crecimiento aritmético iterativo formulado como: (Valor anterior x 2) + 2","pista":"Duplica y añade dos"},
+      {"p":"¿Qué objeto posee una chimenea de evacuación pero carece de ladrillos de mampostería?","r":"un barco de vapor","exp":"Buque de transporte transoceánico propulsado por calderas de combustión interna","pista":"Transporte marítimo vintage"},
+      {"p":"¿Qué elemento posee una batería química interna pero carece de tambores de percusión?","r":"un celular","exp":"Dispositivo electrónico portátil de comunicación que acumula energía en celdas de litio","pista":"Teléfono móvil"},
+      {"p":"¿Qué se puede cortar de forma limpia con tijeras sin alterar su peso gramal neto?","r":"la sombra","exp":"Ausencia bidimensional de luz proyectada sobre una superficie horizontal o vertical","pista":"Efecto lumínico de silueta"},
+      {"p":"¿Qué objeto posee una quilla estructural inferior pero carece de plumas de ave?","r":"un velero","exp":"Embarcación náutica sustentada por una pieza longitudinal estabilizadora de base","pista":"Barco de navegación"}
+    ]
+  },
+  {
+    "nivel": 52,
+    "preguntas": [
+      {"p":"Oro parece, plata no es. ¿Qué es?","r":"platano","exp":"Acertijo lingüístico clásico basado en la aglutinación fonética de los términos","pista":"Fruta tropical amarilla"},
+      {"p":"¿Qué objeto posee un teclado numérico rígido pero carece de funciones informáticas?","r":"una calculadora","exp":"Dispositivo electrónico dedicado exclusivamente a procesar operaciones aritméticas","pista":"Para realizar cuentas"},
+      {"p":"¿Qué elemento posee espinas protectoras agudas pero carece de sistema nervioso animal?","r":"un cactus","exp":"Espécimen vegetal adaptado a entornos áridos mediante hojas modificadas en púas","pista":"Planta de desierto"},
+      {"p":"¿Qué se puede doblar y guardar de forma compacta en un bolsillo sin sufrir fracturas estructurales?","r":"un panuelo","exp":"Pieza textil cuadrada de algodón destinada al aseo personal diario de las vías nasales","pista":"Accesorio textil textil"},
+      {"p":"¿Qué objeto posee un muelle elástico helicoidal pero carece de barcos amarrados en él?","r":"un resorte","exp":"Componente mecánico de acero diseñado para almacenar energía por deformación flexible","pista":"Pieza elástica metálica"}
+    ]
+  },
+  {
+    "nivel": 53,
+    "preguntas": [
+      {"p":"Un tren eléctrico va al norte, el viento al sur. ¿Hacia dónde va el humo?","r":"ningun lado","exp":"Los sistemas de tracción ferroviaria puramente eléctricos no realizan combustión atmosférica","pista":"Naturaleza del motor"},
+      {"p":"¿Qué objeto posee un visor óptico de cristal pero carece de ojos biológicos propios?","r":"una camara","exp":"Dispositivo técnico diseñado para capturar y registrar fotones sobre un sensor digital","pista":"Registra fotografías"},
+      {"p":"¿Qué elemento posee un casco de protección rígido pero carece de motocicletas asociadas?","r":"un caballero","exp":"Guerrero histórico provisto de armadura metálica integral para el combate a caballo","pista":"Personaje medieval"},
+      {"p":"¿Qué se puede congelar de forma instantánea a temperaturas bajo cero sin usar congeladores mecánicos?","r":"el agua pura","exp":"Transición física natural del estado líquido al sólido por equilibrio térmico elemental","pista":"Líquido universal"},
+      {"p":"¿Qué objeto posee un pedal de accionamiento pero carece de ruedas de rodadura vehicular?","r":"un piano de cola","exp":"Mecanismo de palanca inferior empleado para modificar la resonancia de las cuerdas","pista":"Música clásica"}
+    ]
+  },
+  {
+    "nivel": 54,
+    "preguntas": [
+      {"p":"¿Qué puedes romper sin tocarlo?","r":"silencio","exp":"La emisión de cualquier perturbación acústica o fonética anula instantáneamente el estado","pista":"Emisión de sonido"},
+      {"p":"¿Qué objeto posee una red perimetral de contención pero carece de pescadores marinos?","r":"un arco de futbol","exp":"Estructura deportiva de portería diseñada para retener el balón tras un gol","pista":"Meta deportiva"},
+      {"p":"¿Qué elemento posee un motor de combustión pero carece de licencia de conducción vehicular?","r":"una motosierra","exp":"Herramienta mecánica forestal empleada para el corte y desramado de árboles","pista":"Herramienta de corte"},
+      {"p":"¿Qué se puede ver disminuir de tamaño de forma progresiva a medida que transcurre su combustión?","r":"una vela","exp":"Bloque de parafina provisto de una mecha que se consume para emitir luz térmica","pista":"Iluminación de cera"},
+      {"p":"¿Qué objeto posee una lente biconvexa de cristal pero carece de anteojos oftálmicos?","r":"una lupa","exp":"Instrumento óptico de amplificación visual basado en la refracción de la luz","pista":"Para ampliar texto"}
+    ]
+  },
+  {
+    "nivel": 55,
+    "preguntas": [
+      {"p":"1, 1, 2, 6, 24, ?","r":"120","exp":"Serie matemática basada en la progresión factorial de números enteros consecutivos (5!)","pista":"Operación factorial"},
+      {"p":"¿Qué objeto posee un rotor de aspas giratorias pero carece de hélices de aeronaves?","r":"un ventilador","exp":"Dispositivo electromecánico diseñado para generar un flujo continuo de aire ambiental","pista":"Para refrescar aire"},
+      {"p":"¿Qué elemento posee un microchip de silicio pero carece de ordenadores de sobremesa?","r":"una tarjeta de credito","exp":"Circuito integrado integrado encargado de validar transacciones financieras bancarias","pista":"Medio de pago electrónico"},
+      {"p":"¿Qué se puede derramar limpiamente sobre una mesa sin necesidad de emplear contenedores líquidos?","r":"la sal marina","exp":"Compuesto mineral sólido granular de flujo fluido por gravedad","pista":"Condimento de cocina"},
+      {"p":"¿Qué objeto posee una perilla de ajuste circular pero carece de puertas de madera?","r":"un radio vintage","exp":"Componente potenciómetro rotativo empleado para sintonizar frecuencias de ondas de radio","pista":"Aparato sintonizador"}
+    ]
+  },
+  {
+    "nivel": 56,
+    "preguntas": [
+      {"p":"¿Qué tiene llaves pero no abre puertas?","r":"piano","exp":"Estructura armónica constituida por palancas mecánicas o teclas de afinación fija","pista":"Instrumento musical"},
+      {"p":"¿Qué objeto posee una pantalla de visualización digital pero carece de ordenadores lógicos?","r":"un televisor","exp":"Dispositivo electrónico receptor encargado de reproducir señales de video a distancia","pista":"Aparato de entretenimiento"},
+      {"p":"¿Qué elemento posee una armadura metálica exterior pero carece de soldados de infantería?","r":"un cable coaxial","exp":"Malla de cobre trenzado de blindaje para mitigar interferencias electromagnéticas","pista":"Transmisión de señal de TV"},
+      {"p":"¿Qué se puede disolver por completo en un fluido líquido sin dejar rastro visual sólido?","r":"el azucar","exp":"Carbohidrato soluble que se disocia a nivel molecular en soluciones acuosas","pista":"Endulzante común"},
+      {"p":"¿Qué objeto posee un gatillo de disparo mecánico pero carece de municiones de plomo?","r":"un soplete","exp":"Herramienta térmica de soldadura que regula la salida de gas combustible por válvula","pista":"Para fundir o soldar"}
+    ]
+  },
+  {
+    "nivel": 57,
+    "preguntas": [
+      {"p":"¿Qué mes tiene 28 días?","r":"todos","exp":"Análisis de inclusión del calendario: la totalidad de los meses cruzan la barrera del día 28","pista":"Estructura cronológica mensual"},
+      {"p":"¿Qué objeto posee una bocina de emisión acústica pero carece de agrupaciones musicales?","r":"un automovil","exp":"Mecanismo de alerta sonora integrado en el volante de dirección vehicular","pista":"Claxon de coche"},
+      {"p":"¿Qué elemento posee un tubo de escape de gases pero carece de chimeneas industriales?","r":"una motocicleta","exp":"Conducto de evacuación de los residuos gaseosos del motor monocilíndrico de combustión","pista":"Vehículo de dos ruedas"},
+      {"p":"¿Qué se puede inflar de forma neumática continua hasta provocar su rotura estructural elástica?","r":"un globo de latex","exp":"Membrana elástica que cede ante el incremento volumétrico de presión interna","pista":"Artículo de fiesta"},
+      {"p":"¿Qué objeto posee una pluma de escritura metálica pero carece de aves biológicas asociadas?","r":"una estilografica","exp":"Herramienta de escritura fina dotada de un plumín metálico alimentado por capilaridad","pista":"Pluma de tinta"}
+    ]
+  },
+  {
+    "nivel": 58,
+    "preguntas": [
+      {"p":"¿Qué se moja mientras seca?","r":"toalla","exp":"Acción física de absorción capilar donde el textil retiene la humedad del cuerpo humano","pista":"Elemento de aseo textil"},
+      {"p":"¿Qué objeto posee un visor de puntería óptico pero carece de armamento de fuego militar?","r":"un nivel laser","exp":"Herramienta de topografía e ingeniería empleada para la alineación precisa de planos","pista":"Herramienta de obra de precisión"},
+      {"p":"¿Qué elemento posee una aguja hipodérmica metálica pero carece de médicos profesionales?","r":"una jeringa industrial","exp":"Utensilio volumétrico empleado para la dosificación exacta de fluidos técnicos o lubricantes","pista":"Inyección de fluidos"},
+      {"p":"¿Qué se puede evaporar por completo bajo la radiación solar directa sin dejar residuos secos?","r":"el agua destilada","exp":"Transición de fase puramente líquida a gaseosa por absorción de energía térmica solar","pista":"Líquido puro"},
+      {"p":"¿Qué objeto posee un tambor giratorio de acero pero carece de músicos de percusión?","r":"una lavadora","exp":"Electrodoméstico de línea blanca diseñado para el centrifugado mecánico de prendas textiles","pista":"Aparato de lavado"}
+    ]
+  },
+  {
+    "nivel": 59,
+    "preguntas": [
+      {"p":"3, 3, 5, 4, 4, 3, 5, 5, 4, ?","r":"4","exp":"Nomenclatura gramatical: conteo sistemático del número de letras del vocablo numérico 'Diez'","pista":"Conteo de letras de palabras"},
+      {"p":"¿Qué objeto posee una broca helicoidal de acero pero carece de minería industrial?","r":"un taladro","exp":"Herramienta eléctrica de perforación por rotación mecánica de ejes de corte","pista":"Para barrenar muros"},
+      {"p":"¿Qué elemento posee un circuito impreso integrado pero carece de ingenieros en sistemas?","r":"un reloj inteligente","exp":"Dispositivo electrónico de pulsera con capacidades lógicas de cómputo embebido","pista":"Smartwatch"},
+      {"p":"¿Qué se puede moldear plásticamente con las manos sin necesidad de aplicar fundición térmica?","r":"la plastilina","exp":"Plástico de modelado compuesto por parafina y aceites que cede ante el esfuerzo mecánico","pista":"Material escolar maleable"},
+      {"p":"¿Qué objeto posee una zapata de goma elástica pero carece de calzado anatómico convencional?","r":"un freno de bicicleta","exp":"Bloque de fricción encargado de presionar la llanta metálica para disipar energía cinética","pista":"Detiene los pedales"}
+    ]
+  },
+  {
+    "nivel": 60,
+    "preguntas": [
+      {"p":"¿Qué está siempre frente a ti pero no puedes ver?","r":"futuro","exp":"Dimensión temporal de coordenadas relativas posteriores que aún no ha acontecido físicamente","pista":"Tiempo venidero"},
+      {"p":"¿Qué objeto posee un disco óptico reflectante pero carece de espejos de tocador?","r":"un disco compacto","exp":"Soporte de almacenamiento digital analizado mediante la reflexión de un rayo láser fino","pista":"CD o DVD"},
+      {"p":"¿Qué elemento posee una antena emisora monopolo pero carece de estaciones de televisión?","r":"un router wifi","exp":"Dispositivo de comunicaciones encargado de propagar ondas de radio en redes de área local","pista":"Dispositivo de conexión inalámbrica"},
+      {"p":"¿Qué se puede encoger de forma permanente al ser sometido a un ciclo térmico de lavado erróneo?","r":"un sueter de lana","exp":"Contracción mecánica textil de fibras naturales por efecto térmico e hidratación","pista":"Prenda de abrigo de punto"},
+      {"p":"¿Qué objeto posee una aguja indicadora móvil pero carece de hilos para costuras de sastrería?","r":"un velocimetro","exp":"Instrumento de medición analógico dedicado a registrar la rapidez angular de un eje","pista":"Indica velocidad de marcha"}
+    ]
+  },
+  {
+    "nivel": 61,
+    "preguntas": [
+      {"p":"2+2x2/2-2=?","r":"2","exp":"Aplicación estricta de la jerarquía de operadores matemáticos estándar (PEMDAS)","pista":"Orden operacional rígido"},
+      {"p":"Si x + 3 = 7, ¿cuánto vale x?","r":"4","exp":"Ecuación de primer grado lineal básica resuelta por aislamiento de la incógnita","pista":"Despeje simple"},
+      {"p":"¿Cuál es el número primo más pequeño de todos?","r":"2","exp":"Definición matemática axiomática de primalidad entera natural","pista":"Único par"},
+      {"p":"¿Cuántos grados mide un ángulo recto perfecto?","r":"90","exp":"Amplitud angular entre dos semirrectas ortogonales perpendiculares entre sí","pista":"Ortogonalidad"},
+      {"p":"¿Qué figura tiene tres lados iguales?","r":"triangulo equilatero","exp":"Polígono regular cerrado de tres vértices con simetría lateral absoluta","pista":"Tres lados idénticos"}
+    ]
+  },
+  {
+    "nivel": 62,
+    "preguntas": [
+      {"p":"¿Cuántas veces se puede restar 5 del número 25?","r":"1","exp":"Lógica algebraica estricta: tras la primera sustracción, el valor ya no es 25","pista":"Lógica de estado dinámico"},
+      {"p":"¿Cuál es la mitad de 2 más 2?","r":"3","exp":"Jerarquía sintáctica matemática: (2 / 2) + 2 = 1 + 2 = 3","pista":"Analiza las pausas"},
+      {"p":"Si un cuadrado tiene un lado de 5 metros, ¿cuál es su área total?","r":"25","exp":"Fórmula geométrica fundamental de superficie cuadrilátera: lado al cuadrado (L²)","pista":"Multiplica por sí mismo"},
+      {"p":"¿Qué número romano representa la letra X?","r":"10","exp":"Asignación de valor base del sistema clásico de numeración latina","pista":"Dígito romano"},
+      {"p":"¿Cómo se llama el polígono de seis lados simétricos?","r":"hexagono","exp":"Definición geométrica plana de estructura simétrica de seis vértices","pista":"Seis esquinas"}
+    ]
+  },
+  {
+    "nivel": 63,
+    "preguntas": [
+      {"p":"¿Qué letra sigue? A, E, F, H, I, K, L, M, ?","r":"n","exp":"Criterio de clasificación puramente tipográfico: letras constituidas solo por segmentos rectos","pista":"Geometría tipográfica"},
+      {"p":"¿Cuál es el logaritmo en base 10 del valor mil?","r":"3","exp":"Determinación del exponente algebraico requerido: 10 elevado a la 3 es igual a 1000","pista":"Potencia de diez"},
+      {"p":"¿Cuál es el valor del número factorial de tres (3!)?","r":"6","exp":"Operación factorial sucesiva sistemática: 3 x 2 x 1 = 6","pista":"Factorial entero"},
+      {"p":"¿Qué fracción es equivalente al valor porcentual del cincuenta por ciento (50%)?","r":"1/2","exp":"Simplificación de la tasa matemática estándar sobre base cien (50/100)","pista":"Un medio"},
+      {"p":"¿Cuál es el término geométrico para una línea que une dos puntos de la curva pasando por el centro?","r":"diametro","exp":"Segmento de longitud máxima transperimetral en una circunferencia perfecta","pista":"Cuerda central"}
+    ]
+  },
+  {
+    "nivel": 64,
+    "preguntas": [
+      {"p":"Si 1=3, 2=3, 3=5, 4=4, 5=4, ¿6=?","r":"3","exp":"Conteo morfológico gramatical del número de letras del vocablo castellano 'Seis'","pista":"Cuenta los caracteres gráficos"},
+      {"p":"¿Cuál es el resultado de elevar el número entero dos a la quinta potencia (2⁵)?","r":"32","exp":"Cálculo exponencial binario puro continuo: 2 x 2 x 2 x 2 x 2 = 32","pista":"Potencia binaria"},
+      {"p":"¿Qué número sigue en la serie: 2, 6, 12, 20, ?","r":"30","exp":"La diferencia incremental entre los términos adyacentes crece en +2 (+4, +6, +8, +10)","pista":"Brecha variable"},
+      {"p":"¿Cuál es el valor del ángulo complementario de un ángulo de 60 grados?","r":"30","exp":"Diferencia angular requerida para alcanzar exactamente un ángulo recto de 90 grados","pista":"Suma noventa"},
+      {"p":"¿Qué nombre recibe el triángulo que posee un ángulo interior obtuso mayor a 90 grados?","r":"obtusangulo","exp":"Clasificación geométrica formal basada en las amplitudes de sus vértices planos","pista":"Ángulo abierto"}
+    ]
+  },
+  {
+    "nivel": 65,
+    "preguntas": [
+      {"p":"¿Qué tiene un cuello pero no cabeza?","r":"botella","exp":"Denominación formal del estrechamiento superior de la morfología industrial del contenedor","pista":"Envase común de vidrio"},
+      {"p":"¿Cuál es el valor de la raíz cuadrada de 81?","r":"9","exp":"Operación inversa del cuadrado perfecto numérico: 9 por 9 es igual a 81","pista":"Multiplicación idéntica"},
+      {"p":"¿Cuántos minutos exactos componen una hora y media del tiempo estándar?","r":"90","exp":"Conversión de escala cronológica métrica: 60 minutos más una fracción de 30","pista":"Suma de intervalos"},
+      {"p":"¿Cuál es el recíproco exacto del número entero cuatro (4)?","r":"1/4","exp":"Inversión aritmética del operando para anular el producto a la unidad","pista":"Fracción simple"},
+      {"p":"¿Qué número es el elemento neutro absoluto para la operación de multiplicación?","r":"1","exp":"Identidad multiplicativa: cualquier valor multiplicado por uno conserva su magnitud","pista":"Identidad"}
+    ]
+  },
+  {
+    "nivel": 66,
+    "preguntas": [
+      {"p":"Siguiente en la serie: 7, 26, 63, 124, ?","r":"215","exp":"Patrón algorítmico formulado mediante cubos perfectos disminuidos en la unidad: n³ - 1","pista":"Seis al cubo menos uno"},
+      {"p":"¿Cuál es la sumatoria de los tres primeros números enteros primos consecutivos?","r":"10","exp":"Operación aritmética básica: 2 + 3 + 5 = 10 como suma de primos base","pista":"Suma de primeros primos"},
+      {"p":"¿Cuál es el perímetro de un triángulo equilátero que tiene un lado de 7 centímetros?","r":"21","exp":"Suma de las longitudes perimetrales de una figura regular simétrica: 7 x 3 = 21","pista":"Tres veces el lado"},
+      {"p":"¿Qué valor decimal es exactamente equivalente a la fracción matemática de un octavo (1/8)?","r":"0.125","exp":"División de base decimal de la unidad fraccionada entre ocho partes","pista":"Céntimos de fracción"},
+      {"p":"¿Cómo se denomina la rama de las matemáticas que sustituye números por letras en fórmulas?","r":"algebra","exp":"Estructura formal de generalización de operaciones aritméticas mediante variables","pista":"Ciencia formal de variables"}
+    ]
+  },
+  {
+    "nivel": 67,
+    "preguntas": [
+      {"p":"Determine el valor faltante en la siguiente secuencia numérica progresiva: 7, 19, 31, 43, 55, ?","r":"67","exp":"Sucesión aritmética lineal con una razón constante de cambio igual a doce (55 + 12 = 67)","pista":"Multiplica por el primo once y recuerda el meme de tik tok de 2 numeritos"},
+      {"p":"¿Cuál es el área de un círculo perfecto que posee un radio igual a la unidad (1)?","r":"pi","exp":"Fórmula de área circular euclidiana fundamental: pi por radio al cuadrado (π x 1²)","pista":"Constante geométrica"},
+      {"p":"¿Cuál es la diferencia resultante al restar -5 del valor positivo 10?","r":"15","exp":"Aplicación estricta de la ley de signos algebraicos: 10 - (-5) = 10 + 5 = 15","pista":"Menos por menos"},
+      {"p":"¿Cuántos lados posee un polígono plano clasificado formalmente como eneágono?","r":"9","exp":"Estructura geométrica cerrada constituida por nueve vértices internos","pista":"Nueve lados cerrados"},
+      {"p":"¿Cuál es la pendiente de una línea recta perfectamente horizontal en el plano cartesiano?","r":"0","exp":"Ausencia absoluta de inclinación o variación angular respecto al eje de abscisas","pista":"Inclinación cero"}
+    ]
+  },
+  {
+    "nivel": 68,
+    "preguntas": [
+      {"p":"¿Qué aparece una vez en un minuto, dos veces en un momento y nunca en cien años?","r":"m","exp":"Análisis de la morfología léxica de las letras constituyentes de cada vocablo citado","pista":"Examen ortográfico de letras"},
+      {"p":"¿Cuál es el resultado exacto de calcular el diez por ciento del cincuenta por ciento de 200?","r":"10","exp":"Operación encadenada de porcentajes encadenados: 0.10 x (0.50 x 200) = 0.10 x 100 = 10","pista":"Porcentaje del porcentaje"},
+      {"p":"¿Qué número entero sigue inmediatamente al valor -1 en la recta numérica real?","r":"0","exp":"Transición posicional neutra hacia los valores de signo positivo","pista":"Elemento frontera"},
+      {"p":"¿Cuál es el valor mínimo que puede adoptar la función trigonométrica del coseno?","r":"-1","exp":"Límite inferior escalar de oscilación de la función sobre el círculo unitario","pista":"Coseno mínimo"},
+      {"p":"¿Qué nombre recibe la línea recta que une dos vértices no adyacentes de un polígono?","r":"diagonal","exp":"Segmento interno de interconexión estructural en geometría plana","pista":"Trazo cruzado"}
+    ]
+  },
+  {
+    "nivel": 69,
+    "preguntas": [
+      {"p":"¿Qué tiene muchas uñas pero no manos?","r":"martillo","exp":"Metáfora de taller mecánico: la sección trasera de extracción de clavos se denomina uña","pista":"Herramienta de impacto manual"},
+      {"p":"¿Cuál es el resultado de la operación combinada de división 0 dividido entre 5?","r":"0","exp":"Cero fraccionado entre cualquier cantidad real distinta de cero es nulo","pista":"Cero dividido"},
+      {"p":"¿Cuántas aristas rectas posee una pirámide estándar de base triangular regular?","r":"6","exp":"Tres aristas dispuestas en la base plana y tres aristas convergentes hacia el vértice superior","pista":"Líneas estructurales de pirámide"},
+      {"p":"¿Cuál es la media aritmética ponderada de la serie de datos: 5, 5, 5, 5?","r":"5","exp":"Punto medio homogéneo de un conjunto de valores idénticos consistentes","pista":"Valor repetido constante"},
+      {"p":"¿Qué número entero positivo no clasifica ni como primo ni como número compuesto?","r":"1","exp":"Exclusión axiomática formal de la teoría elemental de números reales","pista":"Unidad base"}
+    ]
+  },
+  {
+    "nivel": 70,
+    "preguntas": [
+      {"p":"Siguiente letra: O, T, T, F, F, S, S, E, N, ?","r":"t","exp":"Acrónimo de las letras iniciales de la numeración natural en idioma inglés (One a Ten)","pista":"Traducción de conteo"},
+      {"p":"¿Cuál es la raíz cuadrada del valor cúbico resultante de dos elevado a la seis (2⁶)?","r":"8","exp":"Cálculo algebraico: 2⁶ es igual a 64; la raíz cuadrada de 64 resulta exactamente en 8","pista":"Raíz de potencia"},
+      {"p":"¿Cuántas caras planas posee un poliedro clasificado como octaedro regular?","r":"8","exp":"Cuerpo tridimensional cerrado constituido por ocho caras triangulares idénticas","pista":"Ocho caras planas"},
+      {"p":"¿Cuál es el valor angular complementario exacto para un vértice de 45 grados?","r":"45","exp":"Amplitud requerida para conformar un ángulo de simetría ortogonal de 90 grados","pista":"Mitad de cuadrante"},
+      {"p":"¿Qué propiedad matemática establece que (A + B) + C es exactamente igual a A + (B + C)?","r":"asociativa","exp":"Ley formal aplicable al agrupamiento secuencial de operandos en adición","pista":"Agrupamiento libre"}
+    ]
+  },
+  {
+    "nivel": 71,
+    "preguntas": [
+      {"p":"Si 7+3=41021, 9+6=31554, ¿5+2=?","r":"3710","exp":"Patrón algorítmico compuesto: Resta (5-2=3), Suma (5+2=7), Multiplicación (5x2=10)","pista":"Tres operaciones aritméticas directas"},
+      {"p":"¿Cuál es la suma de los primeros diez números enteros positivos del 1 al 10?","r":"55","exp":"Aplicación de la fórmula lineal de sumatoria de Gauss para series consecutivas","pista":"Serie lineal de Gauss"},
+      {"p":"¿Cuál es el volumen de una habitación prismática de 3m de ancho, 4m de largo y 2m de alto?","r":"24","exp":"Cálculo espacial volumétrico ortogonal: ancho por largo por alto (3 x 4 x 2)","pista":"Multiplica tres dimensiones"},
+      {"p":"¿Qué número del sistema decimal carece por completo de representación en el sistema romano?","r":"0","exp":"Los romanos no concibieron un carácter gráfico específico para el valor nulo","pista":"Ausencia de valor"},
+      {"p":"¿Cómo se denomina formalmente al segmento de línea recta que une el centro del círculo con el perímetro?","r":"radio","exp":"Definición geométrica de la distancia radial constante en una circunferencia","pista":"Mitad del diámetro"}
+    ]
+  },
+  {
+    "nivel": 72,
+    "preguntas": [
+      {"p":"¿Qué se puede atrapar pero no lanzar?","r":"resfriado","exp":"Juego conceptual idiomático referente a contraer una patología vírica común","pista":"Condición médica común"},
+      {"p":"¿Cuál es el inverso aditivo exacto de la fracción matemática un tercio (1/3)?","r":"-1/3","exp":"Valor real que al sumarse con el original anula el balance de la operación a cero","pista":"Signo contrario aplicado"},
+      {"p":"¿Cuántos grados sexagesimales recorre la manecilla del reloj en una hora completa?","r":"360","exp":"Rotación circular integral que cubre la totalidad de la circunferencia del dial","pista":"Giro completo de minutero"},
+      {"p":"¿Cuál es el valor resultante si divides cualquier número real no nulo entre sí mismo?","r":"1","exp":"Propiedad de división unitaria axiomática de la teoría de conjuntos numéricos","pista":"Resultado unitario homogéneo"},
+      {"p":"¿Qué polígono de tres lados posee todos sus ángulos internos con medidas diferentes?","r":"triangulo escaleno","exp":"Clasificación basada en la asimetría total de componentes lineales laterales","pista":"Asimetría de lados"}
+    ]
+  },
+  {
+    "nivel": 73,
+    "preguntas": [
+      {"p":"Un hombre empuja su coche hasta un hotel y le dice al dueño que está en quiebra. ¿Por qué?","r":"monopoly","exp":"El escenario describe un tablero de juego de mesa Monopoly con propiedades inmobiliarias","pista":"Juego de estrategia de mesa"},
+      {"p":"¿Cuál es el valor del término algebraico X en la expresión lineal 3X - 9 = 0?","r":"3","exp":"Aislamiento de la variable: 3X = 9, lo que implica de forma directa que X = 3","pista":"Despeje básico lineal"},
+      {"p":"¿Qué número entero equivale a la raíz cuadrada exacta del valor cien (100)?","r":"10","exp":"Operación matemática inversa: diez multiplicado por sí mismo produce cien","pista":"Diez por diez"},
+      {"p":"¿Cuántos lados paralelos posee un paralelogramo estructurado en el plano bidimensional?","r":"2 pares","exp":"Definición geométrica euclidiana formal de cuadriláteros de aristas opuestas paralelas","pista":"Geometría cuadrilátera"},
+      {"p":"¿Cuál es el valor de la base en el sistema de numeración informática hexadecimal?","r":"16","exp":"Estructura matemática de base dieciséis que emplea caracteres del cero al nueve y de la A a la F","pista":"Base dieciséis"}
+    ]
+  },
+  {
+    "nivel": 74,
+    "preguntas": [
+      {"p":"1=4, 2=16, 3=64, ¿4=?","r":"256","exp":"Progresión basada en la función de base geométrica cuatro elevada a la potencia n (4⁴)","pista":"Cuatro a la cuarta potencia"},
+      {"p":"¿Cuál es el valor del ángulo interno de un cuadrado perfecto regular?","r":"90","exp":"Ortogonalidad perimetral que distribuye 360 grados equitativamente en cuatro esquinas","pista":"Ángulo recto ortogonal"},
+      {"p":"¿Qué número primo sigue inmediatamente en la recta numérica al valor entero 17?","r":"19","exp":"Número entero impar sin divisores exactos intermedios en la serie numérica","pista":"Siguiente primo impar"},
+      {"p":"¿Cuál es la inversa matemática directa de la operación de radicación o raíces?","r":"potenciacion","exp":"Función exponencial inversa que restituye el valor base de una operación radical","pista":"Elevar a potencia"},
+      {"p":"¿Qué fracción exacta representa la expresión decimal pura equivalente a 0.25?","r":"1/4","exp":"Simplificación de la razón matemática de una cuarta parte de la unidad base","pista":"Un cuarto de unidad"}
+    ]
+  },
+  {
+    "nivel": 75,
+    "preguntas": [
+      {"p":"¿Qué tiene un pie a cada lado y uno en el medio?","r":"patio","exp":"Juego morfológico fonético estructurado mediante la división silábica de la palabra","pista":"Término de espacio residencial"},
+      {"p":"¿Cuál es el triple del valor resultante de multiplicar cinco por cuatro?","r":"60","exp":"Cálculo secuencial: 5 x 4 = 20; la multiplicación por tres de 20 da como resultado 60","pista":"Operación encadenada simple"},
+      {"p":"¿Cuántos segundos exactos se encuentran contenidos en un lapso temporal de un cuarto de hora?","r":"900","exp":"Conversión de tiempo: 15 minutos multiplicados por el factor de 60 segundos","pista":"Quince por sesenta"},
+      {"p":"¿Qué figura tridimensional posee una sola base circular y converge en un vértice superior?","r":"cono","exp":"Cuerpo geométrico de revolución delimitado por una generatriz inclinada fija","pista":"Forma de sombrero de fiesta"},
+      {"p":"¿Cuál es el promedio aritmético de los valores enteros ordenados 10, 20 y 30?","r":"20","exp":"Cálculo del centro de masa lineal estándar: (10 + 20 + 30) / 3 = 60 / 3 = 20","pista":"Punto medio lineal"}
+    ]
+  },
+  {
+    "nivel": 76,
+    "preguntas": [
+      {"p":"¿Qué va de mano en mano pero se queda en el mismo lugar?","r":"anillo","exp":"Metáfora de adorno personal: se transfiere entre dedos pero permanece ceñido a la mano","pista":"Artículo de joyería dactilar"},
+      {"p":"¿Cuál es el número entero que sigue en la serie exponencial binaria: 32, 64, ?","r":"128","exp":"Progresión geométrica basada en multiplicar por el factor constante dos (x2)","pista":"Multiplica por dos"},
+      {"p":"¿Cuál es el área de un triángulo plano de 6 metros de base por 4 de altura?","r":"12","exp":"Fórmula de superficie triangular estándar: base por altura dividido entre dos","pista":"Base por altura entre dos"},
+      {"p":"¿Qué número representa el antecesor entero directo del valor negativo -10?","r":"-11","exp":"Desplazamiento hacia el infinito negativo en la recta analítica de reales","pista":"Mayor valor negativo"},
+      {"p":"¿Cuántas líneas rectas tangenciales paralelas exactas pueden existir en una circunferencia?","r":"2","exp":"Solo dos puntos opuestos diametralmente admiten tangentes con idéntica pendiente","pista":"Líneas opuestas puras"}
+    ]
+  },
+  {
+    "nivel": 77,
+    "preguntas": [
+      {"p":"111=13, 112=24, 113=35, ¿117=?","r":"79","exp":"Regla operativa interna: primer dígito define el resultado, últimos sumados definen el orden","pista":"Patrón numérico sintético"},
+      {"p":"¿Qué número sigue en la secuencia geométrica cúbica: 1, 8, 27, ?","r":"64","exp":"Desarrollo continuo de la serie de números enteros elevados a la potencia tres (4³)","pista":"Cuatro al cubo"},
+      {"p":"¿Qué polígono regular posee exactamente diez lados idénticos en su contorno?","r":"decagono","exp":"Definición geométrica basada en raíces idiomáticas de construcción angular","pista":"Diez esquinas cerradas"},
+      {"p":"Si sumas los números enteros consecutivos ordenados del 1 al 4, ¿qué total obtienes?","r":"10","exp":"Sumatoria lineal directa básica: 1 + 2 + 3 + 4 = 10 de base decimal","pista":"Suma de primeros cuatro"},
+      {"p":"¿Qué herramienta matemática se emplea para trazar circunferencias perfectas en papel?","r":"compas","exp":"Instrumento articulado de dos brazos metálicos provisto de un pivote central de giro","pista":"Útil de geometría circular"}
+    ]
+  },
+  {
+    "nivel": 78,
+    "preguntas": [
+      {"p":"¿Qué animal tiene más vidas que el gato?","r":"la pulga","exp":"Acertijo humorístico basado en la constante presencia física del parásito sobre el felino","pista":"Insecto parásito común"},
+      {"p":"¿Cuál es la mitad de la cuarta parte del número entero un centenar (100)?","r":"12.5","exp":"Operación fraccionada fraccionaria sucesiva estándar: (100 / 4) / 2 = 25 / 2 = 12.5","pista":"Divide consecutivamente"},
+      {"p":"¿Cuál es el valor del número romano representado por el carácter tipográfico C?","r":"100","exp":"Asignación de escala centenar base del sistema clásico de numeración latina","pista":"Valor de siglo"},
+      {"p":"¿Qué línea recta interseca una curva geométrica tocando exactamente dos puntos de ella?","r":"secante","exp":"Definición técnica analítica de intersección lineal en curvas planas","pista":"Corta la curva"},
+      {"p":"¿Qué propiedad matemática indica que el orden de los sumandos no altera la suma?","r":"conmutativa","exp":"Ley formal de la adición de números reales en álgebra elemental","pista":"Orden de suma libre"}
+    ]
+  },
+  {
+    "nivel": 79,
+    "preguntas": [
+      {"p":"¿Qué es lo que puedes romper sin siquiera tocarlo o armar ruido?","r":"promesa","exp":"Acto abstracto de quebrantar la palabra dada o un pacto moral establecido previamente","pista":"Compromiso contractual abstracto"},
+      {"p":"¿Qué número sigue en la secuencia decreciente regular: 100, 85, 70, ?","r":"55","exp":"Resta fija lineal sistemática aplicando una constante aritmética igual a quince (-15)","pista":"Pérdida lineal constante"},
+      {"p":"¿Cuál es el valor absoluto resultante puro para el número negativo -500?","r":"500","exp":"Magnitud escalar pura medida como distancia respecto al origen cero de coordenadas","pista":"Elimina el operador negativo"},
+      {"p":"¿Cuántos minutos exactos componen un intervalo equivalente a un tercio de hora?","r":"20","exp":"Cálculo cronológico base: 60 minutos divididos equitativamente entre tres","pista":"Tercera parte de hora"},
+      {"p":"¿Cómo se denomina al polígono plano cerrado que posee siete vértices?","r":"heptagono","exp":"Definición geométrica formal basada en raíces estructurales de nomenclatura","pista":"Siete lados planos"}
+    ]
+  },
+  {
+    "nivel": 80,
+    "preguntas": [
+      {"p":"Serie: 1, 3, 6, 10, 15, ?","r":"21","exp":"Desarrollo de la secuencia matemática formal de los números triangulares ordinarios","pista":"Suma del siguiente entero"},
+      {"p":"¿Cuál es el factor común máximo (MCD) entre los números enteros 15 y 25?","r":"5","exp":"Mayor entero capaz de dividir de forma exacta a ambos operandos analizados","pista":"MCD de base cinco"},
+      {"p":"¿Qué número sigue en la serie de progresión aritmética: 2, 9, 16, 23, ?","r":"30","exp":"Adición lineal regular sistemática mediante la constante fija del valor siete (+7)","pista":"Suma siete continuo"},
+      {"p":"¿Cuántos lados posee un polígono plano clasificado formalmente como pentágono?","r":"5","exp":"Figura geométrica cerrada de cinco ángulos interiores bien definidos","pista":"Cinco lados rectos"},
+      {"p":"¿Cuál es el resultado de la operación combinada estricta: 5 + 5 x 5?","r":"30","exp":"Regla de jerarquía de operaciones: se procesa la multiplicación antes de sumar","pista":"Procesa el producto primero"}
+    ]
+  },
+  {
+    "nivel": 81,
+    "preguntas": [
+      {"p":"¿Qué es lo que cuanto más le quitas más grande se hace?","r":"agujero","exp":"Remoción de materia sólida compacta que incrementa el volumen del espacio vacío","pista":"Hoyo o cavidad"},
+      {"p":"¿Cuál es la raíz cúbica exacta del valor entero sesenta y cuatro (64)?","r":"4","exp":"Operación exponencial inversa: cuatro multiplicado tres veces por sí mismo resulta en 64","pista":"4x4x4"},
+      {"p":"¿Cuántos metros de longitud se encuentran contenidos en tres kilómetros estándar?","r":"3000","exp":"Conversión de unidades de escala métrica dentro del sistema internacional","pista":"Multiplica por mil"},
+      {"p":"¿Qué número entero se ubica exactamente en el medio de -10 y 10 en la recta?","r":"0","exp":"Punto neutro y simétrico absoluto de la distribución de números reales","pista":"Centro numérico nulo"},
+      {"p":"Si triplicas el área de un círculo, ¿por qué factor se multiplica su radio?","r":"raiz de 3","exp":"Relación de proporcionalidad geométrica derivada de la fórmula analítica del área","pista":"Factor radical tres"}
+    ]
+  },
+  {
+    "nivel": 82,
+    "preguntas": [
+      {"p":"¿Qué lengua no tiene boca?","r":"zapato","exp":"Morfología de calzado: denominación de la lengüeta protectora interna bajo cordones","pista":"Componente textil de calzar"},
+      {"p":"¿Cuál es el resultado de multiplicar la fracción 1/2 por el entero 4?","r":"2","exp":"Cálculo: simplificación directa de la mitad de cuatro unidades enteras","pista":"La mitad de cuatro"},
+      {"p":"¿Qué número primo representa el único valor divisible entre dos exacto?","r":"2","exp":"Definición axiomática de base: primer entero primo y único con naturaleza par","pista":"Primo básico par"},
+      {"p":"¿Cuántos lados posee un polígono clasificado formalmente como cuadrilátero?","r":"4","exp":"Figura geométrica plana cerrada delimitada por cuatro vértices perimetrales","pista":"Cuatro aristas planas"},
+      {"p":"¿Cuál es la inversa matemática directa de la función del logaritmo?","r":"exponenciacion","exp":"Función matemática que eleva una base fija al valor del exponente dado","pista":"Elevar a potencia base"}
+    ]
+  },
+  {
+    "nivel": 83,
+    "preguntas": [
+      {"p":"¿Qué tiene dientes pero no puede morder?","r":"peine","exp":"Metáfora de útil estético: las púas de alineación capilar reciben el nombre de dientes","pista":"Herramienta de aseo capilar"},
+      {"p":"¿Cuál es el valor de sumar tres cuartos (3/4) y un cuarto (1/4) en una fracción?","r":"1","exp":"Adición homogénea que completa de forma total la unidad entera del sistema","pista":"Completa la unidad"},
+      {"p":"¿Qué número sigue en la secuencia de duplicación: 5, 10, 20, 40, ?","r":"80","exp":"Progresión geométrica regular basada en el factor multiplicador constante dos","pista":"Siguiente doble lineal"},
+      {"p":"¿Cuál es la hipotenusa resultante si los catetos miden exactamente 5 y 12?","r":"13","exp":"Aplicación del teorema de Pitágoras: raíz cuadrada de la suma (25 + 144) = 13","pista":"Trío pitagórico estándar"},
+      {"p":"¿Qué nombre recibe el sistema analítico coordenado de tres dimensiones espaciales?","r":"tridimensional","exp":"Espacio vectorial definido por tres ejes ortogonales de referencia (X, Y, Z)","pista":"Ejes tridimensionales"}
+    ]
+  },
+  {
+    "nivel": 84,
+    "preguntas": [
+      {"p":"2, 3, 5, 7, 11, ?","r":"13","exp":"Secuencia lineal ordenada pura de los números primos naturales iniciales del sistema","pista":"Divisibles solo por sí mismos"},
+      {"p":"¿Cuál es el factor común máximo (MCD) entre los números enteros 12 y 15?","r":"3","exp":"El entero de mayor magnitud capaz de dividir exactamente a ambos operandos","pista":"MCD de base tres"},
+      {"p":"¿Qué número completa la serie de progresión aritmética: 10, 20, 30, 40, ?","r":"50","exp":"Incremento constante regular mediante la adición fija del valor diez (+10)","pista":"Suma de decena regular"},
+      {"p":"¿Cuántos lados perimetrales posee un polígono regular denominado octágono?","r":"8","exp":"Estructura geométrica plana cerrada caracterizada por ocho ángulos internos","pista":"Señal clásica de tránsito"},
+      {"p":"¿Cuál es el resultado de la operación matemática combinada: 10 + 2 x 5?","r":"20","exp":"Regla de prioridad operacional: se resuelve el producto antes de ejecutar la adición","pista":"Multiplica antes de sumar"}
+    ]
+  },
+  {
+    "nivel": 85,
+    "preguntas": [
+      {"p":"¿Cuál es el único número que tiene tantas letras como su valor?","r":"cinco","exp":"Análisis morfológico idiomático: el vocablo 'c-i-n-c-o' cuenta con cinco caracteres gráficos","pista":"Idioma castellano o español"},
+      {"p":"¿Cuál es el cubo perfecto resultante de elevar el número entero tres al cubo (3³)?","r":"27","exp":"Cálculo algebraico exponencial estándar: tres multiplicado tres veces por sí mismo","pista":"3x3x3"},
+      {"p":"¿Cuántos metros se encuentran contenidos en medio kilómetro de longitud?","r":"500","exp":"Conversión lineal de escala dentro del sistema métrico internacional estandarizado","pista":"La mitad de mil"},
+      {"p":"¿Qué número entero se ubica exactamente en el centro geométrico de la recta real?","r":"0","exp":"Origen de coordenadas neutro absoluto que divide reales positivos de negativos","pista":"Valor nulo de origen"},
+      {"p":"Si duplicas el radio de un círculo perfecto, ¿por qué factor se multiplica su área?","r":"4","exp":"Relación de proporcionalidad geométrica cuadrática derivada de la ecuación de superficie","pista":"Factor al cuadrado"}
+    ]
+  },
+  {
+    "nivel": 86,
+    "preguntas": [
+      {"p":"¿Qué tiene un ojo pero no puede ver?","r":"tormenta","exp":"Metáfora meteorológica: la zona central de baja presión de un huracán se denomina ojo","pista":"Fenómeno climático masivo"},
+      {"p":"¿Cuál es el resultado de multiplicar la fracción un tercio (1/3) por el entero seis (6)?","r":"2","exp":"Cálculo: determinación de la tercera parte exacta de seis unidades enteras","pista":"Tercio de seis"},
+      {"p":"¿Qué número primo es el menor de los valores impares aceptados en matemáticas?","r":"3","exp":"Definición formal: primer entero primo con naturaleza de número impar","pista":"Primo impar básico"},
+      {"p":"¿Cuántos lados cerrados posee un polígono clasificado formalmente como triángulo?","r":"3","exp":"Figura geométrica elemental delimitada por tres vértices en el plano euclidiano","pista":"Tres esquinas planas"},
+      {"p":"¿Cuál es el inverso operativo directo de la función trigonométrica del seno?","r":"cosecante","exp":"Razón recíproca fundamental calculada en la geometría del triángulo rectángulo","pista":"Función recíproca de seno"}
+    ]
+  },
+  {
+    "nivel": 87,
+    "preguntas": [
+      {"p":"A es el padre de B, pero B no es el hijo de A. ¿Cómo?","r":"es su hija","exp":"Resolución de género: la persona posee una relación filial directa de naturaleza femenina","pista":"Perspectiva de género opuesto"},
+      {"p":"¿Cuál es el valor resultante de sumar un medio (1/2) y un cuarto (1/4) en fracción?","r":"3/4","exp":"Adición de fracciones heterogéneas mediante la búsqueda de un denominador común","pista":"Tres cuartas partes de unidad"},
+      {"p":"¿Qué número entero sigue en la secuencia de multiplicación geométrica: 2, 4, 8, ?","r":"16","exp":"Progresión de base dos exponencial constante basada en duplicación regular","pista":"Siguiente potencia binaria"},
+      {"p":"¿Cuál es el valor de la hipotenusa si los catetos miden exactamente 3 y 4 metros?","r":"5","exp":"Cumplimiento estricto del teorema de Pitágoras: raíz de la sumatoria (9 + 16) = 5","pista":"Triángulo sagrado egipcio"},
+      {"p":"¿Qué nombre recibe formalmente el sistema de medición angular basado en radianes?","r":"radial","exp":"Sistema internacional de medida de ángulos fundamentado en la longitud del radio","pista":"Medición analítica circular"}
+    ]
+  },
+  {
+    "nivel": 88,
+    "preguntas": [
+      {"p":"1, 4, 9, 61, 52, 63, 94, ?","r":"46","exp":"Patrón visual de inversión especular: lectura inversa de los cuadrados perfectos (64 -> 46)","pista":"Espejo tipográfico de cuadrados"},
+      {"p":"¿Cuál es el máximo común divisor (MCD) entre los números enteros 8 y 12?","r":"4","exp":"El entero de mayor magnitud capaz de fraccionar de forma exacta a ambos operandos","pista":"MCD de base cuatro"},
+      {"p":"¿Qué número sigue en la secuencia de progresión aritmética lineal: 4, 8, 12, 16, ?","r":"20","exp":"Adición lineal regular sistemática mediante la constante fija del valor cuatro (+4)","pista":"Múltiplo de cuatro sucesivo"},
+      {"p":"¿Cuántos lados perimetrales posee un polígono regular clasificado como hexágono?","r":"6","exp":"Estructura geométrica plana cerrada caracterizada por seis ángulos internos","pista":"Forma de celda de panal"},
+      {"p":"¿Cuál es el resultado de la operación combinada estricta: 4 + 4 x 4?","r":"20","exp":"Regla de prioridad de operadores: la multiplicación se procesa antes de la adición","pista":"Procesa el producto primero"}
+    ]
+  },
+  {
+    "nivel": 89,
+    "preguntas": [
+      {"p":"¿Qué es lo que siempre viene pero nunca llega?","r":"mañana","exp":"Concepto temporal de jornada sucesiva abstracta que al acontecer se transforma en hoy","pista":"Próximo ciclo diurno"},
+      {"p":"¿Cuál es el cuadrado perfecto resultante de elevar el número entero cinco al cuadrado (5²)?","r":"25","exp":"Multiplicación de un factor entero por sí mismo en álgebra estándar: 5 x 5 = 25","pista":"Cinco por cinco"},
+      {"p":"¿Cuántos centímetros se encuentran contenidos en un metro de longitud estándar?","r":"100","exp":"Conversión de unidades de escala centesimal dentro del sistema métrico internacional","pista":"Factor de un centenar"},
+      {"p":"¿Qué número representa la ausencia absoluta de cantidad en conjuntos matemáticos?","r":"0","exp":"Concepto de valor nulo que actúa como elemento neutro en la operación de adición","pista":"Dígito cero neutro"},
+      {"p":"Si duplicas el perímetro de un cuadrado perfecto, ¿por qué factor se multiplica su área?","r":"4","exp":"Relación de proporcionalidad geométrica cuadrática aplicada a la escala lateral","pista":"Factor de escala al cuadrado"}
+    ]
+  },
+  {
+    "nivel": 90,
+    "preguntas": [
+      {"p":"¿Qué tiene muchas patas pero no puede caminar?","r":"mesa","exp":"Metáfora de mobiliario: los soportes verticales de equilibrio se denominan patas mecánicas","pista":"Mueble de soporte plano"},
+      {"p":"¿Cuál es el resultado de la operación combinada de división 0 dividido entre 10?","r":"0","exp":"Cero fraccionado entre cualquier cantidad real válida no nula resulta en la nada","pista":"Cero dividido continuo"},
+      {"p":"¿Cuántas aristas rectas posee un cuerpo tridimensional clasificado como cubo regular?","r":"12","exp":"Segmentos lineales de intersección que delimitan las seis caras del hexaedro","pista":"Líneas de unión del dado"},
+      {"p":"¿Cuál es la media aritmética simple resultante del conjunto de datos: 8, 8, 8?","r":"8","exp":"Punto medio ponderado homogéneo de una distribución de valores constantes","pista":"Magnitud idéntica repetida"},
+      {"p":"¿Qué número real es el recíproco exacto de la unidad entera uno (1)?","r":"1","exp":"Único entero cuyo inverso multiplicativo coincide exactamente con su propio valor","pista":"Inverso idéntico"}
+    ]
+  },
+  {
+    "nivel": 91,
+    "preguntas": [
+      {"p":"¿Qué número sigue? 77, 49, 36, ?","r":"18","exp":"Multiplicación sistemática encadenada de los componentes individuales de los dígitos (3x6=18)","pista":"Multiplica los dígitos entre sí"},
+      {"p":"Si lanzas una piedra roja al mar azul, ¿cómo queda?","r":"mojada","exp":"Cambio de estado físico superficial por inmersión en medio líquido acuoso","pista":"Efecto del agua"},
+      {"p":"¿Qué operación resulta de dividir cualquier número entre cero en matemáticas puras?","r":"indefinido","exp":"Imposibilidad axiomática formal de la aritmética que genera una indeterminación","pista":"Error de división"},
+      {"p":"¿Cuál es el valor límite de la función 1/x cuando x tiende al infinito positivo?","r":"0","exp":"Comportamiento asintótico decreciente lineal elemental en cálculo diferencial","pista":"Tiende a cero"},
+      {"p":"¿Qué paradoja describe a un barbero que afeita solo a quienes no se afeitan a sí mismos?","r":"paradoja de russell","exp":"Contradicción formal de la teoría de conjuntos lógicos desarrollada por Bertrand Russell","pista":"Teoría de conjuntos lógicos"}
+    ]
+  },
+  {
+    "nivel": 92,
+    "preguntas": [
+      {"p":"Si un árbol cae en un bosque desierto, ¿emite sonido real?","r":"si","exp":"Generación de perturbaciones y ondas mecánicas acústicas independientemente de receptores de registro","pista":"Física de ondas acústicas"},
+      {"p":"¿Qué número sigue en la secuencia lógica compleja: 2, 3, 7, 16, 32, ?","r":"57","exp":"Suma progresiva de la serie ordenada de cuadrados perfectos (+1, +4, +9, +16, +25)","pista":"Suma de cuadrados ordenados"},
+      {"p":"¿Cuál es el valor del número imaginario i elevado al cuadrado de forma estricta (i²)?","r":"-1","exp":"Definición formal base del conjunto algebraico de los números complejos","pista":"Unidad imaginaria base"},
+      {"p":"¿Qué figura geométrica tridimensional posee una superficie continua sin vértices pero con base circular?","r":"cilindro","exp":"Cuerpo de revolución generado por el giro ortogonal de un rectángulo sobre un eje","pista":"Forma de tubo rígido"},
+      {"p":"¿Qué propiedad lógica establece que una proposición no puede ser verdadera y falsa simultáneamente?","r":"no contradiccion","exp":"Principio fundamental clásico de los sistemas formales de la lógica deductiva","pista":"Axioma de consistencia pura"}
+    ]
+  },
+  {
+    "nivel": 93,
+    "preguntas": [
+      {"p":"¿Qué letra sigue en la secuencia analítica alfabética compleja: Z, W, T, Q, ?","r":"n","exp":"Regresión uniforme regular saltando exactamente dos posiciones hacia atrás en el abecedario","pista":"Abecedario en reversa continua"},
+      {"p":"¿Cuál es el logaritmo natural exacto del número entero uno (ln 1)?","r":"0","exp":"Propiedad de funciones logarítmicas: cualquier base elevada a cero resulta en la unidad","pista":"Exponente nulo requerido"},
+      {"p":"¿Cuál es el resultado del producto vectorial de dos vectores perfectamente paralelos entre sí?","r":"0","exp":"La ausencia de componente perpendicular anula la operación espacial en geometría lineal","pista":"Vectores alineados idénticos"},
+      {"p":"¿Cuántas soluciones reales posee una ecuación cuadrática si su discriminante es estrictamente negativo?","r":"0","exp":"Las raíces se desplazan en su totalidad al plano bidimensional de los números complejos","pista":"Discriminante menor a cero"},
+      {"p":"¿Qué nombre recibe el método lógico que demuestra la validez universal probando el caso n y n+1?","r":"induccion","exp":"Estrategia analítica deductiva fundamental para la validación de series matemáticas infinitas","pista":"Inducción matemática formal"}
+    ]
+  },
+  {
+    "nivel": 94,
+    "preguntas": [
+      {"p":"Si un reloj registra las 12:00 en espejo plano, ¿qué hora cronológica es en realidad?","r":"12:00","exp":"Simetría axial absoluta sobre el eje vertical central de la esfera del dial horario","pista":"Eje vertical neutro"},
+      {"p":"¿Qué número sigue en la serie compleja alternativa: 1, 4, 2, 8, 4, 16, ?","r":"8","exp":"Patrón operacional intermitente dual: multiplicación por el factor cuatro, división entre dos","pista":"Multiplica por 4 y divide por 2"},
+      {"p":"¿Cuál es el valor del ángulo interno de un polígono regular clasificado como hexágono?","r":"120","exp":"Fórmula de distribución angular interior euclidiana: (6-2) x 180 / 6 = 720 / 6 = 120","pista":"Ángulo interior regular"},
+      {"p":"¿Qué fracción exacta representa la tasa decimal periódica pura equivalente a 0.333...?","r":"1/3","exp":"División analítica exacta de la unidad fraccionada de forma homogénea entre tres","pista":"Un tercio de base"},
+      {"p":"¿Qué teorema formal establece que en cualquier triángulo rectángulo a² + b² es igual a c²?","r":"teorema de pitagoras","exp":"Axioma fundamental de las relaciones métricas espaciales en geometría euclidiana","pista":"Axioma de catetos e hipotenusa"}
+    ]
+  },
+  {
+    "nivel": 95,
+    "preguntas": [
+      {"p":"¿Qué objeto matemático plano posee una sola cara continua y un único borde perimetral?","r":"cinta de mobius","exp":"Estructura topológica no orientable construida mediante una torsión media de extremos","pista":"Superficie de una sola cara topológica"},
+      {"p":"¿Cuál es la sumatoria de la progresión geométrica infinita: 1/2 + 1/4 + 1/8 + 1/16... ?","r":"1","exp":"Serie convergente clásica cuyo límite matemático superior tiende con precisión a la unidad","pista":"Convergencia a la unidad"},
+      {"p":"¿Cuántas permutaciones lineales únicas se pueden estructurar con tres elementos diferenciados?","r":"6","exp":"Cálculo combinatorio factorial simple de ordenamiento posicional completo (3!)","pista":"Factorial de tres de base"},
+      {"p":"¿Cuál es el valor de la derivada de cualquier constante matemática pura respecto a X?","r":"0","exp":"Ausencia absoluta de variación o tasa de cambio incremental en funciones fijas","pista":"Tasa de cambio nula"},
+      {"p":"¿Qué rama de la lógica formal se encarga del análisis detallado de las proposiciones y conectores?","r":"proposicional","exp":"Estudio de las sentencias lógicas mediante tablas de verdad y asignaciones booleanas","pista":"Lógica de enunciados elementales"}
+    ]
+  },
+  {
+    "nivel": 96,
+    "preguntas": [
+      {"p":"¿Qué número sigue en la secuencia matemática avanzada: 3, 7, 15, 31, 63, ?","r":"127","exp":"Algoritmo exponencial de duplicación más adición unitaria estructurado como: (n x 2) + 1","pista":"Siguiente doble más uno"},
+      {"p":"¿Cuál es el determinante resultante de una matriz cuadrada que posee una fila completa de ceros?","r":"0","exp":"Propiedad algebraica formal: la dependencia lineal anula el volumen del hiperparalelogramo","pista":"Fila nula absoluta"},
+      {"p":"¿Qué nombre recibe el punto geométrico exacto donde se intersecan las tres medianas del triángulo?","r":"baricentro","exp":"Centro de gravedad o masa centroidal balanceado de la figura geométrica plana","pista":"Centro de gravedad plano"},
+      {"p":"¿Cuál es el valor de la función trigonométrica de la tangente para un ángulo de 45 grados?","r":"1","exp":"Relación matemática de igualdad absoluta entre el cateto opuesto y el cateto adyacente","pista":"Razón de catetos idénticos"},
+      {"p":"¿Qué tipo de matriz cuadrada posee únicamente valores unitarios en su diagonal principal y ceros fuera?","r":"identidad","exp":"Elemento neutro multiplicativo en el álgebra matricial lineal de sistemas de ecuaciones","pista":"Matriz neutra multiplicativa"}
+    ]
+  },
+  {
+    "nivel": 97,
+    "preguntas": [
+      {"p":"Si un conjunto de datos A contiene 5 elementos y B contiene 3, ¿cuántos elementos tiene AxB?","r":"15","exp":"Cardinalidad del producto cartesiano calculada mediante el producto directo de componentes","pista":"Multiplicación de cardinales"},
+      {"p":"¿Cuál es el valor de la integral definida de X respecto a X evaluada exactamente de 0 a 2?","r":"2","exp":"Aplicación del teorema fundamental del cálculo lineal: [X²/2] evaluado entre los límites da 2","pista":"Área bajo la recta"},
+      {"p":"¿Qué número sigue en la secuencia compleja decreciente: 100, 99, 95, 86, 70, ?","r":"45","exp":"Sustracción incremental progresiva basada en la serie de cuadrados perfectos (-1, -4, -9, -16, -25)","pista":"Resta de cuadrados perfectos ordenados"},
+      {"p":"¿Cuántas caras planas perimetrales idénticas constituyen la geometría de un dodecaedro regular?","r":"12","exp":"Cuerpo tridimensional cerrado conformado por doce caras pentagonales regulares simétricas","pista":"Doce caras pentagonales"},
+      {"p":"¿Qué distribución estadística clásica describe eventos independientes a una tasa constante en el tiempo?","r":"poisson","exp":"Modelo probabilístico de Poisson ideal para el análisis de flujos y concurrencia de eventos","pista":"Distribución de eventos raros"}
+    ]
+  },
+  {
+    "nivel": 98,
+    "preguntas": [
+      {"p":"¿Qué número sigue en la serie analítica avanzada: 2, 4, 12, 48, 240, ?","r":"1440","exp":"Multiplicación encadenada secuencial por factores enteros incrementales crecientes (x2, x3, x4, x5, x6)","pista":"Multiplica el último término por seis"},
+      {"p":"¿Cuál es el valor de la excentricidad geométrica exacta para una circunferencia perfecta?","r":"0","exp":"Ausencia de elongación lineal; los focos cónicos coexisten exactamente en el mismo centro","pista":"Alineación focal nula"},
+      {"p":"¿Qué principio establece que no se puede conocer con precisión simultánea la posición y momento de una partícula?","r":"incertidumbre","exp":"Axioma de la física cuántica formulado formalmente por el científico Werner Heisenberg","pista":"Principio cuántico de Heisenberg"},
+      {"p":"¿Cuál es el valor resultante de calcular el logaritmo en base dos del número entero 64?","r":"6","exp":"Determinación del exponente algebraico binario: dos elevado a la seis equivale a 64","pista":"Potencia binaria de base dos"},
+      {"p":"¿Qué nombre recibe el conjunto matemático de números que no pueden expresarse como fracciones enteras?","r":"irracionales","exp":"Valores reales de desarrollo decimal infinito no periódico, tales como pi o raíz de dos","pista":"Decimales infinitos asimétricos"}
+    ]
+  },
+  {
+    "nivel": 99,
+    "preguntas": [
+      {"p":"¿Qué número sigue en la secuencia lógica avanzada: 1, 2, 6, 15, 31, ?","r":"56","exp":"Incrementos sucesivos basados en la serie lineal de cuadrados perfectos enteros (+1, +4, +9, +16, +25)","pista":"Suma veinticinco al término actual"},
+      {"p":"¿Cuál es la probabilidad de obtener un total exacto de 7 al lanzar dos dados estándar de seis caras?","r":"1/6","exp":"Seis combinaciones favorables de un espacio muestral constituido por 36 eventos posibles","pista":"Seis opciones sobre 36"},
+      {"p":"¿Qué nombre recibe la curva geométrica plana generada por el corte oblicuo de un cono estable?","r":"elipse","exp":"Lugar geométrico bidimensional donde la suma de distancias a dos focos fijos es constante","pista":"Forma cónica ovalada"},
+      {"p":"¿Cuál es el valor numérico exacto de la constante de Euler redondeada a dos decimales de precisión?","r":"2.72","exp":"Base fundamental de los logaritmos naturales o neperianos empleada en análisis matemático","pista":"Constante e estándar"},
+      {"p":"¿Qué criterio formal de convergencia analiza el límite del cociente de términos consecutivos de una serie?","r":"criterio de d alembert","exp":"Estrategia analítica avanzada de cálculo de series conocida también como el test de la razón","pista":"Test de la razón lineal"}
+    ]
+  },
+  {
+    "nivel": 100,
+    "preguntas": [
+      {"p":"¿Qué número completa la matriz lógica simétrica avanzada: 2 es a 8 como 3 es a 27, entonces 4 es a...?","r":"64","exp":"Algoritmo algebraico de transformación basado en elevar el operando base a la tercera potencia (n³)","pista":"Cuatro elevado al cubo perfecto"},
+      {"p":"¿Cuál es el valor de la sumatoria de los primeros cien números enteros positivos del 1 al 100?","r":"5050","exp":"Resolución analítica rápida aplicando el algoritmo de progresión aritmética lineal de Gauss","pista":"Suma lineal de Gauss"},
+      {"p":"¿Cuántas asíntotas verticales posee de forma exacta la función analítica racional f(x) = 1/(x² - 1)?","r":"2","exp":"Los puntos de indeterminación matemática que anulan el denominador real son exactamente x=1 y x=-1","pista":"Raíces del denominador de base"},
+      {"p":"¿Cuál es el valor de la cosecante para un ángulo de 90 grados sexagesimales perfectos?","r":"1","exp":"Función recíproca directa del seno; la división inversa de la unidad conserva el valor unitario","pista":"Inverso de seno de noventa"},
+      {"p":"¿Qué algoritmo informático de ordenamiento de datos divide arrays usando un elemento pivote central?","r":"quicksort","exp":"Estrategia algorítmica de ordenación rápida basada en el paradigma de diseño de divide y vencerás","pista":"Ordenamiento rápido clásico por pivote"}
+    ]
+  },
+  {
+    "nivel": 101,
+    "preguntas": [
+      {"p":"Si una matriz de adyacencia de un grafo tiene solo ceros en su diagonal principal, ¿el grafo tiene bucles?","r":"no","exp":"Un cero en la diagonal principal indica que ningún vértice tiene una arista que conecte consigo mismo.","pista":"Relación reflexiva"},
+      {"p":"¿Qué base numérica utiliza el prefijo standard '0x' en los lenguajes de programación como C++ o Python?","r":"hexadecimal","exp":"La notación 0x se reserva en ciencias de la computación para representar literales en base 16.","pista":"Base dieciséis"},
+      {"p":"¿Cuál es el valor de x en la ecuación de logaritmo base 2: log2(x) = 6?","r":"64","exp":"Aplicando la definición de logaritmo: dos elevado a la sexta potencia da como resultado 64.","pista":"Exponenciación inversa"},
+      {"p":"¿Qué compuerta lógica binaria devuelve un 0 lógico únicamente cuando todas sus entradas son 1?","r":"nand","exp":"La compuerta NAND es la negación directa de la conjunción lógica AND.","pista":"AND invertida"},
+      {"p":"¿Cómo se le llama a la estructura de datos lineal que opera bajo el estricto principio LIFO?","r":"pila","exp":"Last In, First Out (Último en entrar, primero en salir) define la operación de una pila o stack.","pista":"Estructura vertical"}
+    ]
+  },
+  {
+    "nivel": 102,
+    "preguntas": [
+      {"p":"¿Cuántas combinaciones de estados lógicos únicos se pueden direccionar usando exactamente 5 bits?","r":"32","exp":"El cálculo combinatorio para sistemas binarios se rige por la función exponencial de base dos: 2⁵ = 32.","pista":"Potencia de dos"},
+      {"p":"¿Qué nombre recibe el teorema que afirma que todo mapa puede ser coloreado con máximo 4 colores sin que regiones vecinas compartan color?","r":"teorema de los cuatro colores","exp":"Es un teorema clásico de la teoría de grafos demostrado mediante computación formal.","pista":"Número de colores"},
+      {"p":"En el modelo relacional de bases de datos, ¿cómo se llama la restricción que garantiza que un registro apunte a una clave primaria válida en otra tabla?","r":"clave foranea","exp":"La clave foránea o llave externa mantiene de forma estricta la integridad referencial de los datos.","pista":"Foreign Key"},
+      {"p":"¿Cuál es el resultado de calcular el valor del factorial de cero (0!)?","r":"1","exp":"Por definición y conveniencia matemática en combinatoria, el factorial de cero se establece unánimemente como 1.","pista":"Elemento neutro multiplicativo"},
+      {"p":"¿Qué tipo de software traduce el código fuente completo de un programa a lenguaje máquina antes de su ejecución?","r":"compilador","exp":"A diferencia de un intérprete, el compilador procesa todo el archivo para generar un ejecutable binario.","pista":"C++ usa uno"}
+    ]
+  },
+  {
+    "nivel": 103,
+    "preguntas": [
+      {"p":"Si el conjunto A tiene 3 elementos, ¿cuántos elementos posee el conjunto potencia de A?","r":"8","exp":"El cardinal del conjunto potencia de cualquier conjunto se calcula mediante la expresión analítica 2ⁿ.","pista":"Dos al cubo"},
+      {"p":"¿Qué algoritmo criptográfico asimétrico de clave pública basa su seguridad en la dificultad de factorizar números primos grandes?","r":"rsa","exp":"Creado por Rivest, Shamir y Adleman, RSA es el estándar histórico de encriptación asimétrica.","pista":"Tres iniciales"},
+      {"p":"¿Cuál es el límite matemático de la función f(x) = (3x + 5) / (x - 2) cuando x tiende a infinito?","r":"3","exp":"En límites al infinito de funciones racionales del mismo grado, el resultado es el cociente de los coeficientes principales.","pista":"Cociente principal"},
+      {"p":"¿Qué metodología de desarrollo de software utiliza sprints de tiempo fijo y reuniones diarias de sincronización?","r":"scrum","exp":"Scrum es un marco de trabajo ágil iterativo enfocado en la entrega de valor continuo.","pista":"Framework ágil"},
+      {"p":"¿Cuál es el equivalente decimal del número binario clásico 1010?","r":"10","exp":"Conversión posicional: (1x8) + (0x4) + (1x2) + (0x1) = 10 en base decimal.","pista":"Dígito de dos cifras"}
+    ]
+  },
+  {
+    "nivel": 104,
+    "preguntas": [
+      {"p":"¿Qué estructura de datos no lineal jerárquica no contiene ciclos y tiene un único nodo raíz?","r":"arbol","exp":"Un árbol es un grafo conectado y acíclico con un punto de entrada principal o raíz.","pista":"Estructura orgánica"},
+      {"p":"¿Cuál es el valor de la derivada de una constante numérica pura con respecto a x?","r":"0","exp":"Dado que una constante no experimenta variación o cambio, su tasa de variación instantánea es nula.","pista":"Sin cambio"},
+      {"p":"¿Qué protocolo de la capa de transporte de Internet está orientado a la conexión y garantiza la entrega de paquetes?","r":"tcp","exp":"Transmission Control Protocol implementa control de flujo y retransmisión para asegurar confiabilidad.","pista":"Tres letras, no es UDP"},
+      {"p":"¿Cuál es el resultado de la operación booleana: 1 OR (0 AND 1)?","r":"1","exp":"Evaluando por jerarquía: 0 AND 1 es 0. Luego, 1 OR 0 da como resultado final 1.","pista":"Álgebra de Boole"},
+      {"p":"¿Qué comando estándar de SQL se utiliza para eliminar la estructura completa de una tabla de la base de datos?","r":"drop table","exp":"DROP borra tanto los datos como la definición del objeto dentro del esquema de la base de datos.","pista":"Tirar tabla"}
+    ]
+  },
+  {
+    "nivel": 105,
+    "preguntas": [
+      {"p":"¿Qué principio de la programación orientada a objetos oculta los detalles internos de un componente exponiendo solo una interfaz?","r":"encapsulamiento","exp":"El encapsulamiento restringe el acceso directo a los atributos de un objeto para proteger su estado.","pista":"Caja negra"},
+      {"p":"¿Cuál es la probabilidad matemática exacta de obtener un número par al lanzar un dado estándar de 6 caras?","r":"0.5","exp":"Hay 3 casos favorables (2, 4, 6) sobre 6 casos posibles en total: 3/6 = 0.5 o 1/2.","pista":"Mitad de opciones"},
+      {"p":"¿Qué patrón de diseño de software restringe la instanciación de una clase a una única copia global en memoria?","r":"singleton","exp":"Singleton garantiza que una clase tenga solo una instancia y proporciona un punto de acceso global a ella.","pista":"Instancia única"},
+      {"p":"¿Cuál es la parte imaginaria del número complejo puro expresado algebraicamente como z = 5 - 3i?","r":"-3","exp":"El número complejo se descompone en su parte real (5) y el coeficiente de su componente imaginario (-3).","pista":"Coeficiente de i"},
+      {"p":"¿Qué métrica de complejidad algorítmica evalúa el peor escenario de tiempo de ejecución de una función?","r":"notacion big o","exp":"La notación Big O describe el comportamiento asintótico y el límite superior del crecimiento de un algoritmo.","pista":"O grande"}
+    ]
+  },
+  {
+    "nivel": 106,
+    "preguntas": [
+      {"p":"¿Qué propiedad algebraica formal se cumple si el orden de los factores no altera el producto final: A x B = B x A?","r":"conmutativa","exp":"La conmutatividad es aplicable a operaciones como la adición y la multiplicación escalar estándar.","pista":"Intercambiar posiciones"},
+      {"p":"¿Cómo se denomina al operador lógico binario que evalúa a verdadero solo si ambas proposiciones difieren en sus valores de verdad?","r":"xor","exp":"La disyunción exclusiva (O exclusivo) devuelve 1 cuando los valores de entrada son desiguales.","pista":"O exclusiva"},
+      {"p":"¿Qué herramienta de control de versiones distribuido fue diseñada y creada originalmente por Linus Torvalds?","r":"git","exp":"Linus Torvalds desarrolló Git en 2005 para administrar de forma eficiente el código fuente del kernel de Linux.","pista":"Tres letras"},
+      {"p":"¿Cuál es la solución real única de la ecuación logarítmica fundamental: ln(x) = 0?","r":"1","exp":"Cualquier base matemática válida elevada a la potencia cero da como resultado exacto la unidad.","pista":"Logaritmo natural"},
+      {"p":"¿Qué estructura de datos lineal funciona bajo el esquema rígido FIFO (First In, First Out)?","r":"cola","exp":"El primero en entrar es procesado y removido primero, idéntico a una fila de atención secuencial.","pista":"Fila o Queue"}
+    ]
+  },
+  {
+    "nivel": 107,
+    "preguntas": [
+      {"p":"¿Qué teorema geométrico afirma que en cualquier triángulo rectángulo el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos?","r":"teorema de pitagoras","exp":"Relación métrica fundamental en geometría euclidiana clásica.","pista":"Catetos y cuadrados"},
+      {"p":"¿Qué acrónimo describe las cuatro operaciones elementales de persistencia en una base de datos?","r":"crud","exp":"Create, Read, Update y Delete constituyen el núcleo funcional de la manipulación de datos.","pista":"Cuatro iniciales de datos"},
+      {"p":"¿Cuál es el valor decimal equivalente del número hexadecimal standard expresado como 0x0F?","r":"15","exp":"En base 16, los caracteres alfabéticos de la A a la F corresponden consecutivamente a los valores del 10 al 15.","pista":"Último dígito simple hex"},
+      {"p":"¿Qué concepto de redes define la dirección lógica única asignada a un dispositivo para su identificación en una red IP?","r":"direccion ip","exp":"La dirección IP actúa como el identificador de capa de red en el modelo conceptual OSI.","pista":"Internet Protocol"},
+      {"p":"¿Cómo se denomina a una función de programación que se invoca de forma directa a sí misma dentro de su cuerpo?","r":"recursiva","exp":"La recursividad divide un problema en subproblemas de menor tamaño basándose en un caso base imperativo.","pista":"Auto-invocación"}
+    ]
+  },
+  {
+    "nivel": 108,
+    "preguntas": [
+      {"p":"¿Qué metodología de diseño de software promueve escribir primero las pruebas unitarias antes del código funcional?","r":"tdd","exp":"Test-Driven Development (Desarrollo Guiado por Pruebas) estructura el desarrollo en ciclos cortos de refactorización.","pista":"Tres letras, empieza con T"},
+      {"p":"¿Cuál es el valor del determinante de una matriz cuadrada que posee dos filas exactamente idénticas?","r":"0","exp":"Por propiedades formales del álgebra lineal, si existe dependencia lineal de líneas, el determinante se anula.","pista":"Nulo"},
+      {"p":"¿Qué componente físico de hardware se encarga de realizar las operaciones aritméticas y lógicas dentro de la CPU?","r":"alu","exp":"La Arithmetic Logic Unit (Unidad Aritmético Lógica) ejecuta las instrucciones matemáticas binarias nativas.","pista":"Tres letras iniciales"},
+      {"p":"¿Qué paradigma de programación trata el cómputo como la evaluación de funciones matemáticas puras evitando estados mutables?","r":"funcional","exp":"La programación funcional se basa en expresiones declarativas invariables y en la ausencia de efectos secundarios.","pista":"Usa funciones"},
+      {"p":"¿Qué símbolo matemático se utiliza universalmente para denotar la intersección lógica de dos conjuntos distintos?","r":"∩","exp":"El carácter u invertida (∩) representa formalmente el conjunto de elementos comunes compartidos.","pista":"U al revés"}
+    ]
+  },
+  {
+    "nivel": 109,
+    "preguntas": [
+      {"p":"¿Cuál es el número entero intermedio que falta en la secuencia geométrica: 4, 12, ?, 108?","r":"36","exp":"La secuencia progresa de forma exponencial mediante un factor multiplicativo constante igual a 3.","pista":"Doce por tres"},
+      {"p":"¿Qué capa del modelo de referencia OSI se encarga del direccionamiento lógico y el enrutamiento de paquetes de datos?","r":"capa de red","exp":"La capa 3 o capa de red administra la topología lógica distribuyendo paquetes IP de origen a destino.","pista":"Tercera capa"},
+      {"p":"¿Qué tipo de error en programación detiene abruptamente la ejecución de un script debido a una división entre cero?","r":"error de ejecucion","exp":"Los errores de ejecución (runtime errors) ocurren en la fase operativa dinámica, evadiendo la revisión sintáctica estática.","pista":"En tiempo real"},
+      {"p":"¿Qué concepto matemático define a un subconjunto que no contiene ningún elemento en su estructura interior?","r":"conjunto vacio","exp":"Representado formalmente por el símbolo Ø, posee una cardinalidad equivalente a cero de forma exacta.","pista":"Nada dentro"},
+      {"p":"¿Qué lenguaje estructurado se utiliza universalmente para realizar consultas y manipular bases de datos relacionales?","r":"sql","exp":"Structured Query Language es el estándar internacional para interactuar con sistemas gestores relacionales.","pista":"Tres letras clave"}
+    ]
+  },
+  {
+    "nivel": 110,
+    "preguntas": [
+      {"p":"¿Cuál es el resultado exacto del cálculo del residuo de la operación aritmética modular: 25 modulo 7?","r":"4","exp":"Dividir 25 entre 7 da un cociente entero de 3 con un residuo sobrante analítico de 4 (3x7 = 21; 25-21=4).","pista":"Lo que sobra"},
+      {"p":"¿Qué propiedad de las transacciones de bases de datos asegura que o se ejecutan por completo todas las operaciones o ninguna?","r":"atomicidad","exp":"La atomicidad es la letra A del acrónimo ACID que rige la consistencia robusta de datos.","pista":"Todo o nada"},
+      {"p":"¿Cuál es el valor numérico decimal de la combinación binaria de control expresada como 1111?","r":"15","exp":"Conversión posicional directa: 8 + 4 + 2 + 1 = 15 en base diez estándar.","pista":"Máximo valor de 4 bits"},
+      {"p":"¿Qué tipo de grafo dirigido no contiene ningún ciclo o bucle cerrado a lo largo de sus caminos transitables?","r":"dag","exp":"Directed Acyclic Graph (Grafo Dirigido Acíclico) es crucial para representar flujos jerárquicos de procesos.","pista":"Tres siglas inglesas"},
+      {"p":"¿Qué nombre técnico recibe la variable especial que almacena la dirección física de memoria de otra variable en C++?","r":"puntero","exp":"Los punteros o apuntadores posibilitan la gestión y manipulación directa de la memoria física del hardware.","pista":"Pointer"}
+    ]
+  },
+  {
+    "nivel": 111,
+    "preguntas": [
+      {"p":"¿Qué algoritmo busca un elemento en un array ordenado dividiendo el rango de búsqueda repetidamente a la mitad?","r":"busqueda binaria","exp":"La búsqueda binaria reduce drásticamente el espacio de búsqueda logarítmicamente O(log n).","pista":"Divide a la mitad"},
+      {"p":"¿Cuál es el valor real de x que satisface algebraicamente la ecuación lineal: 3x - 9 = 0?","r":"3","exp":"Despejando la variable: 3x = 9, por lo tanto x = 9/3 = 3 de forma exacta.","pista":"Raíz de la ecuación"},
+      {"p":"¿Qué formato estándar ligero de intercambio de datos utiliza una sintaxis de pares clave-valor estructurada en texto plano?","r":"json","exp":"JavaScript Object Notation es el estándar dominante para la comunicación de APIs web.","pista":"JavaScript Object Notation"},
+      {"p":"¿Qué tipo de relación de conjuntos existe si todos los elementos de A se encuentran contenidos dentro de B?","r":"subconjunto","exp":"Denota una inclusión formal de conjuntos, donde A es subconjunto de B.","pista":"Inclusión total"},
+      {"p":"¿Cómo se denomina a la instancia física concreta construida en memoria a partir de la definición de una clase?","r":"objeto","exp":"Los objetos encapsulan estados dinámicos y comportamientos definidos en sus respectivas plantillas o clases.","pista":"Núcleo de la POO"}
+    ]
+  },
+  {
+    "nivel": 112,
+    "preguntas": [
+      {"p":"¿Qué tipo de datos primitivo solo puede almacenar de forma interna los valores lógicos true o false?","r":"booleano","exp":"El tipo de dato booleano se asocia directamente a la lógica binaria matemática fundacional.","pista":"Boolean"},
+      {"p":"¿Cuál es la suma interna total de los ángulos de cualquier cuadrilátero convexo plano regular?","r":"360","exp":"Cualquier cuadrilátero se compone de dos triángulos internos (2 x 180 = 360 grados absolutos).","pista":"Círculo completo en grados"},
+      {"p":"¿Qué sigla identifica al patrón arquitectónico que separa una aplicación en Modelo, Vista y Controlador?","r":"mvc","exp":"MVC organiza el código aislando la lógica de negocio, los datos y la interfaz visual de usuario.","pista":"Tres letras iniciales organizativas"},
+      {"p":"¿Qué tipo de ataque informático satura un servidor web mediante peticiones masivas distribuidas coordinadas?","r":"ddos","exp":"Distributed Denial of Service (Denegación de Servicio Distribuida) inhabilita sistemas sobrecargando su ancho de banda.","pista":"Ataque masivo de red"},
+      {"p":"¿Cuál es el inverso multiplicativo real del valor numérico entero 4?","r":"0.25","exp":"El inverso multiplicativo se define formalmente como 1/x, lo que equivale a 1/4 = 0.25.","pista":"Un cuarto"}
+    ]
+  },
+  {
+    "nivel": 113,
+    "preguntas": [
+      {"p":"¿Cuál es el coeficiente del término x² tras realizar la expansión del binomio al cuadrado (x + 3)²?","r":"1","exp":"La expansión es x² + 6x + 9, donde el coeficiente principal implícito del término cuadrático es la unidad.","pista":"Coeficiente principal"},
+      {"p":"¿Qué protocolo seguro encripta la comunicación de transferencia de hipertexto en la web de forma estándar?","r":"https","exp":"HTTPS utiliza protocolos criptográficos SSL/TLS para tunelizar de forma segura el tráfico HTTP básico.","pista":"HTTP con seguridad"},
+      {"p":"¿Qué estructura de datos almacena elementos de forma asociativa mediante una función hash para búsquedas O(1)?","r":"tabla hash","exp":"Las tablas hash indexan datos asociando claves únicas a ubicaciones físicas de memoria optimizadas.","pista":"Diccionario o mapa indexado"},
+      {"p":"¿Qué propiedad formal de conjuntos establece que A ∪ A es igual de forma estricta al conjunto original A?","r":"idempotencia","exp":"La idempotencia garantiza que aplicar la misma operación repetidamente sobre un elemento conserva su estado original.","pista":"Operación neutra repetida"},
+      {"p":"¿Qué extensión de archivo estándar se asigna nativamente a un script de código escrito en lenguaje Python?","r":".py","exp":"Los archivos con sufijo de extensión .py contienen instrucciones de texto plano para el intérprete de Python.","pista":"Dos letras de Python"}
+    ]
+  },
+  {
+    "nivel": 114,
+    "preguntas": [
+      {"p":"¿Qué operador lógico condicional binario devuelve un estado falso únicamente si el antecedente es verdadero y el consecuente es falso?","r":"implicacion","exp":"La condicional material o implicación lógica rige las deducciones del tipo 'si P entonces Q'.","pista":"Si entonces"},
+      {"p":"¿Cuál es la raíz cúbica exacta del valor numérico entero 27?","r":"3","exp":"El número 3 multiplicado por sí mismo tres veces consecutivas resulta en 27 de forma exacta (3x3x3=27).","pista":"Tres al cubo es..."},
+      {"p":"En Git, ¿qué comando específico se utiliza para descargar el historial de un repositorio remoto y fusionarlo directamente con el local?","r":"git pull","exp":"Git pull ejecuta una operación combinada secuencial interna de 'fetch' seguida por un 'merge'.","pista":"Traer cambios"},
+      {"p":"¿Qué paradigma de base de datos almacena información estructurada fuera del esquema tabular relacional clásico?","r":"nosql","exp":"NoSQL engloba bases de datos orientadas a documentos, grafos, clave-valor y columnas anchas.","pista":"No Relacional"},
+      {"p":"¿Qué número decimal se obtiene de decodificar directamente el carácter hexadecimal standard 'A'?","r":"10","exp":"La ordenación posicional asigna de forma unívoca el valor indexado 10 a la primera letra del sistema hex.","pista":"Sigue al nueve"}
+    ]
+  },
+  {
+    "nivel": 115,
+    "preguntas": [
+      {"p":"¿Cuál es el valor del término número 6 en la sucesión fundamental de Fibonacci comenzando desde 0, 1, 1, 2...?","r":"5","exp":"La serie progresa como: 0 (1º), 1 (2º), 1 (3º), 2 (4º), 3 (5º), 5 (6º) a través de sumas adyacentes.","pista":"Suma de 2 y 3"},
+      {"p":"¿Qué componente de un sistema operativo administra de forma directa el hardware coordinando la memoria y los procesos básicos?","r":"kernel","exp":"El kernel o núcleo es la capa de software de bajo nivel central del sistema operativo.","pista":"Núcleo del sistema"},
+      {"p":"¿Qué principio SOLID establece de forma estricta que una clase debe tener una única razón para experimentar modificaciones?","r":"principio de responsabilidad unica","exp":"Single Responsibility Principle postula la máxima cohesión aislando funciones discretas en componentes separados.","pista":"Una sola tarea"},
+      {"p":"¿Cuál es el valor absoluto de evaluar de forma aislada la función trigonométrica: coseno de 180 grados?","r":"1","exp":"Cose(180) = -1. Al calcular el valor absoluto analítico, la distancia lineal a cero se transforma en 1 positivo.","pista":"Magnitud sin signo"},
+      {"p":"¿Qué palabra clave se emplea formalmente en C++ para liberar de forma manual memoria dinámica previamente reservada con 'new'?","r":"delete","exp":"Delete invoca al destructor liberando bloques del heap físico para prevenir fugas de memoria (memory leaks).","pista":"Borrar en inglés"}
+    ]
+  },
+  {
+    "nivel": 116,
+    "preguntas": [
+      {"p":"¿Qué tipo de lenguaje es HTML, encargado de definir de forma nativa la arquitectura estructural básica de una página web?","r":"lenguaje de marcado","exp":"HTML no es un lenguaje de programación lógico; estructura hipertexto mediante etiquetas directas anidadas.","pista":"Markup Language"},
+      {"p":"¿Cuál es el resultado matemático de evaluar el límite formal de la expresión (1/x) cuando x tiende a infinito?","r":"0","exp":"A medida que el denominador real crece sin cota superior, el valor de la fracción disminuye asintóticamente hacia cero.","pista":"Indeterminación infinitesimal"},
+      {"p":"¿Qué tipo de indexación de bases de datos reorganiza físicamente los registros de la tabla en base a una clave?","r":"indice clustered","exp":"Un índice agrupado o clustered dicta el orden de almacenamiento físico directo de los datos en el disco duro.","pista":"Índice agrupado"},
+      {"p":"¿Qué símbolo lógico matemático representa de forma estricta la cuantificación existencial 'existe al menos uno'?","r":"∃","exp":"El carácter de cuantificación existencial (∃) denota la existencia mínima de un elemento que satisface una condición.","pista":"E invertida horizontalmente"},
+      {"p":"¿Qué método de autenticación requiere dos factores independientes verificables antes de validar el acceso a una cuenta de usuario?","r":"mfa","exp":"Multi-Factor Authentication (o 2FA) combina credenciales de conocimiento, posesión o rasgos inherentes biometría.","pista":"Multi-Factor Authentication"}
+    ]
+  },
+  {
+    "nivel": 117,
+    "preguntas": [
+      {"p":"¿Qué algoritmo clásico se utiliza para encontrar el camino más corto entre un nodo origen y todos los demás nodos de un grafo con pesos no negativos?","r":"dijkstra","exp":"El algoritmo de Dijkstra es un enfoque ávido (greedy) fundamental para la optimización de rutas en redes.","pista":"Algoritmo de rutas óptimas"},
+      {"p":"¿Cuál es la varianza estadística de un conjunto de datos numéricos homogéneos donde todos los valores son idénticos?","r":"0","exp":"Debido a que no se registra dispersión ni desviaciones con respecto al valor medio, la varianza es nula.","pista":"Sin dispersión"},
+      {"p":"¿Qué propiedad CSS controla la disposición espacial bidimensional de elementos mediante un esquema estricto de filas y columnas?","r":"grid","exp":"CSS Grid Layout introduce un control de diseño de dos ejes para maquetaciones web de alta precisión.","pista":"Rejilla en inglés"},
+      {"p":"¿Qué operación de conjuntos da como resultado un nuevo conjunto integrado solo por los elementos que pertenecen exclusivamente a A pero no a B?","r":"diferencia","exp":"La diferencia de conjuntos (A - B) remueve del conjunto origen todas las entidades compartidas.","pista":"Resta de conjuntos"},
+      {"p":"¿Cómo se denomina a una variable global cuyo valor es de tipo constante y no puede ser alterado en tiempo de ejecución?","r":"constante","exp":"Las constantes reservan espacios de memoria protegidos de escritura asignando identificadores de lectura fija.","pista":"Invariable"}
+    ]
+  },
+  {
+    "nivel": 118,
+    "preguntas": [
+      {"p":"¿Cuál es el grado absoluto del polinomio multivariable expresado algebraicamente como: P(x,y) = 4x³y⁴ + 2x²y?","r":"7","exp":"El grado absoluto se computa identificando el término con la mayor suma lineal de exponentes: 3 + 4 = 7.","pista":"Suma de exponentes del término mayor"},
+      {"p":"¿Qué servicio de infraestructura de red traduce nombres de dominio legibles por humanos a direcciones IP binarias lógicas?","r":"dns","exp":"Domain Name System actúa como la libreta de direcciones distribuida global de la arquitectura de Internet.","pista":"Domain Name System"},
+      {"p":"¿Qué estructura de control de flujo evalúa iterativamente una condición ejecutando instrucciones mientras esta permanezca verdadera?","r":"while","exp":"El bucle while repite la ejecución de un bloque condicional mientras el estado evaluado no devuelva falso.","pista":"Mientras en inglés"},
+      {"p":"¿Qué concepto describe al conjunto formado por todos los elementos posibles bajo consideración dentro de un universo de estudio de conjuntos?","r":"conjunto universo","exp":"El conjunto referencial o universo enmarca la totalidad de las entidades lógicas sujetas a análisis.","pista":"El todo contextual"},
+      {"p":"¿Qué tipo de software de bajo nivel se almacena de forma inalterable en la memoria ROM controlando las rutinas de arranque físicas del hardware?","r":"firmware","exp":"El firmware proporciona el control operativo de bajo nivel para interactuar de forma nativa con los circuitos del dispositivo.","pista":"Software de hardware"}
+    ]
+  },
+  {
+    "nivel": 119,
+    "preguntas": [
+      {"p":"¿Qué término describe un estado de bloqueo en sistemas distribuidos donde dos o más procesos se esperan mutuamente de forma infinita?","r":"deadlock","exp":"Un interbloqueo o deadlock ocurre por exclusión mutua, retención y espera con no-expropiación de recursos.","pista":"Abrazo mortal de procesos"},
+      {"p":"¿Cuál es el valor del módulo o magnitud geométrica de un vector bidimensional estándar expresado como (3, 4)?","r":"5","exp":"Aplicando la distancia euclidiana: raíz cuadrada de (3² + 4²) = raíz de 25 = 5 unidades exactas.","pista":"Hipotenusa del triángulo 3-4"},
+      {"p":"¿Qué propiedad de la POO permite a un método comportarse de formas distintas dependiendo del objeto específico que lo invoque?","r":"polimorfismo","exp":"El polimorfismo faculta a las clases derivadas a redefinir implementaciones de interfaces comunes compartidas.","pista":"Muchas formas"},
+      {"p":"¿Qué ley booleana formal afirma analíticamente la equivalencia lógica: NOT(A AND B) = (NOT A) OR (NOT B)?","r":"ley de de morgan","exp":"Las leyes de De Morgan simplifican expresiones mediante la transformación dual de conjunciones y disyunciones lógicas.","pista":"Teorema de negación distributiva"},
+      {"p":"¿Qué puerto estándar de red utiliza por defecto el protocolo inseguro de transferencia de hipertexto HTTP?","r":"80","exp":"El puerto de red número 80 está asignado por convención internacional de la IANA para tráfico HTTP web plano.","pista":"Ocho decenas"}
+    ]
+  },
+  {
+    "nivel": 120,
+    "preguntas": [
+      {"p":"¿Cuál es la complejidad temporal promedio en el peor escenario del algoritmo clásico de ordenamiento por mezcla Merge Sort?","r":"o(n log n)","exp":"Merge Sort utiliza un árbol balanceado de subdivisiones y fusiones lineales garantizando eficiencia asintótica regular uniforme.","pista":"Lineal logarítmica"},
+      {"p":"¿Cuál es el valor del límite matemático de (sin x) / x cuando la variable independiente x tiende exactamente a cero?","r":"1","exp":"Se trata de un límite trigonométrico notable fundamental demostrable analíticamente por la regla de L'Hôpital.","pista":"Unidad del límite notable"},
+      {"p":"¿Qué teorema de la probabilidad permite calcular la probabilidad condicional a posteriori combinando información previa?","r":"teorema de bayes","exp":"El teorema de Bayes es la base analítica matemática de la inferencia estadística de datos condicionales.","pista":"Inferencia de probabilidad estadística"},
+      {"p":"¿Qué propiedad formal de las operaciones de conjuntos establece analíticamente que: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)?","r":"distributiva","exp":"La distributividad de los operadores lógicos interconecta de forma equivalente la intersección sobre la unión.","pista":"Distribuir operadores"},
+      {"p":"¿Qué problema clásico de la computación teórica plantea la pregunta sobre si un algoritmo puede determinar si un programa terminará o se ejecutará infinitamente?","r":"problema del paron","exp":"Demostrado insoluble por Alan Turing en 1936, el Halting Problem establece límites formales a la lógica computacional.","pista":"Problema del Parón (Halting)"}
+    ]
+  }
+]
