@@ -9,6 +9,7 @@ struct NivelIdentificable: Identifiable {
 struct MapaView: View {
     @EnvironmentObject var auth: AuthViewModel
     var usuario: UserProgress
+    var onVolverRamas: (() -> Void)?
 
     // CORRECCIÓN: Se reemplazan 'nivelSeleccionado' y 'mostrarJuego' por un solo estado seguro
     @State private var nivelActivo: NivelIdentificable?
@@ -85,6 +86,10 @@ struct MapaView: View {
     // MARK: - Top Bar
     private var barraTop: some View {
         HStack(spacing: 16) {
+            if let onVolverRamas {
+                topBtn(icono: "chevron.left", etiqueta: "Ramas", accion: onVolverRamas)
+            }
+
             Button {
                 mostrarPerfil = true
             } label: {
@@ -182,11 +187,15 @@ struct MapaView: View {
     // MARK: - Insignias Row
     @ViewBuilder
     private var insigniasRow: some View {
-        if usuario.insigniaRazonia || usuario.insigniaHackerPensamiento {
+        if usuario.insigniaRazonia || usuario.insigniaLogica || usuario.insigniaHackerPensamiento {
             HStack(spacing: 12) {
                 if usuario.insigniaRazonia {
                     insigniaPill("🏆", "Razonia Completado",
                                  colores: [Color(red: 1.0, green: 0.75, blue: 0.0), Color(red: 0.8, green: 0.5, blue: 0.0)])
+                }
+                if usuario.insigniaLogica {
+                    insigniaPill("🧩", "Razonamiento Lógico",
+                                 colores: [Color(red: 0.85, green: 0.3, blue: 1.0), Color(red: 1.0, green: 0.2, blue: 0.5)])
                 }
                 if usuario.insigniaHackerPensamiento {
                     insigniaPill("🎖️", "Hacker del Pensamiento Lógico",

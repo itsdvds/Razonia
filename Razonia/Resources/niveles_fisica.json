@@ -1,0 +1,547 @@
+[
+  {
+    "nivel": 1,
+    "preguntas": [
+      {
+        "p": "¿Cuál es la unidad del Sistema Internacional para medir la fuerza?",
+        "r": "newton",
+        "exp": "El newton (N) es la unidad de fuerza en el SI, igual a kg·m/s²",
+        "pista": "Se llama como el famoso físico inglés"
+      },
+      {
+        "p": "¿Qué velocidad aproximada tiene la luz en el vacío?",
+        "r": "300000 km/s",
+        "exp": "La velocidad de la luz en el vacío es aproximadamente 299,792,458 m/s",
+        "pista": "Es una constante universal"
+      },
+      {
+        "p": "¿Cuál es la fórmula de la energía cinética?",
+        "r": "(1/2)mv²",
+        "exp": "La energía cinética es E_k = ½mv², donde m es masa y v es velocidad",
+        "pista": "Depende de la masa y el cuadrado de la velocidad"
+      },
+      {
+        "p": "Un objeto cae libremente. ¿Qué fuerza actúa sobre él?",
+        "r": "gravedad",
+        "exp": "En caída libre, solo actúa la fuerza gravitacional sobre el objeto",
+        "pista": "Atrae hacia el centro de la Tierra"
+      }
+    ]
+  },
+  {
+    "nivel": 2,
+    "preguntas": [
+      {
+        "p": "¿Qué ley dice que a toda acción le corresponde una reacción igual y opuesta?",
+        "r": "tercera ley de newton",
+        "exp": "La Tercera Ley de Newton o Ley de Acción y Reacción describe la interacción entre dos cuerpos",
+        "pista": "Newton enunció tres leyes del movimiento"
+      },
+      {
+        "p": "¿Cuál es la aceleración de la gravedad en la superficie terrestre?",
+        "r": "9.8 m/s²",
+        "exp": "g ≈ 9.8 m/s² es la aceleración gravitacional estándar en la superficie de la Tierra",
+        "pista": "Aproximadamente 10 m/s²"
+      },
+      {
+        "p": "¿Qué tipo de energía tiene un resorte comprimido?",
+        "r": "energía potencial elástica",
+        "exp": "La deformación elástica almacena energía potencial que se libera al regresar a su forma original",
+        "pista": "Se almacena por deformación"
+      },
+      {
+        "p": "Un cuerpo en reposo permanece en reposo si no actúa ninguna fuerza. ¿Qué ley es esta?",
+        "r": "primera ley de newton",
+        "exp": "La Primera Ley de Newton o Ley de Inercia describe la tendencia de los cuerpos a mantener su estado",
+        "pista": "También se llama ley de inercia"
+      }
+    ]
+  },
+  {
+    "nivel": 3,
+    "preguntas": [
+      {
+        "p": "¿Qué mide el voltímetro?",
+        "r": "voltaje",
+        "exp": "El voltímetro mide la diferencia de potencial eléctrico (voltaje) entre dos puntos",
+        "pista": "Se conecta en paralelo"
+      },
+      {
+        "p": "¿Cuál es la fórmula de la Ley de Ohm?",
+        "r": "V=IR",
+        "exp": "La Ley de Ohm establece que V=I·R, donde V es voltaje, I es corriente y R es resistencia",
+        "pista": "Relaciona voltaje, corriente y resistencia"
+      },
+      {
+        "p": "¿Cuánto vale 1 kilovatio-hora en joules?",
+        "r": "3600000 J",
+        "exp": "1 kWh = 1000 W × 3600 s = 3,600,000 J = 3.6 MJ",
+        "pista": "1 hora tiene 3600 segundos"
+      },
+      {
+        "p": "Si duplicas la distancia entre dos cargas eléctricas, ¿qué le pasa a la fuerza coulombiana?",
+        "r": "se divide entre cuatro",
+        "exp": "La Ley de Coulomb es F=kq₁q₂/r². Si r se duplica, F disminuye 4 veces",
+        "pista": "Ley del cuadrado inverso"
+      }
+    ]
+  },
+  {
+    "nivel": 4,
+    "preguntas": [
+      {
+        "p": "¿Qué tipo de onda es el sonido?",
+        "r": "onda mecánica longitudinal",
+        "exp": "El sonido es una onda mecánica longitudinal que necesita un medio material para propagarse",
+        "pista": "Necesita un medio material"
+      },
+      {
+        "p": "¿Puede viajar el sonido en el vacío?",
+        "r": "no",
+        "exp": "El sonido requiere un medio material (sólido, líquido o gas) para propagarse; no puede viajar en el vacío",
+        "pista": "En el espacio nadie puede oírte gritar"
+      },
+      {
+        "p": "¿Cuál es la unidad de frecuencia?",
+        "r": "hertz",
+        "exp": "El hertz (Hz) es la unidad de frecuencia y equivale a un ciclo por segundo",
+        "pista": "Su símbolo es Hz"
+      },
+      {
+        "p": "¿Qué ocurre con la longitud de onda si la frecuencia aumenta (misma velocidad)?",
+        "r": "disminuye",
+        "exp": "v = f·λ. Si v es constante y f aumenta, λ debe disminuir",
+        "pista": "Velocidad = frecuencia × longitud de onda"
+      }
+    ]
+  },
+  {
+    "nivel": 5,
+    "preguntas": [
+      {
+        "p": "¿Qué principio explica por qué los aviones generan sustentación?",
+        "r": "principio de bernoulli",
+        "exp": "El principio de Bernoulli establece que mayor velocidad del fluido implica menor presión",
+        "pista": "Relaciona velocidad y presión en fluidos"
+      },
+      {
+        "p": "¿Cuál es la unidad de presión en el SI?",
+        "r": "pascal",
+        "exp": "El pascal (Pa) es la unidad de presión en el SI; equivale a 1 N/m²",
+        "pista": "Su símbolo es Pa"
+      },
+      {
+        "p": "Un cubo de hierro y uno de madera del mismo tamaño se sumergen en agua. ¿Cuál tiene mayor empuje?",
+        "r": "son iguales",
+        "exp": "El empuje (principio de Arquímedes) depende del volumen desplazado, no de la masa del objeto",
+        "pista": "El empuje depende del volumen desplazado"
+      },
+      {
+        "p": "¿Qué ley establece que el empuje es igual al peso del fluido desplazado?",
+        "r": "principio de arquimedes",
+        "exp": "Arquímedes descubrió que la fuerza de empuje equivale al peso del fluido desplazado por el objeto",
+        "pista": "¡Eureka!"
+      }
+    ]
+  },
+  {
+    "nivel": 6,
+    "preguntas": [
+      {
+        "p": "¿Qué es la inercia?",
+        "r": "tendencia de un objeto a mantener su estado de movimiento",
+        "exp": "La inercia es la resistencia de un cuerpo a cambiar su estado de reposo o movimiento uniforme",
+        "pista": "Primera ley de Newton"
+      },
+      {
+        "p": "¿Cuál es la fórmula de la fuerza según la segunda ley de Newton?",
+        "r": "F=ma",
+        "exp": "La Segunda Ley de Newton establece que la fuerza neta es igual a la masa por la aceleración",
+        "pista": "Fuerza, masa y aceleración"
+      },
+      {
+        "p": "Si una bala de 10g viaja a 900 m/s, ¿cuánto momentum tiene?",
+        "r": "9 kg·m/s",
+        "exp": "p = m·v = 0.01 kg × 900 m/s = 9 kg·m/s",
+        "pista": "Momentum = masa × velocidad"
+      },
+      {
+        "p": "¿Qué tipo de colisión conserva tanto momentum como energía cinética?",
+        "r": "colisión elástica",
+        "exp": "En una colisión perfectamente elástica se conservan tanto el momentum como la energía cinética total",
+        "pista": "Contraria a la colisión inelástica"
+      }
+    ]
+  },
+  {
+    "nivel": 7,
+    "preguntas": [
+      {
+        "p": "¿Qué fenómeno ocurre cuando la luz pasa de un medio a otro y cambia su dirección?",
+        "r": "refracción",
+        "exp": "La refracción es el cambio de dirección de la luz al pasar entre medios con diferente índice de refracción",
+        "pista": "Por eso un lápiz en agua parece quebrado"
+      },
+      {
+        "p": "¿Cuál es la diferencia entre reflexión y refracción?",
+        "r": "la reflexión rebota la luz y la refracción la dobla",
+        "exp": "La reflexión devuelve la luz al mismo medio; la refracción la transmite a otro medio cambiando su ángulo",
+        "pista": "Un espejo refleja, una lente refracta"
+      },
+      {
+        "p": "¿Qué tipo de lente converge los rayos de luz?",
+        "r": "lente convexa",
+        "exp": "Las lentes convexas (convergentes) hacen que los rayos paralelos converjan en el foco",
+        "pista": "Se usa en lupas"
+      },
+      {
+        "p": "¿Cuántos colores tiene el espectro visible?",
+        "r": "7",
+        "exp": "El espectro visible se divide en 7 colores: rojo, naranja, amarillo, verde, azul, índigo y violeta",
+        "pista": "Recuerda el arcoíris"
+      }
+    ]
+  },
+  {
+    "nivel": 8,
+    "preguntas": [
+      {
+        "p": "¿Qué establece la Primera Ley de la Termodinámica?",
+        "r": "la energía no se crea ni se destruye solo se transforma",
+        "exp": "La energía total de un sistema aislado permanece constante; solo puede transformarse de una forma a otra",
+        "pista": "Conservación de energía"
+      },
+      {
+        "p": "¿Qué mide la entropía?",
+        "r": "el desorden de un sistema",
+        "exp": "La entropía es una medida del grado de desorden o aleatoriedad de un sistema termodinámico",
+        "pista": "Tiende a aumentar en procesos naturales"
+      },
+      {
+        "p": "¿Cuál es la escala de temperatura del Sistema Internacional?",
+        "r": "kelvin",
+        "exp": "El kelvin (K) es la unidad de temperatura termodinámica del SI; 0 K es el cero absoluto",
+        "pista": "0 K = -273.15°C"
+      },
+      {
+        "p": "¿Cuánto es el cero absoluto en grados Celsius?",
+        "r": "-273 grados celsius",
+        "exp": "El cero absoluto equivale a −273.15 °C, temperatura a la que la energía térmica es mínima",
+        "pista": "El punto más frío posible"
+      }
+    ]
+  },
+  {
+    "nivel": 9,
+    "preguntas": [
+      {
+        "p": "¿Qué partícula tiene carga negativa en un átomo?",
+        "r": "electrón",
+        "exp": "Los electrones son partículas subatómicas con carga negativa que orbitan el núcleo atómico",
+        "pista": "Orbita el núcleo"
+      },
+      {
+        "p": "¿Qué partícula se encuentra en el núcleo y no tiene carga eléctrica?",
+        "r": "neutrón",
+        "exp": "El neutrón es una partícula nuclear sin carga eléctrica; junto con los protones forma el núcleo",
+        "pista": "Neutra, sin carga"
+      },
+      {
+        "p": "¿Qué fenómeno ocurre cuando un núcleo inestable emite radiación?",
+        "r": "desintegración radiactiva",
+        "exp": "La desintegración o decaimiento radiactivo ocurre cuando un núcleo inestable emite partículas o energía",
+        "pista": "Nucleo inestable"
+      },
+      {
+        "p": "¿Cuál es la unidad de actividad radiactiva?",
+        "r": "becquerel",
+        "exp": "El becquerel (Bq) es la unidad de actividad radiactiva; equivale a una desintegración por segundo",
+        "pista": "Su símbolo es Bq"
+      }
+    ]
+  },
+  {
+    "nivel": 10,
+    "preguntas": [
+      {
+        "p": "¿Cuál es la relación entre energía y masa según Einstein?",
+        "r": "E=mc²",
+        "exp": "La ecuación E=mc² de Einstein muestra que masa y energía son equivalentes y convertibles",
+        "pista": "La ecuación más famosa de la física"
+      },
+      {
+        "p": "¿Qué postulado de la relatividad dice que la velocidad de la luz es constante?",
+        "r": "segundo postulado de la relatividad especial",
+        "exp": "Einstein postuló que la velocidad de la luz en el vacío es constante para todos los observadores inerciales",
+        "pista": "Relatividad especial de Einstein"
+      },
+      {
+        "p": "¿Qué ocurre con el tiempo en un objeto que viaja cerca de la velocidad de la luz?",
+        "r": "se dilata",
+        "exp": "La dilatación temporal es un efecto relativista donde el tiempo transcurre más lento a velocidades relativistas",
+        "pista": "El tiempo no es absoluto"
+      },
+      {
+        "p": "¿Qué es un agujero negro?",
+        "r": "region del espacio con gravedad tan intensa que ni la luz escapa",
+        "exp": "Un agujero negro es una región del espacio donde la densidad crea una gravedad que supera la velocidad de escape de la luz",
+        "pista": "Ni la luz puede escapar"
+      }
+    ]
+  },
+  {
+    "nivel": 11,
+    "preguntas": [
+      {
+        "p": "¿Qué tipo de movimiento describe un péndulo en pequeñas oscilaciones?",
+        "r": "movimiento armónico simple",
+        "exp": "En pequeñas amplitudes un péndulo aproxima el MAS: movimiento periódico con fuerza restauradora proporcional al desplazamiento",
+        "pista": "Movimiento periódico"
+      },
+      {
+        "p": "¿De qué depende el período de un péndulo simple?",
+        "r": "de su longitud",
+        "exp": "T = 2π√(L/g). El período depende de la longitud del péndulo y de g, no de la masa ni de la amplitud (para ángulos pequeños)",
+        "pista": "No depende de la masa"
+      },
+      {
+        "p": "¿Qué es la resonancia?",
+        "r": "cuando la frecuencia de excitación coincide con la frecuencia natural del sistema",
+        "exp": "La resonancia ocurre cuando la frecuencia aplicada iguala la frecuencia propia del sistema, amplificando las oscilaciones",
+        "pista": "Puede romper puentes"
+      },
+      {
+        "p": "¿Cuál es la unidad del período de oscilación?",
+        "r": "segundo",
+        "exp": "El período T se mide en segundos (s) en el SI",
+        "pista": "Unidad de tiempo"
+      }
+    ]
+  },
+  {
+    "nivel": 12,
+    "preguntas": [
+      {
+        "p": "¿Qué es la difracción?",
+        "r": "el doblegamiento de las ondas al pasar por una abertura o alrededor de un obstáculo",
+        "exp": "La difracción es el fenómeno en que las ondas se desvían al encontrar obstáculos o aberturas comparables a su longitud de onda",
+        "pista": "Las ondas se curvan"
+      },
+      {
+        "p": "¿Cuándo se produce interferencia constructiva?",
+        "r": "cuando dos ondas se suman y su amplitud aumenta",
+        "exp": "La interferencia constructiva ocurre cuando dos ondas están en fase y sus crestas coinciden, aumentando la amplitud resultante",
+        "pista": "Las ondas se refuerzan"
+      },
+      {
+        "p": "¿Qué es el efecto Doppler?",
+        "r": "cambio en la frecuencia percibida de una onda cuando la fuente y el receptor se mueven relativamente",
+        "exp": "El efecto Doppler es el cambio aparente de frecuencia de una onda debido al movimiento relativo entre fuente y observador",
+        "pista": "La sirena de una ambulancia"
+      },
+      {
+        "p": "¿Por qué el cielo es azul?",
+        "r": "por la dispersión de rayleigh",
+        "exp": "Las moléculas de la atmósfera dispersan más la luz de longitud de onda corta (azul), haciendo que el cielo se vea azul",
+        "pista": "Dispersión selectiva de la luz solar"
+      }
+    ]
+  },
+  {
+    "nivel": 13,
+    "preguntas": [
+      {
+        "p": "¿Qué es el campo magnético?",
+        "r": "region del espacio donde actúan fuerzas magnéticas sobre cargas en movimiento",
+        "exp": "El campo magnético es una perturbación del espacio generada por cargas en movimiento o imanes permanentes",
+        "pista": "Actúa sobre cargas en movimiento"
+      },
+      {
+        "p": "¿Cuál es la unidad del campo magnético en el SI?",
+        "r": "tesla",
+        "exp": "El tesla (T) es la unidad de densidad de flujo magnético (campo magnético) en el SI",
+        "pista": "Su símbolo es T"
+      },
+      {
+        "p": "¿Qué ley describe la inducción electromagnética?",
+        "r": "ley de faraday",
+        "exp": "La Ley de Faraday establece que un campo magnético variable induce una fuerza electromotriz en un conductor",
+        "pista": "Un campo magnético variable genera corriente"
+      },
+      {
+        "p": "¿Qué dispositivo convierte energía mecánica en eléctrica usando inducción?",
+        "r": "generador",
+        "exp": "Los generadores eléctricos usan la inducción electromagnética para convertir movimiento mecánico en corriente eléctrica",
+        "pista": "Produce electricidad"
+      }
+    ]
+  },
+  {
+    "nivel": 14,
+    "preguntas": [
+      {
+        "p": "¿Qué es la presión hidrostática?",
+        "r": "la presión ejercida por un fluido en reposo",
+        "exp": "La presión hidrostática P = ρgh depende de la densidad del fluido, la gravedad y la profundidad",
+        "pista": "Aumenta con la profundidad"
+      },
+      {
+        "p": "¿Qué establece el principio de Pascal?",
+        "r": "la presión aplicada a un fluido encerrado se transmite igual en todas las direcciones",
+        "exp": "Pascal demostró que la presión en un fluido confinado se transmite íntegramente a todas las partes del fluido",
+        "pista": "Base de los sistemas hidráulicos"
+      },
+      {
+        "p": "¿Por qué flota un barco de acero a pesar de ser más denso que el agua?",
+        "r": "porque desplaza un volumen de agua cuyo peso es mayor que el del barco",
+        "exp": "El barco flota porque su forma hueca desplaza suficiente agua para que el empuje iguale su peso total",
+        "pista": "Principio de Arquímedes"
+      },
+      {
+        "p": "¿Qué es la tensión superficial?",
+        "r": "fuerza cohesiva entre moléculas en la superficie de un líquido",
+        "exp": "La tensión superficial es resultado de las fuerzas de cohesión entre moléculas en la interfaz líquido-aire",
+        "pista": "Permite que insectos caminen sobre el agua"
+      }
+    ]
+  },
+  {
+    "nivel": 15,
+    "preguntas": [
+      {
+        "p": "¿Cuántos joules equivale 1 caloría?",
+        "r": "4.18 J",
+        "exp": "1 caloría = 4.184 J; la caloría mide la energía necesaria para elevar 1 g de agua en 1°C",
+        "pista": "Unidad de energía térmica"
+      },
+      {
+        "p": "¿Qué proceso de transferencia de calor no requiere medio material?",
+        "r": "radiación",
+        "exp": "La radiación térmica (ondas electromagnéticas) puede propagarse en el vacío, a diferencia de conducción y convección",
+        "pista": "El Sol nos calienta a través del vacío"
+      },
+      {
+        "p": "¿Cuál es la diferencia entre calor y temperatura?",
+        "r": "el calor es energía en tránsito y la temperatura es una propiedad del sistema",
+        "exp": "La temperatura mide el estado energético promedio de un sistema; el calor es la transferencia de energía entre sistemas",
+        "pista": "El agua caliente tiene alta temperatura"
+      },
+      {
+        "p": "¿Qué material es mejor conductor térmico, el metal o la madera?",
+        "r": "el metal",
+        "exp": "Los metales tienen electrones libres que transportan energía eficientemente, haciéndolos mejores conductores térmicos",
+        "pista": "Por eso una sartén de metal se calienta rápido"
+      }
+    ]
+  },
+  {
+    "nivel": 16,
+    "preguntas": [
+      {
+        "p": "¿Qué magnitud mide el trabajo mecánico?",
+        "r": "energía",
+        "exp": "El trabajo mecánico transfiere energía cuando una fuerza produce desplazamiento.",
+        "pista": "Se mide en joules como la energía"
+      }
+    ]
+  },
+  {
+    "nivel": 17,
+    "preguntas": [
+      {
+        "p": "¿Cuál es la unidad de carga eléctrica?",
+        "r": "coulomb",
+        "exp": "El coulomb (C) es la unidad de carga eléctrica en el Sistema Internacional.",
+        "pista": "Su símbolo es C"
+      }
+    ]
+  },
+  {
+    "nivel": 18,
+    "preguntas": [
+      {
+        "p": "¿Qué partícula tiene carga positiva en el átomo?",
+        "r": "protón",
+        "exp": "El protón está en el núcleo y posee carga eléctrica positiva.",
+        "pista": "Está en el núcleo"
+      }
+    ]
+  },
+  {
+    "nivel": 19,
+    "preguntas": [
+      {
+        "p": "¿Qué instrumento mide la corriente eléctrica?",
+        "r": "amperímetro",
+        "exp": "El amperímetro se conecta en serie para medir corriente eléctrica.",
+        "pista": "Mide amperios"
+      }
+    ]
+  },
+  {
+    "nivel": 20,
+    "preguntas": [
+      {
+        "p": "¿Qué tipo de energía posee un objeto por estar a cierta altura?",
+        "r": "energía potencial gravitatoria",
+        "exp": "La energía potencial gravitatoria depende de la masa, la gravedad y la altura.",
+        "pista": "Depende de la altura"
+      }
+    ]
+  },
+  {
+    "nivel": 21,
+    "preguntas": [
+      {
+        "p": "¿Qué ley relaciona presión y volumen de un gas a temperatura constante?",
+        "r": "ley de boyle",
+        "exp": "La ley de Boyle indica que presión y volumen son inversamente proporcionales si la temperatura no cambia.",
+        "pista": "P por V permanece constante"
+      }
+    ]
+  },
+  {
+    "nivel": 22,
+    "preguntas": [
+      {
+        "p": "¿Qué fenómeno separa la luz blanca en colores?",
+        "r": "dispersión",
+        "exp": "La dispersión ocurre cuando distintas longitudes de onda se refractan en ángulos diferentes.",
+        "pista": "Un prisma lo produce"
+      }
+    ]
+  },
+  {
+    "nivel": 23,
+    "preguntas": [
+      {
+        "p": "¿Cuál es la unidad de potencia en el SI?",
+        "r": "watt",
+        "exp": "El watt o vatio mide potencia, que es energía transferida por unidad de tiempo.",
+        "pista": "También se escribe vatio"
+      }
+    ]
+  },
+  {
+    "nivel": 24,
+    "preguntas": [
+      {
+        "p": "¿Qué fuerza se opone al movimiento relativo entre superficies?",
+        "r": "fricción",
+        "exp": "La fricción o rozamiento actúa en sentido contrario al movimiento relativo.",
+        "pista": "También se llama rozamiento"
+      }
+    ]
+  },
+  {
+    "nivel": 25,
+    "preguntas": [
+      {
+        "p": "¿Qué cantidad física se conserva en un sistema aislado durante choques?",
+        "r": "momentum",
+        "exp": "El momentum total se conserva en un sistema aislado sin fuerzas externas netas.",
+        "pista": "También se llama cantidad de movimiento"
+      }
+    ]
+  }
+]

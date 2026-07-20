@@ -1,0 +1,367 @@
+[
+  {
+    "nivel": 1,
+    "preguntas": [
+      {
+        "p": "¿Qué es la filosofía?",
+        "r": "amor a la sabiduría",
+        "exp": "Del griego 'philos' (amor) y 'sophia' (sabiduría). La filosofía busca respuestas a preguntas fundamentales sobre la existencia y el conocimiento",
+        "pista": "Del griego: amor a la..."
+      },
+      {
+        "p": "¿Cuál fue el método socrático?",
+        "r": "dialéctica o mayéutica",
+        "exp": "Sócrates usaba preguntas y respuestas para llevar a su interlocutor a descubrir la verdad por sí mismo",
+        "pista": "Preguntas que llevan al conocimiento"
+      },
+      {
+        "p": "¿Qué es la metafísica?",
+        "r": "rama de la filosofía que estudia la naturaleza fundamental de la realidad",
+        "exp": "La metafísica investiga qué existe, qué es la realidad, el ser, el tiempo, el espacio y la causalidad",
+        "pista": "Más allá de lo físico"
+      },
+      {
+        "p": "¿Qué es la epistemología?",
+        "r": "rama de la filosofía que estudia el conocimiento",
+        "exp": "La epistemología o teoría del conocimiento estudia cómo sabemos lo que sabemos, qué es el conocimiento y sus límites",
+        "pista": "Teoría del conocimiento"
+      }
+    ]
+  },
+  {
+    "nivel": 2,
+    "preguntas": [
+      {
+        "p": "¿Quién dijo 'Pienso, luego existo'?",
+        "r": "descartes",
+        "exp": "René Descartes estableció 'Cogito, ergo sum' como la primera certeza indudable en su Meditaciones Filosóficas",
+        "pista": "Filósofo racionalista francés"
+      },
+      {
+        "p": "¿Qué es el empirismo?",
+        "r": "doctrina que afirma que el conocimiento proviene de la experiencia sensorial",
+        "exp": "El empirismo (Locke, Hume, Berkeley) sostiene que todo conocimiento deriva de la experiencia, negando las ideas innatas",
+        "pista": "El conocimiento viene de los sentidos"
+      },
+      {
+        "p": "¿Qué es el racionalismo?",
+        "r": "doctrina que afirma que la razón es la fuente principal del conocimiento",
+        "exp": "El racionalismo (Descartes, Spinoza, Leibniz) sostiene que la razón, no los sentidos, es la fuente principal del conocimiento",
+        "pista": "La razón sobre los sentidos"
+      },
+      {
+        "p": "¿Qué es la ética?",
+        "r": "rama de la filosofía que estudia la moral y el comportamiento humano",
+        "exp": "La ética estudia los principios morales, los valores y las normas que guían el comportamiento humano",
+        "pista": "Filosofía de la moral"
+      }
+    ]
+  },
+  {
+    "nivel": 3,
+    "preguntas": [
+      {
+        "p": "¿Qué es el utilitarismo?",
+        "r": "doctrina ética que juzga los actos por su utilidad y maximización del bienestar",
+        "exp": "El utilitarismo (Bentham, Mill) sostiene que la acción correcta es la que produce la mayor felicidad para el mayor número de personas",
+        "pista": "El mayor bien para el mayor número"
+      },
+      {
+        "p": "¿Qué es el imperativo categórico de Kant?",
+        "r": "actúa solo según la máxima que puedas querer que sea ley universal",
+        "exp": "El imperativo categórico de Kant dice: 'Actúa solo según la máxima que puedas al mismo tiempo querer que se convierta en ley universal'",
+        "pista": "Una regla que apliques a todos"
+      },
+      {
+        "p": "¿Qué es el existencialismo?",
+        "r": "corriente filosófica que pone la existencia individual y la libertad en el centro",
+        "exp": "El existencialismo (Sartre, Camus, Heidegger) sostiene que la existencia precede a la esencia: el ser humano crea su propio sentido",
+        "pista": "La existencia antes que la esencia"
+      },
+      {
+        "p": "¿Qué es el nihilismo?",
+        "r": "doctrina que niega los valores, verdades y significados absolutos",
+        "exp": "El nihilismo sostiene que la vida carece de sentido objetivo, que no hay verdades absolutas ni valores morales objetivos",
+        "pista": "Negación de todo valor absoluto"
+      }
+    ]
+  },
+  {
+    "nivel": 4,
+    "preguntas": [
+      {
+        "p": "¿Qué es la paradoja de la mentira?",
+        "r": "la frase 'esta oración es falsa' no puede ser ni verdadera ni falsa",
+        "exp": "Si 'esta oración es falsa' es verdadera, entonces es falsa; si es falsa, entonces es verdadera. Es una paradoja autorreferencial",
+        "pista": "Autorreferencia contradictoria"
+      },
+      {
+        "p": "¿Qué es el problema mente-cuerpo?",
+        "r": "cuestión filosófica sobre la relación entre la mente y el cuerpo físico",
+        "exp": "El problema mente-cuerpo pregunta cómo se relacionan los estados mentales con los físicos: ¿son lo mismo? ¿son distintos?",
+        "pista": "¿Cómo interactúan mente y cerebro?"
+      },
+      {
+        "p": "¿Qué es el dualismo cartesiano?",
+        "r": "posición que separa mente y cuerpo como dos sustancias distintas",
+        "exp": "Descartes separó la mente (res cogitans, pensante) del cuerpo (res extensa, material), creando el problema de cómo interactúan",
+        "pista": "Descartes separó mente y cuerpo"
+      },
+      {
+        "p": "¿Qué es el solipsismo?",
+        "r": "posición filosófica que solo puede verificar la existencia de la propia mente",
+        "exp": "El solipsismo sostiene que solo se puede verificar con certeza la existencia de la propia mente; el mundo externo es incierto",
+        "pista": "Solo mi mente puede verificarse"
+      }
+    ]
+  },
+  {
+    "nivel": 5,
+    "preguntas": [
+      {
+        "p": "¿Qué es el contrato social según Rousseau?",
+        "r": "acuerdo implícito entre individuos para formar una sociedad y ceder derechos al estado",
+        "exp": "Rousseau argumenta que los individuos ceden parte de su libertad natural al Estado a cambio de protección y derechos civiles",
+        "pista": "Base de la legitimidad del gobierno"
+      },
+      {
+        "p": "¿Qué es la dialéctica hegeliana?",
+        "r": "proceso de tesis, antítesis y síntesis",
+        "exp": "Hegel describió el desarrollo del pensamiento como tesis (afirmación), antítesis (negación) y síntesis (superación de la contradicción)",
+        "pista": "Tesis, antítesis, síntesis"
+      },
+      {
+        "p": "¿Qué es el materialismo dialéctico?",
+        "r": "filosofía marxista que aplica la dialéctica a la materia y la historia",
+        "exp": "Marx y Engels adaptaron la dialéctica de Hegel a una perspectiva materialista: la historia es impulsada por contradicciones materiales",
+        "pista": "Marx aplicó la dialéctica a la materia"
+      },
+      {
+        "p": "¿Qué es el pragmatismo?",
+        "r": "corriente filosófica que evalúa las ideas por sus consecuencias prácticas",
+        "exp": "El pragmatismo (Peirce, James, Dewey) sostiene que la verdad de una idea se mide por sus efectos prácticos y utilidad",
+        "pista": "La verdad es lo que funciona"
+      }
+    ]
+  },
+  {
+    "nivel": 6,
+    "preguntas": [
+      {
+        "p": "¿Quién escribió la República?",
+        "r": "platón",
+        "exp": "La República es uno de los diálogos más importantes de Platón.",
+        "pista": "Discípulo de Sócrates"
+      }
+    ]
+  },
+  {
+    "nivel": 7,
+    "preguntas": [
+      {
+        "p": "¿Qué filósofo enseñaba mediante la mayéutica?",
+        "r": "sócrates",
+        "exp": "Sócrates usaba preguntas para guiar al interlocutor hacia ideas más claras.",
+        "pista": "Preguntaba mucho"
+      }
+    ]
+  },
+  {
+    "nivel": 8,
+    "preguntas": [
+      {
+        "p": "¿Qué rama estudia el conocimiento?",
+        "r": "epistemología",
+        "exp": "La epistemología analiza qué es conocer, sus fuentes y sus límites.",
+        "pista": "Teoría del conocimiento"
+      }
+    ]
+  },
+  {
+    "nivel": 9,
+    "preguntas": [
+      {
+        "p": "¿Qué rama estudia lo correcto y lo incorrecto?",
+        "r": "ética",
+        "exp": "La ética reflexiona sobre la acción humana, el deber y los valores morales.",
+        "pista": "Moral filosófica"
+      }
+    ]
+  },
+  {
+    "nivel": 10,
+    "preguntas": [
+      {
+        "p": "¿Qué significa amor a la sabiduría?",
+        "r": "filosofía",
+        "exp": "La palabra filosofía viene del griego y significa amor a la sabiduría.",
+        "pista": "Filo y sofía"
+      }
+    ]
+  },
+  {
+    "nivel": 11,
+    "preguntas": [
+      {
+        "p": "¿Qué filósofo habló del justo medio?",
+        "r": "aristóteles",
+        "exp": "Aristóteles defendió la virtud como equilibrio entre excesos y defectos.",
+        "pista": "Maestro de Alejandro Magno"
+      }
+    ]
+  },
+  {
+    "nivel": 12,
+    "preguntas": [
+      {
+        "p": "¿Qué corriente duda de que podamos tener certeza absoluta?",
+        "r": "escepticismo",
+        "exp": "El escepticismo cuestiona la posibilidad de alcanzar certezas definitivas.",
+        "pista": "Duda metódica"
+      }
+    ]
+  },
+  {
+    "nivel": 13,
+    "preguntas": [
+      {
+        "p": "¿Qué autor dijo pienso luego existo?",
+        "r": "descartes",
+        "exp": "René Descartes formuló el cogito como punto de partida de su filosofía.",
+        "pista": "Cogito ergo sum"
+      }
+    ]
+  },
+  {
+    "nivel": 14,
+    "preguntas": [
+      {
+        "p": "¿Qué rama estudia la belleza y el arte?",
+        "r": "estética",
+        "exp": "La estética analiza la belleza, el arte y la experiencia sensible.",
+        "pista": "Filosofía del arte"
+      }
+    ]
+  },
+  {
+    "nivel": 15,
+    "preguntas": [
+      {
+        "p": "¿Qué rama estudia el ser?",
+        "r": "metafísica",
+        "exp": "La metafísica pregunta por el ser, la realidad y sus principios últimos.",
+        "pista": "Más allá de lo físico"
+      }
+    ]
+  },
+  {
+    "nivel": 16,
+    "preguntas": [
+      {
+        "p": "¿Qué filósofo propuso el imperativo categórico?",
+        "r": "kant",
+        "exp": "Kant formuló el imperativo categórico como principio racional de la moral.",
+        "pista": "Filósofo de Königsberg"
+      }
+    ]
+  },
+  {
+    "nivel": 17,
+    "preguntas": [
+      {
+        "p": "¿Qué corriente sostiene que la experiencia es fuente principal del conocimiento?",
+        "r": "empirismo",
+        "exp": "El empirismo afirma que el conocimiento proviene principalmente de la experiencia.",
+        "pista": "Locke y Hume"
+      }
+    ]
+  },
+  {
+    "nivel": 18,
+    "preguntas": [
+      {
+        "p": "¿Qué corriente prioriza la razón como fuente de conocimiento?",
+        "r": "racionalismo",
+        "exp": "El racionalismo sostiene que la razón es base central del conocimiento.",
+        "pista": "Descartes es ejemplo"
+      }
+    ]
+  },
+  {
+    "nivel": 19,
+    "preguntas": [
+      {
+        "p": "¿Qué filósofo habló del superhombre?",
+        "r": "nietzsche",
+        "exp": "Nietzsche usó la idea del superhombre como símbolo de superación de valores heredados.",
+        "pista": "Autor de Así habló Zaratustra"
+      }
+    ]
+  },
+  {
+    "nivel": 20,
+    "preguntas": [
+      {
+        "p": "¿Qué disciplina estudia las reglas del razonamiento válido?",
+        "r": "lógica",
+        "exp": "La lógica evalúa la validez de argumentos e inferencias.",
+        "pista": "Argumentos válidos"
+      }
+    ]
+  },
+  {
+    "nivel": 21,
+    "preguntas": [
+      {
+        "p": "¿Qué es una falacia?",
+        "r": "razonamiento incorrecto que parece correcto",
+        "exp": "Una falacia es un argumento defectuoso que puede parecer persuasivo.",
+        "pista": "Engaño argumental"
+      }
+    ]
+  },
+  {
+    "nivel": 22,
+    "preguntas": [
+      {
+        "p": "¿Qué filósofo fundó el Liceo?",
+        "r": "aristóteles",
+        "exp": "Aristóteles fundó el Liceo en Atenas como escuela filosófica.",
+        "pista": "No fue la Academia"
+      }
+    ]
+  },
+  {
+    "nivel": 23,
+    "preguntas": [
+      {
+        "p": "¿Qué corriente pone la existencia individual en el centro?",
+        "r": "existencialismo",
+        "exp": "El existencialismo enfatiza libertad, responsabilidad y sentido de la vida.",
+        "pista": "Sartre es ejemplo"
+      }
+    ]
+  },
+  {
+    "nivel": 24,
+    "preguntas": [
+      {
+        "p": "¿Qué filósofo habló de la voluntad general?",
+        "r": "rousseau",
+        "exp": "Rousseau desarrolló la idea de voluntad general en su teoría política.",
+        "pista": "Contrato social"
+      }
+    ]
+  },
+  {
+    "nivel": 25,
+    "preguntas": [
+      {
+        "p": "¿Qué estudia la filosofía política?",
+        "r": "el poder y la organización de la sociedad",
+        "exp": "La filosofía política analiza Estado, justicia, poder y convivencia social.",
+        "pista": "Estado y justicia"
+      }
+    ]
+  }
+]

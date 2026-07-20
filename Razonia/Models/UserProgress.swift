@@ -11,6 +11,13 @@ final class UserProgress {
     var vidas: Int
     var insigniaRazonia: Bool
     var insigniaHackerPensamiento: Bool
+    var insigniaLogica: Bool = false
+    var insigniaFisica: Bool = false
+    var insigniaMatematicas: Bool = false
+    var insigniaMusica: Bool = false
+    var insigniaLogicaComputacional: Bool = false
+    var insigniaFilosofia: Bool = false
+    var insigniaAjedrez: Bool = false
     
     var profileIconName: String?
     // 1. AÑADE ESTA NUEVA LÍNEA:
@@ -32,6 +39,13 @@ final class UserProgress {
         vidas: Int = 3,
         insigniaRazonia: Bool = false,
         insigniaHackerPensamiento: Bool = false,
+        insigniaLogica: Bool = false,
+        insigniaFisica: Bool = false,
+        insigniaMatematicas: Bool = false,
+        insigniaMusica: Bool = false,
+        insigniaLogicaComputacional: Bool = false,
+        insigniaFilosofia: Bool = false,
+        insigniaAjedrez: Bool = false,
         profileIconName: String? = nil,
         profileColorName: String? = "purple", // Color inicial por defecto
         cantidadPistas: Int = 3,
@@ -48,6 +62,13 @@ final class UserProgress {
         self.vidas = vidas
         self.insigniaRazonia = insigniaRazonia
         self.insigniaHackerPensamiento = insigniaHackerPensamiento
+        self.insigniaLogica = insigniaLogica
+        self.insigniaFisica = insigniaFisica
+        self.insigniaMatematicas = insigniaMatematicas
+        self.insigniaMusica = insigniaMusica
+        self.insigniaLogicaComputacional = insigniaLogicaComputacional
+        self.insigniaFilosofia = insigniaFilosofia
+        self.insigniaAjedrez = insigniaAjedrez
         self.profileIconName = profileIconName
         self.profileColorName = profileColorName // Inicialización
         self.cantidadPistas = cantidadPistas
@@ -77,13 +98,59 @@ final class UserProgress {
         }
     }
 
-    func aplicarRecompensaRazonia() {
-        insigniaRazonia = true
+    func otorgarInsigniaRama(_ rama: RamaID) {
+        switch rama {
+        case .logica: insigniaLogica = true
+        case .fisica: insigniaFisica = true
+        case .matematicas: insigniaMatematicas = true
+        case .musica: insigniaMusica = true
+        case .logicaComputacional: insigniaLogicaComputacional = true
+        case .filosofia: insigniaFilosofia = true
+        case .ajedrez: insigniaAjedrez = true
+        }
+        evaluarInsigniaRazoniaGlobal()
+    }
+
+    func tieneInsigniaRama(_ rama: RamaID) -> Bool {
+        switch rama {
+        case .logica: return insigniaLogica
+        case .fisica: return insigniaFisica
+        case .matematicas: return insigniaMatematicas
+        case .musica: return insigniaMusica
+        case .logicaComputacional: return insigniaLogicaComputacional
+        case .filosofia: return insigniaFilosofia
+        case .ajedrez: return insigniaAjedrez
+        }
+    }
+
+    @discardableResult
+    func evaluarInsigniaRazoniaGlobal() -> Bool {
+        let completo = insigniaLogica
+            && insigniaFisica
+            && insigniaMatematicas
+            && insigniaMusica
+            && insigniaLogicaComputacional
+            && insigniaFilosofia
+            && insigniaAjedrez
+        if completo && !insigniaRazonia {
+            insigniaRazonia = true
+            cantidadPistas += 5
+            cantidadResolver += 3
+            cantidadVidas += 3
+            cantidadDobleXP += 3
+            cantidadSaltar += 2
+        }
+        return completo
+    }
+
+    func aplicarRecompensaLogica() {
+        insigniaLogica = true
         cantidadPistas    += 5
         cantidadResolver  += 3
         cantidadVidas     += 3
         cantidadDobleXP   += 3
         cantidadSaltar    += 2
+        evaluarInsigniaRazoniaGlobal()
     }
 
     var rango: String {

@@ -29,7 +29,7 @@ final class GameViewModel: ObservableObject {
 
     @Published var mostrarModalCorrecto = false
     @Published var mostrarModalDerrota = false
-    @Published var mostrarVictoria = false   // Razonia completado (nivel 90)
+    @Published var mostrarVictoria = false   // Razonamiento lógico completado (nivel 90)
     @Published var mostrarHacker = false     // Zona extrema completada (nivel 120)
 
     @Published var dobleXPActivo = false
@@ -147,7 +147,7 @@ final class GameViewModel: ObservableObject {
 
         // Determinar la pantalla de cierre o cargar el nivel consecutivo
         if nivelEnJuego == umbralRazonia {
-            progress.aplicarRecompensaRazonia()
+            progress.aplicarRecompensaLogica()
             mostrarVictoria = true
         } else if nivelEnJuego >= maxNivel {
             progress.insigniaHackerPensamiento = true

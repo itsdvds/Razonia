@@ -427,26 +427,26 @@ struct JuegoView: View {
         .transition(.opacity.combined(with: .scale(scale: 0.96)))
     }
 
-    // MARK: - Victoria Overlay (Razonia Completado)
+    // MARK: - Victoria Overlay (Razonamiento Lógico)
     private var victoriaOverlay: some View {
         ZStack {
             Color.black.opacity(0.85).ignoresSafeArea()
 
             LiquidCard {
                 VStack(spacing: 20) {
-                    Text("🏆")
+                    Text("🧩")
                         .font(.system(size: 72))
-                        .shadow(color: Color(red: 1.0, green: 0.8, blue: 0.0).opacity(0.6), radius: 30)
+                        .shadow(color: Color(red: 0.85, green: 0.3, blue: 1.0).opacity(0.6), radius: 30)
 
-                    Text("¡RAZONIA COMPLETADO!")
+                    Text("¡RAZONAMIENTO LÓGICO COMPLETADO!")
                         .font(.system(size: 22, weight: .black, design: .rounded))
                         .foregroundStyle(LinearGradient(
-                            colors: [Color(red: 0.0, green: 1.0, blue: 1.0), Color(red: 1.0, green: 0.8, blue: 0.0), Color(red: 1.0, green: 0.0, blue: 1.0)],
+                            colors: [Color(red: 0.85, green: 0.3, blue: 1.0), Color(red: 1.0, green: 0.2, blue: 0.5)],
                             startPoint: .leading, endPoint: .trailing
                         ))
                         .multilineTextAlignment(.center)
 
-                    Text("¡Felicidades! Completaste los 90 niveles principales. Has desbloqueado la Zona Extrema y la insignia Razonia Completado.")
+                    Text("¡Felicidades! Completaste los 90 niveles principales de lógica. Has desbloqueado la Zona Extrema y la insignia de Razonamiento Lógico.")
                         .font(.system(size: 14))
                         .foregroundColor(.white.opacity(0.65))
                         .multilineTextAlignment(.center)
@@ -458,18 +458,18 @@ struct JuegoView: View {
                             .kerning(1.2)
                         Text("+500 XP • +3 Pistas • +1 Resolver • +3 Vidas • +2 Doble XP • +1 Saltar")
                             .font(.system(size: 12, weight: .semibold))
-                            .foregroundColor(Color(red: 1.0, green: 0.85, blue: 0.4))
+                            .foregroundColor(Color(red: 0.95, green: 0.55, blue: 1.0))
                             .multilineTextAlignment(.center)
                     }
                     .padding(14)
                     .background {
                         RoundedRectangle(cornerRadius: 12)
-                            .fill(Color(red: 0.3, green: 0.25, blue: 0.0).opacity(0.4))
-                            .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(Color(red: 1.0, green: 0.8, blue: 0.0).opacity(0.3), lineWidth: 1))
+                            .fill(Color(red: 0.35, green: 0.0, blue: 0.5).opacity(0.28))
+                            .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(Color(red: 0.85, green: 0.3, blue: 1.0).opacity(0.3), lineWidth: 1))
                     }
 
                     LiquidButton(titulo: "Volver al Menú Principal",
-                                 colores: [Color(red: 0.8, green: 0.6, blue: 0.0), Color(red: 0.6, green: 0.4, blue: 0.0)]) {
+                                 colores: [Color(red: 0.85, green: 0.3, blue: 1.0), Color(red: 1.0, green: 0.2, blue: 0.5)]) {
                         vm.mostrarVictoria = false
                         dismiss()
                     }

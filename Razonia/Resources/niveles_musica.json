@@ -1,0 +1,547 @@
+[
+  {
+    "nivel": 1,
+    "preguntas": [
+      {
+        "p": "¿Cuántas notas tiene la escala musical occidental?",
+        "r": "7",
+        "exp": "La escala diatónica occidental tiene 7 notas: Do, Re, Mi, Fa, Sol, La, Si",
+        "pista": "Do Re Mi Fa Sol La Si"
+      },
+      {
+        "p": "¿Cuál es el nombre de la nota que sigue a Sol?",
+        "r": "la",
+        "exp": "El orden es: Do, Re, Mi, Fa, Sol, La, Si. Después de Sol viene La",
+        "pista": "El orden de las notas musicales"
+      },
+      {
+        "p": "¿Cuántos tiempos tiene un compás de 4/4?",
+        "r": "4",
+        "exp": "El compás de 4/4 tiene 4 tiempos (pulsos) por compás; el denominador 4 indica que la unidad es la negra",
+        "pista": "El numerador indica los tiempos"
+      },
+      {
+        "p": "¿Qué símbolo representa el silencio de una redonda?",
+        "r": "silencio de redonda",
+        "exp": "El silencio de redonda es un rectángulo colgado de la línea del pentagrama que representa 4 tiempos de silencio",
+        "pista": "La nota más larga también tiene silencio"
+      }
+    ]
+  },
+  {
+    "nivel": 2,
+    "preguntas": [
+      {
+        "p": "¿Cuántas líneas tiene un pentagrama?",
+        "r": "5",
+        "exp": "El pentagrama consta de 5 líneas horizontales paralelas sobre las que se escriben las notas",
+        "pista": "Penta = cinco"
+      },
+      {
+        "p": "¿Cuál es la función de la clave de Sol?",
+        "r": "indica que la nota Sol está en la segunda línea del pentagrama",
+        "exp": "La clave de Sol (o de violín) sitúa la nota Sol en la segunda línea del pentagrama y determina las demás notas",
+        "pista": "Se dibuja rodeando la segunda línea"
+      },
+      {
+        "p": "¿Cuántos semitones tiene una octava?",
+        "r": "12",
+        "exp": "Una octava se divide en 12 semitones (semitonos) en el sistema temperado occidental",
+        "pista": "Incluye sostenidos y bemoles"
+      },
+      {
+        "p": "¿Qué significa 'piano' como dinámica musical?",
+        "r": "suave",
+        "exp": "En música, 'piano' (p) es una indicación de dinámica que significa tocar de forma suave o con poca intensidad",
+        "pista": "Lo contrario de forte"
+      }
+    ]
+  },
+  {
+    "nivel": 3,
+    "preguntas": [
+      {
+        "p": "¿Qué es un acorde?",
+        "r": "conjunto de tres o más notas tocadas simultáneamente",
+        "exp": "Un acorde es la combinación de tres o más notas sonando al mismo tiempo, formando una armonía",
+        "pista": "Varias notas a la vez"
+      },
+      {
+        "p": "¿De qué notas está compuesto el acorde de Do Mayor?",
+        "r": "do mi sol",
+        "exp": "El acorde de Do Mayor está formado por las notas Do, Mi y Sol (tercera mayor + tercera menor)",
+        "pista": "La tónica, la tercera y la quinta"
+      },
+      {
+        "p": "¿Qué diferencia a un acorde mayor de uno menor?",
+        "r": "la tercera nota: mayor tiene tercera mayor, menor tiene tercera menor",
+        "exp": "La diferencia es la tercera: los acordes mayores tienen tercera mayor (4 semitonos) y los menores tercera menor (3 semitonos)",
+        "pista": "Un semitono en la tercera cambia el carácter"
+      },
+      {
+        "p": "¿Cuántas notas tiene un acorde tríada?",
+        "r": "3",
+        "exp": "Una tríada es el tipo de acorde más básico, formado exactamente por 3 notas",
+        "pista": "Tri = tres"
+      }
+    ]
+  },
+  {
+    "nivel": 4,
+    "preguntas": [
+      {
+        "p": "¿Qué es el tempo?",
+        "r": "la velocidad de la música",
+        "exp": "El tempo es la velocidad a la que se ejecuta una pieza musical, medida en BPM (pulsaciones por minuto)",
+        "pista": "Rápido o lento"
+      },
+      {
+        "p": "¿Qué significa 'Allegro' en música?",
+        "r": "rápido y vivo",
+        "exp": "Allegro es un término italiano que indica un tempo rápido y animado, generalmente entre 120-168 BPM",
+        "pista": "Opuesto a Adagio"
+      },
+      {
+        "p": "¿Qué significa 'Adagio' en música?",
+        "r": "lento y tranquilo",
+        "exp": "Adagio indica un tempo lento y expresivo, generalmente entre 60-76 BPM",
+        "pista": "Pace tranquila"
+      },
+      {
+        "p": "¿Qué es un metrónomo?",
+        "r": "aparato que marca el tempo con pulsos regulares",
+        "exp": "El metrónomo es un dispositivo que produce pulsos a un tempo específico para ayudar a los músicos a mantener el ritmo",
+        "pista": "Marca el pulso de la música"
+      }
+    ]
+  },
+  {
+    "nivel": 5,
+    "preguntas": [
+      {
+        "p": "¿Qué es la tonalidad en música?",
+        "r": "el conjunto de relaciones jerárquicas entre notas alrededor de una nota central",
+        "exp": "La tonalidad organiza las notas en torno a una nota tónica, creando relaciones de tensión y reposo",
+        "pista": "Centro gravitacional de la música"
+      },
+      {
+        "p": "¿Cuántos sostenidos tiene la tonalidad de Sol Mayor?",
+        "r": "1",
+        "exp": "La escala de Sol Mayor tiene un sostenido: Fa#. Sigue el círculo de quintas",
+        "pista": "Solo un sostenido: Fa#"
+      },
+      {
+        "p": "¿Qué es la escala cromática?",
+        "r": "escala que incluye los 12 semitonos de la octava",
+        "exp": "La escala cromática contiene los 12 semitonos del sistema temperado, subiendo o bajando de semitono en semitono",
+        "pista": "Todos los semitonos"
+      },
+      {
+        "p": "¿Cuál es el relativo menor de Do Mayor?",
+        "r": "la menor",
+        "exp": "La menor es el relativo menor de Do Mayor; ambas escalas comparten las mismas notas pero con diferente tónica",
+        "pista": "Comienza en la sexta nota de la mayor"
+      }
+    ]
+  },
+  {
+    "nivel": 6,
+    "preguntas": [
+      {
+        "p": "¿Qué es el contrapunto?",
+        "r": "técnica de combinar dos o más melodías independientes simultáneamente",
+        "exp": "El contrapunto es la técnica compositiva de escribir dos o más voces independientes que suenan armónicamente juntas",
+        "pista": "Bach era maestro del contrapunto"
+      },
+      {
+        "p": "¿Quién compuso las Cuatro Estaciones?",
+        "r": "vivaldi",
+        "exp": "Las Cuatro Estaciones son un conjunto de cuatro conciertos para violín compuestos por Antonio Vivaldi en 1725",
+        "pista": "Compositor barroco italiano"
+      },
+      {
+        "p": "¿En qué período musical vivió Johann Sebastian Bach?",
+        "r": "barroco",
+        "exp": "Johann Sebastian Bach (1685-1750) es el compositor más representativo del período Barroco musical",
+        "pista": "Siglos XVII-XVIII"
+      },
+      {
+        "p": "¿Qué instrumento tocaba Chopin principalmente?",
+        "r": "piano",
+        "exp": "Frédéric Chopin fue un virtuoso del piano polaco que compuso casi exclusivamente para este instrumento",
+        "pista": "El poeta del piano"
+      }
+    ]
+  },
+  {
+    "nivel": 7,
+    "preguntas": [
+      {
+        "p": "¿Qué es la armonía en música?",
+        "r": "la combinación simultánea de sonidos para producir acordes",
+        "exp": "La armonía estudia la combinación vertical de sonidos (acordes) y sus relaciones en el tiempo",
+        "pista": "Sonidos simultáneos y sus relaciones"
+      },
+      {
+        "p": "¿Qué es una cadencia musical?",
+        "r": "secuencia de acordes que crea sensación de reposo o cierre",
+        "exp": "Una cadencia es una progresión de acordes que establece un punto de reposo o conclusión en la música",
+        "pista": "El final de una frase musical"
+      },
+      {
+        "p": "¿Cuántos movimientos tiene una sinfonía clásica típica?",
+        "r": "4",
+        "exp": "La sinfonía clásica estándar tiene 4 movimientos con tempos contrastantes (rápido-lento-minué-rápido)",
+        "pista": "Cuatro partes con diferentes velocidades"
+      },
+      {
+        "p": "¿Cuál es la diferencia entre una sinfonía y un concierto?",
+        "r": "el concierto tiene un solista destacado",
+        "exp": "El concierto presenta un instrumento solista en diálogo con la orquesta; la sinfonía es solo orquestal",
+        "pista": "Uno tiene un solista protagonista"
+      }
+    ]
+  },
+  {
+    "nivel": 8,
+    "preguntas": [
+      {
+        "p": "¿Qué es el jazz?",
+        "r": "género musical afroamericano con improvisación y ritmo sincopado",
+        "exp": "El jazz nació a principios del siglo XX en Nueva Orleans, combinando blues, ragtime y música europea con improvisación",
+        "pista": "Nació en Nueva Orleans"
+      },
+      {
+        "p": "¿Qué es la síncopa?",
+        "r": "desplazamiento del acento hacia un tiempo débil",
+        "exp": "La síncopa ocurre cuando el acento musical cae en un tiempo normalmente débil, creando tensión rítmica característica",
+        "pista": "El ritmo va contra el pulso"
+      },
+      {
+        "p": "¿Quién fue Miles Davis?",
+        "r": "trompetista y compositor de jazz estadounidense",
+        "exp": "Miles Davis (1926-1991) fue un influyente trompetista de jazz que lideró varios movimientos: bebop, cool jazz, jazz fusión",
+        "pista": "'Kind of Blue' es su álbum más famoso"
+      },
+      {
+        "p": "¿Qué es el blues?",
+        "r": "género musical afroamericano con estructura de 12 compases y escala blues",
+        "exp": "El blues es un género surgido en el sur de EEUU a finales del s.XIX, caracterizado por la escala blues y la forma de 12 compases",
+        "pista": "Surgió en el sur de EEUU"
+      }
+    ]
+  },
+  {
+    "nivel": 9,
+    "preguntas": [
+      {
+        "p": "¿Qué es un intervalo musical?",
+        "r": "la distancia entre dos notas",
+        "exp": "Un intervalo es la diferencia de altura (pitch) entre dos notas, medida en tonos o semitonos",
+        "pista": "La distancia entre dos alturas"
+      },
+      {
+        "p": "¿Cuántos semitonos tiene una quinta justa?",
+        "r": "7",
+        "exp": "La quinta justa tiene 7 semitonos. Por ejemplo: Do a Sol (Do-Do#-Re-Re#-Mi-Fa-Fa#-Sol)",
+        "pista": "Cuenta los semitonos de Do a Sol"
+      },
+      {
+        "p": "¿Qué es una disonancia en música?",
+        "r": "combinación de notas que crea tensión o inestabilidad",
+        "exp": "Una disonancia es una combinación de intervalos que suena tensa y busca resolución en una consonancia",
+        "pista": "Contraria a consonancia"
+      },
+      {
+        "p": "¿Cuántos semitonos tiene una tercera mayor?",
+        "r": "4",
+        "exp": "La tercera mayor tiene 4 semitonos. Por ejemplo: Do a Mi (Do-Do#-Re-Re#-Mi)",
+        "pista": "Cuenta de Do a Mi"
+      }
+    ]
+  },
+  {
+    "nivel": 10,
+    "preguntas": [
+      {
+        "p": "¿Qué es la forma sonata?",
+        "r": "estructura de tres secciones: exposición, desarrollo y reexposición",
+        "exp": "La forma sonata es una estructura musical de tres partes: exposición de temas, desarrollo y reexposición con coda opcional",
+        "pista": "Estructura del primer movimiento clásico"
+      },
+      {
+        "p": "¿Qué es un leitmotiv?",
+        "r": "tema musical recurrente asociado a un personaje o idea en una obra",
+        "exp": "El leitmotiv (motivo conductor) es un tema breve que se repite a lo largo de una obra asociado a un personaje, lugar o concepto",
+        "pista": "Wagner lo utilizó en sus óperas"
+      },
+      {
+        "p": "¿Qué compositor alemán fue famoso por sus sinfonías a pesar de ser sordo?",
+        "r": "beethoven",
+        "exp": "Ludwig van Beethoven (1770-1827) compuso sus grandes sinfonías incluyendo la 9ª cuando era completamente sordo",
+        "pista": "¡Quinta sinfonía!"
+      },
+      {
+        "p": "¿Cuántas sinfonías compuso Mozart?",
+        "r": "41",
+        "exp": "Wolfgang Amadeus Mozart compuso 41 sinfonías numeradas, siendo la Júpiter (nº41) una de las más famosas",
+        "pista": "Un número grande para su corta vida"
+      }
+    ]
+  },
+  {
+    "nivel": 11,
+    "preguntas": [
+      {
+        "p": "¿Qué es la polifonía?",
+        "r": "textura musical con múltiples voces melódicas independientes",
+        "exp": "La polifonía es una textura musical donde dos o más voces independientes suenan simultáneamente con igual importancia",
+        "pista": "Muchas voces independientes"
+      },
+      {
+        "p": "¿Qué es la monofonía?",
+        "r": "textura musical con una sola línea melódica",
+        "exp": "La monofonía es la textura más simple, con una única melodía sin acompañamiento armónico",
+        "pista": "Una sola voz o melodía"
+      },
+      {
+        "p": "¿Qué es una fuga?",
+        "r": "composición contrapuntística donde un tema se imita sucesivamente en diferentes voces",
+        "exp": "La fuga es una forma musical contrapuntística basada en la imitación de un sujeto en distintas voces a diferentes alturas",
+        "pista": "Bach las maestreó"
+      },
+      {
+        "p": "¿Qué es el canon?",
+        "r": "técnica donde una melodía es imitada exactamente por otra voz con un retraso",
+        "exp": "El canon es una forma de contrapunto donde la misma melodía se imita exactamente en otra voz con cierto retraso temporal",
+        "pista": "'Cumpleaños Feliz' es un canon"
+      }
+    ]
+  },
+  {
+    "nivel": 12,
+    "preguntas": [
+      {
+        "p": "¿Qué es el timbre en música?",
+        "r": "la calidad sonora que distingue un instrumento de otro",
+        "exp": "El timbre (o color sonoro) es la característica que nos permite distinguir una flauta de un violín aunque toquen la misma nota",
+        "pista": "Por qué dos instrumentos suenan diferentes"
+      },
+      {
+        "p": "¿Cuál es la diferencia entre tono y semitono?",
+        "r": "el semitono es la mitad de un tono",
+        "exp": "Un semitono es el intervalo más pequeño del sistema temperado; un tono equivale a dos semitonos",
+        "pista": "2 semitonos = 1 tono"
+      },
+      {
+        "p": "¿Qué es el armónico?",
+        "r": "frecuencia múltiplo entero de la frecuencia fundamental",
+        "exp": "Los armónicos son frecuencias adicionales (múltiplos enteros de la fundamental) que dan color al sonido de cada instrumento",
+        "pista": "Son múltiplos de la nota base"
+      },
+      {
+        "p": "¿Qué es el vibrato?",
+        "r": "variación periódica de la altura del sonido",
+        "exp": "El vibrato es una variación periódica y regular de la frecuencia del sonido que enriquece la expresividad musical",
+        "pista": "Oscilación de la nota"
+      }
+    ]
+  },
+  {
+    "nivel": 13,
+    "preguntas": [
+      {
+        "p": "¿En qué año publicó Beethoven su Novena Sinfonía?",
+        "r": "1824",
+        "exp": "La Sinfonía nº9 en Re menor Op.125 de Beethoven se estrenó el 7 de mayo de 1824 en Viena",
+        "pista": "Siglo XIX, primer cuarto"
+      },
+      {
+        "p": "¿Qué instrumento define al cuarteto de cuerdas?",
+        "r": "dos violines viola y cello",
+        "exp": "El cuarteto de cuerdas clásico está formado por dos violines, una viola y un violonchelo",
+        "pista": "Cuatro instrumentos de cuerda"
+      },
+      {
+        "p": "¿Qué es la orquesta sinfónica?",
+        "r": "gran conjunto de músicos con secciones de cuerdas, viento y percusión",
+        "exp": "La orquesta sinfónica es el ensamble más grande, con secciones de cuerdas, maderas, metales y percusión",
+        "pista": "El ensamble orquestal más grande"
+      },
+      {
+        "p": "¿Cuál es la voz más grave masculina?",
+        "r": "bajo",
+        "exp": "Las voces masculinas de grave a agudo son: bajo, barítono, tenor. El bajo es la más grave",
+        "pista": "La más grave de todas las voces"
+      }
+    ]
+  },
+  {
+    "nivel": 14,
+    "preguntas": [
+      {
+        "p": "¿Qué es un ostinato?",
+        "r": "patrón rítmico o melódico que se repite persistentemente",
+        "exp": "Un ostinato es un motivo rítmico, melódico o armónico que se repite de forma constante a lo largo de una obra",
+        "pista": "Repetición constante de un patrón"
+      },
+      {
+        "p": "¿Qué es la cadencia auténtica perfecta?",
+        "r": "progresión V-I con ambos acordes en posición fundamental y tónica en la soprano",
+        "exp": "La CAP es la cadencia más conclusiva: dominante (V) a tónica (I), con el bajo en la fundamental y la tónica en la voz superior",
+        "pista": "La cadencia más conclusiva"
+      },
+      {
+        "p": "¿Qué es la modulación en música?",
+        "r": "cambio de tonalidad dentro de una pieza musical",
+        "exp": "La modulación es el proceso de cambiar de una tonalidad a otra a lo largo de una composición musical",
+        "pista": "Cambio de tonalidad"
+      },
+      {
+        "p": "¿Qué es el modo dórico?",
+        "r": "escala modal con un bemol en la séptima y un bemol en la tercera",
+        "exp": "El modo dórico es una escala modal que comienza en Re, con la estructura: T-S-T-T-T-S-T; tiene un carácter menor con sexta mayor",
+        "pista": "Escala que comienza en Re en la tonalidad de Do"
+      }
+    ]
+  },
+  {
+    "nivel": 15,
+    "preguntas": [
+      {
+        "p": "¿Qué es la música dodecafónica?",
+        "r": "técnica que usa las 12 notas cromáticas con igual importancia sin jerarquía tonal",
+        "exp": "El dodecafonismo, creado por Schoenberg, organiza la música en series de 12 notas sin la jerarquía de la tonalidad tradicional",
+        "pista": "Arnold Schoenberg la creó"
+      },
+      {
+        "p": "¿Qué es el minimalismo musical?",
+        "r": "corriente que usa figuras repetitivas con cambios graduales",
+        "exp": "La música minimalista (Reich, Glass, Riley) usa patrones repetitivos que evolucionan gradualmente con pocos materiales",
+        "pista": "Philip Glass y Steve Reich la representan"
+      },
+      {
+        "p": "¿Qué es la música concreta?",
+        "r": "música creada con sonidos grabados del mundo real",
+        "exp": "La música concreta (Pierre Schaeffer, 1948) usa grabaciones de sonidos reales manipuladas electrónicamente como material musical",
+        "pista": "Pierre Schaeffer la inventó"
+      },
+      {
+        "p": "¿Qué es el serialismo integral?",
+        "r": "técnica que serializa no solo las alturas sino también el ritmo, dinámica y timbre",
+        "exp": "El serialismo integral extiende la técnica dodecafónica controlando sistemáticamente todos los parámetros musicales",
+        "pista": "Serialismo de todos los parámetros"
+      }
+    ]
+  },
+  {
+    "nivel": 16,
+    "preguntas": [
+      {
+        "p": "¿Cuántas notas naturales tiene la escala musical occidental?",
+        "r": "7",
+        "exp": "Las notas naturales son do, re, mi, fa, sol, la y si.",
+        "pista": "Do a si"
+      }
+    ]
+  },
+  {
+    "nivel": 17,
+    "preguntas": [
+      {
+        "p": "¿Qué signo sube una nota medio tono?",
+        "r": "sostenido",
+        "exp": "El sostenido eleva la altura de una nota en un semitono.",
+        "pista": "Su símbolo es #"
+      }
+    ]
+  },
+  {
+    "nivel": 18,
+    "preguntas": [
+      {
+        "p": "¿Qué signo baja una nota medio tono?",
+        "r": "bemol",
+        "exp": "El bemol reduce la altura de una nota en un semitono.",
+        "pista": "Su símbolo parece una b"
+      }
+    ]
+  },
+  {
+    "nivel": 19,
+    "preguntas": [
+      {
+        "p": "¿Cómo se llama la distancia entre dos notas?",
+        "r": "intervalo",
+        "exp": "Un intervalo es la distancia de altura entre dos sonidos musicales.",
+        "pista": "Puede ser tercera, quinta, octava..."
+      }
+    ]
+  },
+  {
+    "nivel": 20,
+    "preguntas": [
+      {
+        "p": "¿Qué figura musical dura la mitad de una negra?",
+        "r": "corchea",
+        "exp": "Una corchea dura la mitad de una negra en compases simples.",
+        "pista": "Tiene una banderita"
+      }
+    ]
+  },
+  {
+    "nivel": 21,
+    "preguntas": [
+      {
+        "p": "¿Qué clave se usa comúnmente para notas agudas?",
+        "r": "clave de sol",
+        "exp": "La clave de sol se usa para registrar sonidos medios y agudos.",
+        "pista": "La usan melodías y violín"
+      }
+    ]
+  },
+  {
+    "nivel": 22,
+    "preguntas": [
+      {
+        "p": "¿Qué indica el tempo en música?",
+        "r": "velocidad",
+        "exp": "El tempo indica la velocidad o pulso de una pieza musical.",
+        "pista": "Puede ser allegro o adagio"
+      }
+    ]
+  },
+  {
+    "nivel": 23,
+    "preguntas": [
+      {
+        "p": "¿Qué es un acorde?",
+        "r": "conjunto de notas que suenan al mismo tiempo",
+        "exp": "Un acorde combina varias notas simultáneas para crear armonía.",
+        "pista": "Notas simultáneas"
+      }
+    ]
+  },
+  {
+    "nivel": 24,
+    "preguntas": [
+      {
+        "p": "¿Qué grado de la escala da sensación de reposo?",
+        "r": "tónica",
+        "exp": "La tónica es el centro tonal y suele sentirse como punto de reposo.",
+        "pista": "Primer grado de la escala"
+      }
+    ]
+  },
+  {
+    "nivel": 25,
+    "preguntas": [
+      {
+        "p": "¿Qué instrumento marca habitualmente el pulso con golpes?",
+        "r": "percusión",
+        "exp": "La percusión produce sonidos al golpear, sacudir o raspar y suele marcar el ritmo.",
+        "pista": "Batería, tambor, cajón"
+      }
+    ]
+  }
+]

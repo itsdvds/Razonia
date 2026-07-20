@@ -1,0 +1,547 @@
+[
+  {
+    "nivel": 1,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es 1 AND 0 en álgebra booleana?",
+        "r": "0",
+        "exp": "AND es verdadero solo cuando ambos operandos son 1. 1 AND 0 = 0",
+        "pista": "AND solo da 1 si los dos son 1"
+      },
+      {
+        "p": "¿Cuánto es 1 OR 0?",
+        "r": "1",
+        "exp": "OR es verdadero cuando al menos uno de los operandos es 1. 1 OR 0 = 1",
+        "pista": "OR da 1 si alguno es 1"
+      },
+      {
+        "p": "¿Cuánto es NOT 1?",
+        "r": "0",
+        "exp": "NOT invierte el valor: NOT 1 = 0, NOT 0 = 1",
+        "pista": "Invierte el valor"
+      },
+      {
+        "p": "¿Cuánto es 0 XOR 1?",
+        "r": "1",
+        "exp": "XOR (o exclusivo) es 1 cuando los operandos son diferentes. 0 XOR 1 = 1",
+        "pista": "XOR es 1 cuando son diferentes"
+      }
+    ]
+  },
+  {
+    "nivel": 2,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es el número binario 1010 en decimal?",
+        "r": "10",
+        "exp": "1010 en binario = 1×8 + 0×4 + 1×2 + 0×1 = 8+2 = 10",
+        "pista": "Potencias de 2 de derecha a izquierda"
+      },
+      {
+        "p": "¿Cuánto es el número decimal 7 en binario?",
+        "r": "111",
+        "exp": "7 = 4+2+1 = 1×2² + 1×2¹ + 1×2⁰ = 111 en binario",
+        "pista": "Divide entre 2 repetidamente"
+      },
+      {
+        "p": "¿Cuánto es 1111 en binario a decimal?",
+        "r": "15",
+        "exp": "1111 = 8+4+2+1 = 15",
+        "pista": "Suma todas las potencias de 2"
+      },
+      {
+        "p": "¿Cuánto es el número decimal 8 en binario?",
+        "r": "1000",
+        "exp": "8 = 2³ = 1000 en binario",
+        "pista": "Es una potencia de 2"
+      }
+    ]
+  },
+  {
+    "nivel": 3,
+    "preguntas": [
+      {
+        "p": "¿Qué es un algoritmo?",
+        "r": "secuencia finita de instrucciones para resolver un problema",
+        "exp": "Un algoritmo es un conjunto ordenado y finito de pasos bien definidos que resuelven un problema o realizan una tarea",
+        "pista": "Receta de instrucciones"
+      },
+      {
+        "p": "¿Qué es la complejidad algorítmica?",
+        "r": "medida de los recursos (tiempo/espacio) que usa un algoritmo",
+        "exp": "La complejidad algorítmica mide cuánto tiempo o memoria requiere un algoritmo en función del tamaño de la entrada",
+        "pista": "Eficiencia del algoritmo"
+      },
+      {
+        "p": "¿Qué significa O(n) en notación Big O?",
+        "r": "tiempo lineal proporcional al tamaño de la entrada",
+        "exp": "O(n) indica que el tiempo de ejecución crece linealmente con el tamaño n de la entrada",
+        "pista": "Crece al mismo ritmo que n"
+      },
+      {
+        "p": "¿Qué significa O(1) en notación Big O?",
+        "r": "tiempo constante independiente del tamaño de la entrada",
+        "exp": "O(1) significa que el algoritmo siempre toma el mismo tiempo sin importar el tamaño de la entrada",
+        "pista": "Tiempo fijo siempre"
+      }
+    ]
+  },
+  {
+    "nivel": 4,
+    "preguntas": [
+      {
+        "p": "¿Qué es una pila (stack) en programación?",
+        "r": "estructura de datos LIFO: el último en entrar es el primero en salir",
+        "exp": "Una pila es una estructura donde las operaciones push (agregar) y pop (quitar) ocurren en el mismo extremo; LIFO (Last In, First Out)",
+        "pista": "Como una pila de platos"
+      },
+      {
+        "p": "¿Qué es una cola (queue) en programación?",
+        "r": "estructura de datos FIFO: el primero en entrar es el primero en salir",
+        "exp": "Una cola es una estructura FIFO (First In, First Out) donde se agrega al final y se quita del frente",
+        "pista": "Como una fila de supermercado"
+      },
+      {
+        "p": "¿Qué es una lista enlazada?",
+        "r": "colección de nodos donde cada uno apunta al siguiente",
+        "exp": "Una lista enlazada es una estructura donde cada elemento (nodo) contiene un dato y un puntero al nodo siguiente",
+        "pista": "Cada elemento sabe dónde está el siguiente"
+      },
+      {
+        "p": "¿Qué es un árbol binario?",
+        "r": "estructura de datos donde cada nodo tiene como máximo dos hijos",
+        "exp": "Un árbol binario es una estructura jerárquica donde cada nodo puede tener hasta dos hijos: izquierdo y derecho",
+        "pista": "Máximo dos ramas por nodo"
+      }
+    ]
+  },
+  {
+    "nivel": 5,
+    "preguntas": [
+      {
+        "p": "¿Qué es la recursión?",
+        "r": "función que se llama a sí misma para resolver subproblemas",
+        "exp": "La recursión ocurre cuando una función se llama a sí misma con un caso más simple hasta llegar a un caso base",
+        "pista": "Divide y conquista llamándose a sí misma"
+      },
+      {
+        "p": "¿Qué es un caso base en la recursión?",
+        "r": "condición que detiene la llamada recursiva",
+        "exp": "El caso base es la condición que termina la recursión; sin él, la función se llamaría infinitamente",
+        "pista": "Sin esto habría recursión infinita"
+      },
+      {
+        "p": "¿Cuánto es factorial(3) calculado recursivamente?",
+        "r": "6",
+        "exp": "factorial(3) = 3 × factorial(2) = 3 × 2 × factorial(1) = 3 × 2 × 1 = 6",
+        "pista": "3 × 2 × 1"
+      },
+      {
+        "p": "¿Qué es la serie de Fibonacci?",
+        "r": "secuencia donde cada número es la suma de los dos anteriores",
+        "exp": "La serie de Fibonacci: 0,1,1,2,3,5,8,13... donde F(n) = F(n-1) + F(n-2)",
+        "pista": "Cada número suma los dos anteriores"
+      }
+    ]
+  },
+  {
+    "nivel": 6,
+    "preguntas": [
+      {
+        "p": "¿Qué es la búsqueda binaria?",
+        "r": "algoritmo que divide a la mitad el espacio de búsqueda en cada paso",
+        "exp": "La búsqueda binaria encuentra un elemento en una lista ordenada comparando con el elemento central y descartando la mitad irrelevante",
+        "pista": "Divide por la mitad en cada paso"
+      },
+      {
+        "p": "¿Cuál es la complejidad de la búsqueda binaria?",
+        "r": "O(log n)",
+        "exp": "La búsqueda binaria tiene complejidad O(log n) porque divide el problema a la mitad en cada iteración",
+        "pista": "Logarítmica"
+      },
+      {
+        "p": "¿Qué requisito debe cumplir la lista para la búsqueda binaria?",
+        "r": "debe estar ordenada",
+        "exp": "La búsqueda binaria solo funciona en colecciones ordenadas, pues compara con el elemento del medio para decidir qué mitad explorar",
+        "pista": "Ordenada ascendente o descendentemente"
+      },
+      {
+        "p": "¿Cuántas comparaciones necesita la búsqueda binaria para una lista de 1024 elementos en el peor caso?",
+        "r": "10",
+        "exp": "log₂(1024) = 10, porque 2¹⁰ = 1024. Se necesitan 10 divisiones por la mitad",
+        "pista": "log₂(1024) = ?"
+      }
+    ]
+  },
+  {
+    "nivel": 7,
+    "preguntas": [
+      {
+        "p": "¿Qué es la programación orientada a objetos?",
+        "r": "paradigma que organiza el software en objetos con datos y métodos",
+        "exp": "La POO organiza el código en objetos que encapsulan datos (atributos) y comportamientos (métodos), modelando entidades del mundo real",
+        "pista": "Objetos con datos y comportamientos"
+      },
+      {
+        "p": "¿Qué es la herencia en POO?",
+        "r": "mecanismo por el que una clase adquiere propiedades de otra",
+        "exp": "La herencia permite que una clase (hija) reutilice y extienda los atributos y métodos de otra clase (padre)",
+        "pista": "Una clase hereda de otra"
+      },
+      {
+        "p": "¿Qué es el polimorfismo?",
+        "r": "capacidad de objetos de diferentes clases de responder al mismo mensaje de diferentes maneras",
+        "exp": "El polimorfismo permite que diferentes clases implementen el mismo método de formas distintas, dando flexibilidad al código",
+        "pista": "Mismo método, diferente implementación"
+      },
+      {
+        "p": "¿Qué es la encapsulación?",
+        "r": "ocultamiento de los datos internos de un objeto",
+        "exp": "La encapsulación protege los datos internos de un objeto, exponiendo solo lo necesario a través de una interfaz definida",
+        "pista": "Los datos internos están protegidos"
+      }
+    ]
+  },
+  {
+    "nivel": 8,
+    "preguntas": [
+      {
+        "p": "¿Qué es SQL?",
+        "r": "lenguaje estándar para gestionar bases de datos relacionales",
+        "exp": "SQL (Structured Query Language) es el lenguaje estándar para crear, consultar, modificar y administrar bases de datos relacionales",
+        "pista": "Para bases de datos"
+      },
+      {
+        "p": "¿Qué hace SELECT en SQL?",
+        "r": "consulta y recupera datos de una tabla",
+        "exp": "La instrucción SELECT recupera filas de una o más tablas; SELECT * FROM tabla devuelve todos los campos",
+        "pista": "Lee datos de una tabla"
+      },
+      {
+        "p": "¿Qué hace la instrucción WHERE en SQL?",
+        "r": "filtra los registros según una condición",
+        "exp": "WHERE establece condiciones para filtrar las filas devueltas por SELECT, UPDATE o DELETE",
+        "pista": "Filtra resultados"
+      },
+      {
+        "p": "¿Qué es una PRIMARY KEY?",
+        "r": "columna o conjunto de columnas que identifica de forma única cada fila",
+        "exp": "La clave primaria es un identificador único para cada registro en una tabla; no puede ser nulo ni repetirse",
+        "pista": "Identificador único de cada registro"
+      }
+    ]
+  },
+  {
+    "nivel": 9,
+    "preguntas": [
+      {
+        "p": "¿Qué es Git?",
+        "r": "sistema de control de versiones distribuido",
+        "exp": "Git es un sistema de control de versiones distribuido que registra los cambios del código fuente a lo largo del tiempo",
+        "pista": "Para controlar versiones del código"
+      },
+      {
+        "p": "¿Qué hace 'git commit'?",
+        "r": "guarda los cambios staged en el repositorio local",
+        "exp": "git commit captura un snapshot de los cambios preparados (staged) y los guarda en el historial del repositorio local",
+        "pista": "Guarda un punto en el tiempo"
+      },
+      {
+        "p": "¿Qué es una rama (branch) en Git?",
+        "r": "puntero a un commit que permite desarrollo paralelo",
+        "exp": "Una rama en Git es un puntero a un commit específico, permitiendo desarrollar funciones en paralelo sin afectar la rama principal",
+        "pista": "Desarrollo paralelo"
+      },
+      {
+        "p": "¿Qué hace 'git merge'?",
+        "r": "combina los cambios de una rama en otra",
+        "exp": "git merge integra los cambios de una rama especificada en la rama activa, creando un nuevo commit de fusión",
+        "pista": "Une dos ramas"
+      }
+    ]
+  },
+  {
+    "nivel": 10,
+    "preguntas": [
+      {
+        "p": "¿Qué es la complejidad O(n²)?",
+        "r": "tiempo cuadrático que crece con el cuadrado del tamaño de la entrada",
+        "exp": "O(n²) indica que el tiempo de ejecución crece con el cuadrado de n; típico de algoritmos con dos bucles anidados",
+        "pista": "Dos bucles anidados"
+      },
+      {
+        "p": "¿Qué algoritmo de ordenamiento tiene complejidad O(n log n) promedio?",
+        "r": "merge sort",
+        "exp": "Merge sort usa la estrategia divide y vencerás con complejidad garantizada O(n log n) en todos los casos",
+        "pista": "Divide y fusiona"
+      },
+      {
+        "p": "¿Qué es el bubble sort?",
+        "r": "algoritmo de ordenamiento que compara e intercambia pares adyacentes repetidamente",
+        "exp": "Bubble sort compara elementos adyacentes y los intercambia si están en el orden incorrecto, iterando hasta ordenar todo",
+        "pista": "Los elementos más grandes 'burbujean' al final"
+      },
+      {
+        "p": "¿Cuál es la complejidad del bubble sort en el peor caso?",
+        "r": "O(n²)",
+        "exp": "Bubble sort requiere en el peor caso n(n-1)/2 comparaciones, lo que resulta en O(n²)",
+        "pista": "Dos bucles anidados"
+      }
+    ]
+  },
+  {
+    "nivel": 11,
+    "preguntas": [
+      {
+        "p": "¿Qué es una API REST?",
+        "r": "interfaz que usa HTTP para operaciones CRUD sin estado",
+        "exp": "Una API REST (Representational State Transfer) usa verbos HTTP (GET, POST, PUT, DELETE) para operaciones sin mantener estado del cliente",
+        "pista": "Interfaz web sin estado"
+      },
+      {
+        "p": "¿Qué método HTTP se usa para crear recursos?",
+        "r": "POST",
+        "exp": "El método POST envía datos al servidor para crear un nuevo recurso; GET lee, PUT actualiza, DELETE borra",
+        "pista": "Crea un nuevo recurso"
+      },
+      {
+        "p": "¿Qué código HTTP indica éxito?",
+        "r": "200",
+        "exp": "El código 200 OK indica que la solicitud fue exitosa. 404=no encontrado, 500=error del servidor",
+        "pista": "El más común en respuestas exitosas"
+      },
+      {
+        "p": "¿Qué es JSON?",
+        "r": "formato de intercambio de datos basado en texto legible",
+        "exp": "JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos fácil de leer y escribir para humanos y máquinas",
+        "pista": "Formato de datos muy usado en APIs"
+      }
+    ]
+  },
+  {
+    "nivel": 12,
+    "preguntas": [
+      {
+        "p": "¿Qué es un sistema operativo?",
+        "r": "software que gestiona el hardware y provee servicios a las aplicaciones",
+        "exp": "El sistema operativo es el software fundamental que gestiona los recursos de hardware y proporciona una interfaz para ejecutar aplicaciones",
+        "pista": "Windows, Linux, macOS son ejemplos"
+      },
+      {
+        "p": "¿Qué es un proceso en un SO?",
+        "r": "programa en ejecución con sus propios recursos",
+        "exp": "Un proceso es una instancia de un programa en ejecución que tiene su propio espacio de memoria, recursos y estado",
+        "pista": "Un programa corriendo"
+      },
+      {
+        "p": "¿Qué es un deadlock?",
+        "r": "situación donde dos o más procesos esperan indefinidamente recursos que el otro posee",
+        "exp": "El deadlock (abrazo mortal) ocurre cuando procesos se bloquean mutuamente esperando recursos que ninguno puede liberar",
+        "pista": "Bloqueo mutuo eterno"
+      },
+      {
+        "p": "¿Qué es la virtualización?",
+        "r": "tecnología que crea versiones virtuales de recursos físicos",
+        "exp": "La virtualización permite crear múltiples entornos virtuales (VMs) sobre un mismo hardware físico, aislando sistemas",
+        "pista": "Máquinas virtuales sobre hardware real"
+      }
+    ]
+  },
+  {
+    "nivel": 13,
+    "preguntas": [
+      {
+        "p": "¿Qué es el cifrado simétrico?",
+        "r": "cifrado que usa la misma clave para cifrar y descifrar",
+        "exp": "El cifrado simétrico usa la misma clave secreta para cifrar y descifrar los datos; es rápido pero requiere compartir la clave de forma segura",
+        "pista": "Una sola clave para ambas operaciones"
+      },
+      {
+        "p": "¿Qué es el cifrado asimétrico?",
+        "r": "cifrado que usa par de claves: pública para cifrar y privada para descifrar",
+        "exp": "El cifrado asimétrico usa una clave pública (para cifrar) y una privada (para descifrar), eliminando el problema de distribución de claves",
+        "pista": "Clave pública y privada"
+      },
+      {
+        "p": "¿Qué es SSL/TLS?",
+        "r": "protocolos de seguridad que cifran las comunicaciones en internet",
+        "exp": "SSL/TLS (Secure Sockets Layer/Transport Layer Security) cifran las comunicaciones entre cliente y servidor, protegiendo datos en tránsito",
+        "pista": "El candado en el navegador"
+      },
+      {
+        "p": "¿Qué es una función hash?",
+        "r": "función que transforma datos en un valor de longitud fija",
+        "exp": "Una función hash mapea datos de cualquier tamaño a un valor (digest) de longitud fija de forma determinista y unidireccional",
+        "pista": "Genera una huella digital de los datos"
+      }
+    ]
+  },
+  {
+    "nivel": 14,
+    "preguntas": [
+      {
+        "p": "¿Qué es la inteligencia artificial?",
+        "r": "campo de la informática que busca crear sistemas capaces de realizar tareas que requieren inteligencia humana",
+        "exp": "La IA es la rama de la informática que desarrolla sistemas capaces de aprender, razonar, percibir y resolver problemas como los humanos",
+        "pista": "Máquinas que aprenden y razonan"
+      },
+      {
+        "p": "¿Qué es el machine learning?",
+        "r": "técnica de IA donde los sistemas aprenden patrones de los datos",
+        "exp": "El machine learning permite que los sistemas mejoren su rendimiento mediante la experiencia, aprendiendo patrones de datos sin programación explícita",
+        "pista": "Aprende de los datos"
+      },
+      {
+        "p": "¿Qué es una red neuronal artificial?",
+        "r": "modelo computacional inspirado en el cerebro con capas de neuronas artificiales",
+        "exp": "Las redes neuronales artificiales son modelos matemáticos con capas de nodos interconectados que aprenden transformaciones de datos",
+        "pista": "Inspirada en el cerebro humano"
+      },
+      {
+        "p": "¿Qué es el overfitting?",
+        "r": "cuando un modelo aprende demasiado los datos de entrenamiento y no generaliza bien",
+        "exp": "El overfitting ocurre cuando un modelo memoriza los datos de entrenamiento pero tiene mal desempeño con datos nuevos",
+        "pista": "El modelo memoriza en vez de aprender"
+      }
+    ]
+  },
+  {
+    "nivel": 15,
+    "preguntas": [
+      {
+        "p": "¿Qué es la computación cuántica?",
+        "r": "paradigma que usa qubits y fenómenos cuánticos para procesar información",
+        "exp": "La computación cuántica usa qubits (que pueden ser 0 y 1 simultáneamente por superposición) y entrelazamiento cuántico para procesar información exponencialmente",
+        "pista": "Usa superposición cuántica"
+      },
+      {
+        "p": "¿Qué es un qubit?",
+        "r": "unidad básica de información cuántica que puede ser 0 y 1 simultáneamente",
+        "exp": "Un qubit es la unidad de información cuántica; a diferencia del bit clásico, puede estar en superposición de estados 0 y 1 a la vez",
+        "pista": "El bit cuántico"
+      },
+      {
+        "p": "¿Qué es la criptografía post-cuántica?",
+        "r": "criptografía resistente a ataques de computadoras cuánticas",
+        "exp": "La criptografía post-cuántica desarrolla algoritmos resistentes a los algoritmos cuánticos como el de Shor que rompen el cifrado RSA",
+        "pista": "Criptografía resistente a ordenadores cuánticos"
+      },
+      {
+        "p": "¿Qué es blockchain?",
+        "r": "cadena de bloques encadenados criptográficamente de forma descentralizada",
+        "exp": "Un blockchain es un registro distribuido e inmutable donde los datos se organizan en bloques enlazados criptográficamente sin autoridad central",
+        "pista": "La tecnología detrás de Bitcoin"
+      }
+    ]
+  },
+  {
+    "nivel": 16,
+    "preguntas": [
+      {
+        "p": "¿Qué valor devuelve true AND false?",
+        "r": "false",
+        "exp": "La conjunción AND solo es verdadera cuando ambos operandos son verdaderos.",
+        "pista": "Ambos deben ser true"
+      }
+    ]
+  },
+  {
+    "nivel": 17,
+    "preguntas": [
+      {
+        "p": "¿Qué valor devuelve true OR false?",
+        "r": "true",
+        "exp": "La disyunción OR es verdadera si al menos un operando es verdadero.",
+        "pista": "Basta uno verdadero"
+      }
+    ]
+  },
+  {
+    "nivel": 18,
+    "preguntas": [
+      {
+        "p": "¿Qué operador niega un valor booleano?",
+        "r": "NOT",
+        "exp": "NOT invierte true a false y false a true.",
+        "pista": "Invierte el valor"
+      }
+    ]
+  },
+  {
+    "nivel": 19,
+    "preguntas": [
+      {
+        "p": "¿Cómo se llama una instrucción que se repite mientras una condición sea verdadera?",
+        "r": "bucle while",
+        "exp": "Un bucle while ejecuta instrucciones mientras su condición sea verdadera.",
+        "pista": "While significa mientras"
+      }
+    ]
+  },
+  {
+    "nivel": 20,
+    "preguntas": [
+      {
+        "p": "¿Qué estructura decide entre caminos según una condición?",
+        "r": "if",
+        "exp": "La sentencia if permite ejecutar código solo cuando se cumple una condición.",
+        "pista": "Si ocurre algo, ejecuta algo"
+      }
+    ]
+  },
+  {
+    "nivel": 21,
+    "preguntas": [
+      {
+        "p": "¿Qué tipo de dato representa verdadero o falso?",
+        "r": "booleano",
+        "exp": "Un booleano solo puede representar dos valores lógicos: verdadero o falso.",
+        "pista": "True o false"
+      }
+    ]
+  },
+  {
+    "nivel": 22,
+    "preguntas": [
+      {
+        "p": "¿Qué es un algoritmo?",
+        "r": "conjunto ordenado de pasos para resolver un problema",
+        "exp": "Un algoritmo describe pasos finitos y ordenados para llegar a una solución.",
+        "pista": "Receta lógica"
+      }
+    ]
+  },
+  {
+    "nivel": 23,
+    "preguntas": [
+      {
+        "p": "¿Qué estructura almacena elementos en posiciones indexadas?",
+        "r": "arreglo",
+        "exp": "Un arreglo o array guarda elementos accesibles mediante índices.",
+        "pista": "También se llama array"
+      }
+    ]
+  },
+  {
+    "nivel": 24,
+    "preguntas": [
+      {
+        "p": "¿Qué significa depurar un programa?",
+        "r": "buscar y corregir errores",
+        "exp": "Depurar consiste en localizar fallos y corregirlos en el código.",
+        "pista": "Debugging"
+      }
+    ]
+  },
+  {
+    "nivel": 25,
+    "preguntas": [
+      {
+        "p": "¿Qué compuerta lógica equivale a negar AND?",
+        "r": "NAND",
+        "exp": "NAND produce el resultado opuesto de AND.",
+        "pista": "NOT más AND"
+      }
+    ]
+  }
+]

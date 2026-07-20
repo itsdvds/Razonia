@@ -248,7 +248,9 @@ struct PerfilView: View {
                         }
 
                         // Insignias
-                        if usuario.insigniaRazonia || usuario.insigniaHackerPensamiento {
+                        if usuario.insigniaRazonia
+                            || usuario.insigniaHackerPensamiento
+                            || RamaID.allCases.contains(where: { usuario.tieneInsigniaRama($0) }) {
                             LiquidCard {
                                 VStack(alignment: .leading, spacing: 10) {
                                     Text("INSIGNIAS GANADAS")
@@ -257,8 +259,14 @@ struct PerfilView: View {
                                         .kerning(1.5)
 
                                     if usuario.insigniaRazonia {
-                                        insigniaRow("🏆", "Razonia Completado", "Completaste los 90 niveles principales",
+                                        insigniaRow("🏆", "Razonia Completado", "Completaste todas las ramas de entrenamiento",
                                                    colores: [Color(red: 1.0, green: 0.8, blue: 0.0), Color(red: 0.8, green: 0.5, blue: 0.0)])
+                                    }
+                                    ForEach(RamaID.allCases) { rama in
+                                        if usuario.tieneInsigniaRama(rama) {
+                                            insigniaRow(rama.emoji, "Maestro de \(rama.nombre)", "Completaste la rama de \(rama.nombre)",
+                                                       colores: rama.gradiente)
+                                        }
                                     }
                                     if usuario.insigniaHackerPensamiento {
                                         insigniaRow("🎖️", "Hacker del Pensamiento Lógico", "Conquistaste la Zona Extrema completa",

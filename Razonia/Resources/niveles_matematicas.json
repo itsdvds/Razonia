@@ -1,0 +1,547 @@
+[
+  {
+    "nivel": 1,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es 15% de 200?",
+        "r": "30",
+        "exp": "15% de 200 = 0.15 × 200 = 30",
+        "pista": "Divide entre 100 y multiplica"
+      },
+      {
+        "p": "¿Cuál es el resultado de 7 × 8?",
+        "r": "56",
+        "exp": "7 × 8 = 56. Tabla del 7: 7,14,21,28,35,42,49,56",
+        "pista": "Tabla del 7"
+      },
+      {
+        "p": "¿Cuánto es la raíz cuadrada de 144?",
+        "r": "12",
+        "exp": "√144 = 12 porque 12 × 12 = 144",
+        "pista": "¿Qué número multiplicado por sí mismo da 144?"
+      },
+      {
+        "p": "Si x + 5 = 12, ¿cuánto vale x?",
+        "r": "7",
+        "exp": "x = 12 - 5 = 7",
+        "pista": "Despeja x restando 5"
+      }
+    ]
+  },
+  {
+    "nivel": 2,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es 2³?",
+        "r": "8",
+        "exp": "2³ = 2 × 2 × 2 = 8",
+        "pista": "Multiplica 2 tres veces"
+      },
+      {
+        "p": "¿Cuántos grados tiene un triángulo equilátero en cada ángulo?",
+        "r": "60",
+        "exp": "Un triángulo tiene 180° en total. Dividido en 3 ángulos iguales: 180/3 = 60°",
+        "pista": "Los tres ángulos suman 180°"
+      },
+      {
+        "p": "¿Cuál es el MCM de 4 y 6?",
+        "r": "12",
+        "exp": "MCM(4,6) = 12 porque 12 es el menor número divisible entre 4 y 6",
+        "pista": "Mínimo Común Múltiplo"
+      },
+      {
+        "p": "¿Cuánto es 3/4 + 1/4?",
+        "r": "1",
+        "exp": "3/4 + 1/4 = 4/4 = 1",
+        "pista": "Mismos denominadores, se suman numeradores"
+      }
+    ]
+  },
+  {
+    "nivel": 3,
+    "preguntas": [
+      {
+        "p": "¿Cuál es el área de un cuadrado con lado 7?",
+        "r": "49",
+        "exp": "Área del cuadrado = lado² = 7² = 49",
+        "pista": "Lado al cuadrado"
+      },
+      {
+        "p": "Si 3x = 21, ¿cuánto vale x?",
+        "r": "7",
+        "exp": "x = 21 ÷ 3 = 7",
+        "pista": "Divide ambos lados entre 3"
+      },
+      {
+        "p": "¿Cuánto es el 30% de 90?",
+        "r": "27",
+        "exp": "30% de 90 = 0.30 × 90 = 27",
+        "pista": "Multiplica por 0.30"
+      },
+      {
+        "p": "¿Cuántos lados tiene un hexágono?",
+        "r": "6",
+        "exp": "Un hexágono es un polígono de 6 lados. Hexa = seis en griego",
+        "pista": "Hexa en griego significa seis"
+      }
+    ]
+  },
+  {
+    "nivel": 4,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es log₁₀(1000)?",
+        "r": "3",
+        "exp": "log₁₀(1000) = log₁₀(10³) = 3",
+        "pista": "¿A qué potencia debes elevar 10 para obtener 1000?"
+      },
+      {
+        "p": "¿Cuál es la fórmula del perímetro de un círculo?",
+        "r": "2πr",
+        "exp": "El perímetro (circunferencia) de un círculo es C = 2πr, donde r es el radio",
+        "pista": "Involucra π y el radio"
+      },
+      {
+        "p": "¿Cuánto es sin(90°)?",
+        "r": "1",
+        "exp": "sen(90°) = 1. En el círculo unitario, el punto en 90° tiene coordenada y = 1",
+        "pista": "Valor máximo del seno"
+      },
+      {
+        "p": "¿Cuál es la derivada de x²?",
+        "r": "2x",
+        "exp": "d/dx(x²) = 2x usando la regla de potencia: nx^(n-1)",
+        "pista": "Regla de la potencia"
+      }
+    ]
+  },
+  {
+    "nivel": 5,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es la suma de los ángulos interiores de un pentágono?",
+        "r": "540",
+        "exp": "Suma de ángulos = (n-2)×180 = (5-2)×180 = 3×180 = 540°",
+        "pista": "Fórmula: (n-2)×180"
+      },
+      {
+        "p": "Si un tren viaja 120 km en 2 horas, ¿cuál es su velocidad?",
+        "r": "60 km/h",
+        "exp": "Velocidad = distancia/tiempo = 120/2 = 60 km/h",
+        "pista": "Velocidad = distancia entre tiempo"
+      },
+      {
+        "p": "¿Cuánto es 5! (factorial de 5)?",
+        "r": "120",
+        "exp": "5! = 5 × 4 × 3 × 2 × 1 = 120",
+        "pista": "Multiplica todos los enteros de 1 a 5"
+      },
+      {
+        "p": "¿Cuál es la integral de 2x?",
+        "r": "x²+C",
+        "exp": "∫2x dx = x² + C usando la regla de integración de potencias",
+        "pista": "La inversa de derivar"
+      }
+    ]
+  },
+  {
+    "nivel": 6,
+    "preguntas": [
+      {
+        "p": "¿Qué es un número primo?",
+        "r": "número mayor que 1 divisible solo entre 1 y él mismo",
+        "exp": "Los números primos solo tienen dos divisores: 1 y el mismo número. Ej: 2, 3, 5, 7, 11",
+        "pista": "Solo dos divisores"
+      },
+      {
+        "p": "¿Es el número 1 primo?",
+        "r": "no",
+        "exp": "Por definición, los números primos deben ser mayores que 1 y tener exactamente dos divisores",
+        "pista": "El 1 solo tiene un divisor"
+      },
+      {
+        "p": "¿Cuántos números primos hay entre 1 y 10?",
+        "r": "4",
+        "exp": "Los primos entre 1 y 10 son: 2, 3, 5, 7. Son 4 en total",
+        "pista": "2, 3, 5, 7"
+      },
+      {
+        "p": "¿Cuál es el número primo más pequeño?",
+        "r": "2",
+        "exp": "El 2 es el único número primo par y el más pequeño de todos",
+        "pista": "Es el único primo par"
+      }
+    ]
+  },
+  {
+    "nivel": 7,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es √(25+144)?",
+        "r": "13",
+        "exp": "25 + 144 = 169, y √169 = 13 porque 13² = 169",
+        "pista": "Suma primero, luego saca raíz"
+      },
+      {
+        "p": "¿Qué teorema relaciona los lados de un triángulo rectángulo?",
+        "r": "teorema de pitágoras",
+        "exp": "El Teorema de Pitágoras: a² + b² = c², donde c es la hipotenusa",
+        "pista": "a² + b² = c²"
+      },
+      {
+        "p": "En un triángulo rectángulo con catetos 3 y 4, ¿cuánto mide la hipotenusa?",
+        "r": "5",
+        "exp": "c = √(3² + 4²) = √(9+16) = √25 = 5. Este es el triángulo 3-4-5",
+        "pista": "Usa el teorema de Pitágoras"
+      },
+      {
+        "p": "¿Cuánto es cos(0°)?",
+        "r": "1",
+        "exp": "cos(0°) = 1. En el círculo unitario, el punto en 0° tiene coordenada x = 1",
+        "pista": "Valor máximo del coseno"
+      }
+    ]
+  },
+  {
+    "nivel": 8,
+    "preguntas": [
+      {
+        "p": "¿Qué es una función biyectiva?",
+        "r": "una función que es inyectiva y sobreyectiva al mismo tiempo",
+        "exp": "Una función biyectiva (o biyección) es a la vez inyectiva (1 a 1) y sobreyectiva (sobre), estableciendo una correspondencia perfecta",
+        "pista": "Inyectiva y sobreyectiva"
+      },
+      {
+        "p": "¿Cuánto es 0.5 en fracción?",
+        "r": "1/2",
+        "exp": "0.5 = 5/10 = 1/2 simplificando la fracción",
+        "pista": "La mitad"
+      },
+      {
+        "p": "¿Cuánto es el área de un triángulo con base 8 y altura 5?",
+        "r": "20",
+        "exp": "Área = (base × altura)/2 = (8 × 5)/2 = 40/2 = 20",
+        "pista": "Base por altura entre 2"
+      },
+      {
+        "p": "Si 2x - 3 = 11, ¿cuánto vale x?",
+        "r": "7",
+        "exp": "2x = 11 + 3 = 14, entonces x = 14/2 = 7",
+        "pista": "Despeja paso a paso"
+      }
+    ]
+  },
+  {
+    "nivel": 9,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es 4² - 2³?",
+        "r": "8",
+        "exp": "4² - 2³ = 16 - 8 = 8",
+        "pista": "Resuelve las potencias primero"
+      },
+      {
+        "p": "¿Cuántas diagonales tiene un cuadrado?",
+        "r": "2",
+        "exp": "Un cuadrado tiene 2 diagonales que van de vértice a vértice opuesto",
+        "pista": "De esquina a esquina opuesta"
+      },
+      {
+        "p": "¿Cuánto es tan(45°)?",
+        "r": "1",
+        "exp": "tan(45°) = sin(45°)/cos(45°) = (√2/2)/(√2/2) = 1",
+        "pista": "Razón seno sobre coseno"
+      },
+      {
+        "p": "¿Cuántos ejes de simetría tiene un círculo?",
+        "r": "infinitos",
+        "exp": "Un círculo tiene infinitos ejes de simetría, todos pasando por su centro",
+        "pista": "Cualquier diámetro es eje de simetría"
+      }
+    ]
+  },
+  {
+    "nivel": 10,
+    "preguntas": [
+      {
+        "p": "¿Qué es una progresión aritmética?",
+        "r": "sucesión donde la diferencia entre términos consecutivos es constante",
+        "exp": "En una progresión aritmética, la diferencia (razón) entre cualquier término y el anterior siempre es la misma",
+        "pista": "Diferencia constante entre términos"
+      },
+      {
+        "p": "¿Cuál es el término 10 de la progresión 2, 5, 8, 11...?",
+        "r": "29",
+        "exp": "Razón = 3. a₁₀ = 2 + (10-1)×3 = 2 + 27 = 29",
+        "pista": "Fórmula: a₁ + (n-1)×d"
+      },
+      {
+        "p": "¿Qué es una progresión geométrica?",
+        "r": "sucesión donde la razón entre términos consecutivos es constante",
+        "exp": "En una progresión geométrica, cada término se obtiene multiplicando el anterior por una razón constante r",
+        "pista": "Razón multiplicativa constante"
+      },
+      {
+        "p": "¿Cuál es el término 5 de la progresión 2, 6, 18, 54...?",
+        "r": "162",
+        "exp": "Razón = 3. a₅ = 2 × 3⁴ = 2 × 81 = 162",
+        "pista": "Multiplica por la razón 3"
+      }
+    ]
+  },
+  {
+    "nivel": 11,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es la probabilidad de sacar un 6 al lanzar un dado?",
+        "r": "1/6",
+        "exp": "Un dado tiene 6 caras iguales; la probabilidad de cualquier cara es 1/6",
+        "pista": "1 caso favorable entre 6 posibles"
+      },
+      {
+        "p": "¿Cuántas combinaciones hay de elegir 2 de 4 elementos?",
+        "r": "6",
+        "exp": "C(4,2) = 4!/(2!×2!) = (4×3)/(2×1) = 6",
+        "pista": "Fórmula de combinaciones"
+      },
+      {
+        "p": "¿Cuánto es la probabilidad de sacar cara dos veces al lanzar una moneda dos veces?",
+        "r": "1/4",
+        "exp": "P = 1/2 × 1/2 = 1/4 (eventos independientes)",
+        "pista": "Multiplica las probabilidades individuales"
+      },
+      {
+        "p": "¿Qué es la probabilidad complementaria de un evento con P=0.3?",
+        "r": "0.7",
+        "exp": "P(complemento) = 1 - P(evento) = 1 - 0.3 = 0.7",
+        "pista": "La suma de un evento y su complemento es 1"
+      }
+    ]
+  },
+  {
+    "nivel": 12,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es el límite de (1/x) cuando x tiende a infinito?",
+        "r": "0",
+        "exp": "A medida que x crece sin límite, 1/x se aproxima a 0",
+        "pista": "El denominador crece indefinidamente"
+      },
+      {
+        "p": "¿Cuánto es la derivada de sen(x)?",
+        "r": "cos(x)",
+        "exp": "d/dx[sin(x)] = cos(x). Esta es una derivada trigonométrica fundamental",
+        "pista": "Derivada trigonométrica básica"
+      },
+      {
+        "p": "¿Qué representa el área bajo una curva f(x)?",
+        "r": "la integral definida",
+        "exp": "La integral definida ∫f(x)dx calcula el área neta entre la curva y el eje x en un intervalo",
+        "pista": "La integral calcula áreas"
+      },
+      {
+        "p": "¿Cuánto es ∫₀¹ x dx?",
+        "r": "0.5",
+        "exp": "∫₀¹ x dx = [x²/2]₀¹ = 1/2 - 0 = 0.5",
+        "pista": "Regla de integración de potencias"
+      }
+    ]
+  },
+  {
+    "nivel": 13,
+    "preguntas": [
+      {
+        "p": "¿Cuántos elementos tiene el conjunto vacío?",
+        "r": "0",
+        "exp": "El conjunto vacío {} o ∅ no contiene ningún elemento; su cardinalidad es 0",
+        "pista": "Sin elementos"
+      },
+      {
+        "p": "¿Qué es la unión de dos conjuntos A y B?",
+        "r": "el conjunto de todos los elementos que pertenecen a A o a B o a ambos",
+        "exp": "A ∪ B contiene todos los elementos que están en A, en B, o en ambos simultaneamente",
+        "pista": "Todo lo que está en alguno de los dos"
+      },
+      {
+        "p": "¿Qué es la intersección de A={1,2,3} y B={2,3,4}?",
+        "r": "{2,3}",
+        "exp": "A ∩ B son los elementos comunes: {2, 3}",
+        "pista": "Elementos que están en ambos conjuntos"
+      },
+      {
+        "p": "¿Qué es el complemento de A respecto al universo U?",
+        "r": "los elementos de U que no están en A",
+        "exp": "El complemento de A (Aᶜ o A') contiene todos los elementos del universo que no pertenecen a A",
+        "pista": "Lo que NO está en A"
+      }
+    ]
+  },
+  {
+    "nivel": 14,
+    "preguntas": [
+      {
+        "p": "¿Qué es una matriz cuadrada?",
+        "r": "una matriz con el mismo número de filas y columnas",
+        "exp": "Una matriz n×n es cuadrada. Sus filas y columnas tienen la misma cantidad n",
+        "pista": "Filas igual a columnas"
+      },
+      {
+        "p": "¿Cuánto es el determinante de la matriz [[1,2],[3,4]]?",
+        "r": "-2",
+        "exp": "det = (1×4) - (2×3) = 4 - 6 = -2",
+        "pista": "ad - bc para matrices 2×2"
+      },
+      {
+        "p": "¿Qué es la traspuesta de una matriz?",
+        "r": "la matriz resultante de intercambiar filas por columnas",
+        "exp": "La traspuesta Aᵀ se obtiene cambiando la fila i por la columna i de la matriz original",
+        "pista": "Las filas se convierten en columnas"
+      },
+      {
+        "p": "¿Cuándo es una matriz singular?",
+        "r": "cuando su determinante es cero",
+        "exp": "Una matriz singular tiene determinante igual a 0 y no tiene inversa",
+        "pista": "Determinante igual a cero"
+      }
+    ]
+  },
+  {
+    "nivel": 15,
+    "preguntas": [
+      {
+        "p": "¿Qué es un número complejo?",
+        "r": "un número con parte real e imaginaria de la forma a+bi",
+        "exp": "Los números complejos son de la forma a + bi, donde a es la parte real, b la parte imaginaria e i = √(-1)",
+        "pista": "Combinan parte real e imaginaria"
+      },
+      {
+        "p": "¿Cuánto es i² (i al cuadrado)?",
+        "r": "-1",
+        "exp": "Por definición, i = √(-1), entonces i² = -1",
+        "pista": "Definición de la unidad imaginaria"
+      },
+      {
+        "p": "¿Cuánto es el módulo de 3+4i?",
+        "r": "5",
+        "exp": "|3+4i| = √(3²+4²) = √(9+16) = √25 = 5",
+        "pista": "Raíz de la suma de cuadrados"
+      },
+      {
+        "p": "¿Cuánto es (2+i)+(3-2i)?",
+        "r": "5-i",
+        "exp": "Se suman partes reales e imaginarias por separado: (2+3) + (1-2)i = 5 - i",
+        "pista": "Suma parte real e imaginaria por separado"
+      }
+    ]
+  },
+  {
+    "nivel": 16,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es 12²?",
+        "r": "144",
+        "exp": "12 al cuadrado es 12 × 12 = 144.",
+        "pista": "Multiplica 12 por 12"
+      }
+    ]
+  },
+  {
+    "nivel": 17,
+    "preguntas": [
+      {
+        "p": "¿Cuál es el valor de π redondeado a dos decimales?",
+        "r": "3.14",
+        "exp": "π es aproximadamente 3.14159, por eso a dos decimales es 3.14.",
+        "pista": "Tres punto catorce"
+      }
+    ]
+  },
+  {
+    "nivel": 18,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es 2/5 en decimal?",
+        "r": "0.4",
+        "exp": "Dividir 2 entre 5 da 0.4.",
+        "pista": "Equivale a cuatro décimos"
+      }
+    ]
+  },
+  {
+    "nivel": 19,
+    "preguntas": [
+      {
+        "p": "¿Qué nombre recibe una igualdad con una incógnita?",
+        "r": "ecuación",
+        "exp": "Una ecuación establece una igualdad que contiene una o más incógnitas.",
+        "pista": "Se resuelve despejando"
+      }
+    ]
+  },
+  {
+    "nivel": 20,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es el área de un rectángulo de base 9 y altura 4?",
+        "r": "36",
+        "exp": "El área del rectángulo es base por altura: 9 × 4 = 36.",
+        "pista": "Base por altura"
+      }
+    ]
+  },
+  {
+    "nivel": 21,
+    "preguntas": [
+      {
+        "p": "¿Cuál es el siguiente número en 3, 6, 12, 24?",
+        "r": "48",
+        "exp": "Cada término se duplica, por eso después de 24 viene 48.",
+        "pista": "Multiplica por 2"
+      }
+    ]
+  },
+  {
+    "nivel": 22,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es 10 dividido entre 0.5?",
+        "r": "20",
+        "exp": "Dividir entre 0.5 equivale a multiplicar por 2.",
+        "pista": "Medios caben veinte veces"
+      }
+    ]
+  },
+  {
+    "nivel": 23,
+    "preguntas": [
+      {
+        "p": "¿Cuántos grados tiene un ángulo recto?",
+        "r": "90",
+        "exp": "Un ángulo recto mide exactamente 90 grados.",
+        "pista": "Forma una esquina cuadrada"
+      }
+    ]
+  },
+  {
+    "nivel": 24,
+    "preguntas": [
+      {
+        "p": "¿Cuál es la mediana de 2, 5, 9?",
+        "r": "5",
+        "exp": "La mediana es el valor central cuando los datos están ordenados.",
+        "pista": "El número del medio"
+      }
+    ]
+  },
+  {
+    "nivel": 25,
+    "preguntas": [
+      {
+        "p": "¿Cuánto es 3x si x vale 8?",
+        "r": "24",
+        "exp": "Sustituir x por 8 da 3 × 8 = 24.",
+        "pista": "Multiplica 3 por 8"
+      }
+    ]
+  }
+]

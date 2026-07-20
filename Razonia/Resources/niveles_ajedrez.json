@@ -1,0 +1,367 @@
+[
+  {
+    "nivel": 1,
+    "preguntas": [
+      {
+        "p": "¿Cuántas piezas tiene cada jugador al inicio de una partida?",
+        "r": "16",
+        "exp": "Cada jugador comienza con 16 piezas: 1 rey, 1 reina, 2 torres, 2 alfiles, 2 caballos y 8 peones",
+        "pista": "Cuenta todas las piezas del lado blanco"
+      },
+      {
+        "p": "¿Cuántas casillas tiene un tablero de ajedrez?",
+        "r": "64",
+        "exp": "El tablero de ajedrez es una cuadrícula de 8×8 = 64 casillas alternadas en blanco y negro",
+        "pista": "8 filas por 8 columnas"
+      },
+      {
+        "p": "¿Qué pieza puede moverse en L?",
+        "r": "caballo",
+        "exp": "El caballo se mueve en forma de L: dos casillas en una dirección y una perpendicular, siendo la única pieza que salta otras",
+        "pista": "La única pieza que salta"
+      },
+      {
+        "p": "¿Qué significa 'jaque mate'?",
+        "r": "el rey está en jaque y no puede escapar",
+        "exp": "El jaque mate ocurre cuando el rey está amenazado y no hay ningún movimiento legal que elimine la amenaza",
+        "pista": "El rey no puede escapar"
+      }
+    ]
+  },
+  {
+    "nivel": 2,
+    "preguntas": [
+      {
+        "p": "¿Qué pieza vale más en ajedrez?",
+        "r": "la reina",
+        "exp": "La reina es la pieza más poderosa: se mueve en línea recta en todas las direcciones tantas casillas como quiera",
+        "pista": "También llamada dama"
+      },
+      {
+        "p": "¿Qué es el enroque?",
+        "r": "movimiento especial donde el rey se mueve dos casillas hacia una torre y la torre salta al otro lado",
+        "exp": "El enroque es un movimiento especial que permite al rey ponerse a salvo moviendo 2 casillas hacia una torre, que salta al lado contrario",
+        "pista": "El rey y la torre se mueven juntos"
+      },
+      {
+        "p": "¿Qué es la captura al paso (en passant)?",
+        "r": "captura especial de un peón que avanzó dos casillas como si hubiera avanzado una",
+        "exp": "Al paso permite capturar un peón que avanzó 2 casillas desde su posición inicial, como si hubiera avanzado solo 1",
+        "pista": "Captura especial de peones"
+      },
+      {
+        "p": "¿Cuánto vale un alfil en unidades estándar?",
+        "r": "3",
+        "exp": "En la valoración estándar: peón=1, caballo=3, alfil=3, torre=5, reina=9. Rey no tiene valor numérico",
+        "pista": "Igual que el caballo"
+      }
+    ]
+  },
+  {
+    "nivel": 3,
+    "preguntas": [
+      {
+        "p": "¿Qué es la apertura italiana en ajedrez?",
+        "r": "apertura que comienza 1.e4 e5 2.Cf3 Cc6 3.Ac4",
+        "exp": "La Apertura Italiana es una de las más antiguas: las blancas desarrollan el alfil a c4 apuntando al f7, punto débil del negro",
+        "pista": "El alfil va a c4"
+      },
+      {
+        "p": "¿Qué es el control del centro en ajedrez?",
+        "r": "dominar las casillas centrales e4, d4, e5, d5",
+        "exp": "El centro (e4, d4, e5, d5) da movilidad y control. Dominarlo permite desplegar piezas activas y restringir al rival",
+        "pista": "Las 4 casillas centrales"
+      },
+      {
+        "p": "¿Qué es un peón pasado?",
+        "r": "peón que no tiene peones rivales en su columna ni en las columnas adyacentes que lo bloqueen",
+        "exp": "Un peón pasado no puede ser bloqueado ni capturado por peones rivales y es una ventaja porque puede coronar",
+        "pista": "Ningún peón enemigo puede bloquearlo"
+      },
+      {
+        "p": "¿Qué es la estructura de peones?",
+        "r": "la disposición de los peones en el tablero que determina el carácter de la posición",
+        "exp": "La estructura de peones define los puntos fuertes y débiles, las columnas abiertas y el plan estratégico de la partida",
+        "pista": "La columna vertebral de la posición"
+      }
+    ]
+  },
+  {
+    "nivel": 4,
+    "preguntas": [
+      {
+        "p": "¿Quién fue el primer Campeón Mundial de Ajedrez oficialmente reconocido?",
+        "r": "wilhelm steinitz",
+        "exp": "Wilhelm Steinitz (1836-1900) fue proclamado primer Campeón Mundial de Ajedrez en 1886 tras vencer a Johannes Zukertort",
+        "pista": "Primer campeón de la era moderna"
+      },
+      {
+        "p": "¿Qué es el sacrificio en ajedrez?",
+        "r": "ceder material voluntariamente a cambio de una ventaja posicional o de ataque",
+        "exp": "Un sacrificio es la entrega voluntaria de material (peones o piezas) para obtener iniciativa, ataque o ventaja posicional",
+        "pista": "Perder material para ganar ventaja"
+      },
+      {
+        "p": "¿Qué es la zugzwang?",
+        "r": "situación en que cualquier movimiento empeora la posición del jugador que tiene el turno",
+        "exp": "La zugzwang (alemán: 'compulsión de mover') es cuando tener que mover es una desventaja; todo movimiento empeora la posición",
+        "pista": "Palabra alemana: moverse es desventaja"
+      },
+      {
+        "p": "¿Qué es la horquilla (fork) en ajedrez?",
+        "r": "ataque simultáneo a dos o más piezas con una sola pieza",
+        "exp": "La horquilla es un táctico donde una pieza ataca dos o más piezas rivales al mismo tiempo, forzando pérdida de material",
+        "pista": "Una pieza ataca a dos a la vez"
+      }
+    ]
+  },
+  {
+    "nivel": 5,
+    "preguntas": [
+      {
+        "p": "¿Qué es la clavada (pin) en ajedrez?",
+        "r": "ataque a una pieza que no puede moverse sin exponer otra pieza más valiosa detrás",
+        "exp": "Una clavada ocurre cuando mover una pieza atacada expondría a una pieza más valiosa o al rey detrás de ella",
+        "pista": "No puedes mover sin exponer algo más valioso"
+      },
+      {
+        "p": "¿Qué es la ensartada (skewer)?",
+        "r": "ataque a una pieza valiosa que al moverse expone otra pieza detrás",
+        "exp": "La ensartada es opuesta a la clavada: la pieza atacada es más valiosa y al moverse expone la pieza menos valiosa detrás",
+        "pista": "La inversa de la clavada"
+      },
+      {
+        "p": "¿Cuántos movimientos tiene la partida más corta posible con jaque mate?",
+        "r": "2",
+        "exp": "El jaque mate del loco ocurre en 2 movimientos: 1.f3 e5 2.g4 Dh4#. Es el jaque mate más rápido posible",
+        "pista": "Jaque mate del loco"
+      },
+      {
+        "p": "¿Qué es el gambito de dama?",
+        "r": "apertura donde las blancas ofrecen el peón de dama para ganar control del centro",
+        "exp": "El Gambito de Dama (1.d4 d5 2.c4) ofrece el peón de c4 para ganar control del centro tras cxd5... sin que las negras puedan mantener el peón",
+        "pista": "Sacrificio del peón c4"
+      }
+    ]
+  },
+  {
+    "nivel": 6,
+    "preguntas": [
+      {
+        "p": "¿Qué pieza se mueve en forma de L?",
+        "r": "caballo",
+        "exp": "El caballo se mueve dos casillas en una dirección y una perpendicular.",
+        "pista": "Puede saltar piezas"
+      }
+    ]
+  },
+  {
+    "nivel": 7,
+    "preguntas": [
+      {
+        "p": "¿Qué pieza se mueve en diagonal?",
+        "r": "alfil",
+        "exp": "El alfil se desplaza cualquier número de casillas en diagonal.",
+        "pista": "Permanece en su color"
+      }
+    ]
+  },
+  {
+    "nivel": 8,
+    "preguntas": [
+      {
+        "p": "¿Qué pieza se mueve horizontal y verticalmente?",
+        "r": "torre",
+        "exp": "La torre se mueve por filas y columnas.",
+        "pista": "Defiende columnas abiertas"
+      }
+    ]
+  },
+  {
+    "nivel": 9,
+    "preguntas": [
+      {
+        "p": "¿Cuál es la pieza más poderosa?",
+        "r": "dama",
+        "exp": "La dama combina movimientos de torre y alfil.",
+        "pista": "También se llama reina"
+      }
+    ]
+  },
+  {
+    "nivel": 10,
+    "preguntas": [
+      {
+        "p": "¿Qué movimiento protege al rey y activa una torre?",
+        "r": "enroque",
+        "exp": "El enroque mueve el rey y una torre bajo condiciones específicas.",
+        "pista": "Movimiento especial del rey"
+      }
+    ]
+  },
+  {
+    "nivel": 11,
+    "preguntas": [
+      {
+        "p": "¿Cómo se llama cuando el rey está amenazado?",
+        "r": "jaque",
+        "exp": "El jaque ocurre cuando una pieza ataca directamente al rey enemigo.",
+        "pista": "Debe responderse de inmediato"
+      }
+    ]
+  },
+  {
+    "nivel": 12,
+    "preguntas": [
+      {
+        "p": "¿Cómo se gana una partida de ajedrez?",
+        "r": "jaque mate",
+        "exp": "El jaque mate ocurre cuando el rey está en jaque y no tiene defensa legal.",
+        "pista": "Jaque sin escape"
+      }
+    ]
+  },
+  {
+    "nivel": 13,
+    "preguntas": [
+      {
+        "p": "¿Qué pieza solo avanza hacia adelante y captura en diagonal?",
+        "r": "peón",
+        "exp": "El peón avanza de frente y captura una casilla en diagonal.",
+        "pista": "Puede coronar"
+      }
+    ]
+  },
+  {
+    "nivel": 14,
+    "preguntas": [
+      {
+        "p": "¿Qué sucede cuando un peón llega a la última fila?",
+        "r": "coronación",
+        "exp": "La coronación permite transformar el peón en otra pieza, normalmente dama.",
+        "pista": "Se convierte en pieza mayor"
+      }
+    ]
+  },
+  {
+    "nivel": 15,
+    "preguntas": [
+      {
+        "p": "¿Qué color mueve primero en ajedrez?",
+        "r": "blancas",
+        "exp": "Las piezas blancas realizan el primer movimiento de la partida.",
+        "pista": "Empiezan las claras"
+      }
+    ]
+  },
+  {
+    "nivel": 16,
+    "preguntas": [
+      {
+        "p": "¿Qué es una clavada?",
+        "r": "pieza que no conviene mover porque expone otra más valiosa",
+        "exp": "Una clavada restringe una pieza porque al moverse dejaría atacada otra pieza importante.",
+        "pista": "Pin en inglés"
+      }
+    ]
+  },
+  {
+    "nivel": 17,
+    "preguntas": [
+      {
+        "p": "¿Qué es un tenedor?",
+        "r": "ataque doble",
+        "exp": "Un tenedor es un ataque simultáneo a dos o más piezas.",
+        "pista": "El caballo lo hace frecuentemente"
+      }
+    ]
+  },
+  {
+    "nivel": 18,
+    "preguntas": [
+      {
+        "p": "¿Qué pieza vale aproximadamente 3 puntos igual que el alfil?",
+        "r": "caballo",
+        "exp": "Caballo y alfil suelen valorarse en tres puntos cada uno.",
+        "pista": "Pieza menor"
+      }
+    ]
+  },
+  {
+    "nivel": 19,
+    "preguntas": [
+      {
+        "p": "¿Cuánto vale aproximadamente una torre?",
+        "r": "5",
+        "exp": "La torre se valora normalmente en cinco puntos.",
+        "pista": "Más que alfil o caballo"
+      }
+    ]
+  },
+  {
+    "nivel": 20,
+    "preguntas": [
+      {
+        "p": "¿Qué es controlar el centro?",
+        "r": "dominar las casillas centrales",
+        "exp": "Controlar el centro mejora movilidad y opciones tácticas.",
+        "pista": "Casillas e4, d4, e5, d5"
+      }
+    ]
+  },
+  {
+    "nivel": 21,
+    "preguntas": [
+      {
+        "p": "¿Qué significa desarrollar piezas?",
+        "r": "sacar piezas a casillas activas",
+        "exp": "Desarrollar es activar piezas, especialmente menores, hacia buenas casillas.",
+        "pista": "No dejes piezas encerradas"
+      }
+    ]
+  },
+  {
+    "nivel": 22,
+    "preguntas": [
+      {
+        "p": "¿Qué pieza debe protegerse sobre todo?",
+        "r": "rey",
+        "exp": "El rey es la pieza crítica: si recibe mate, la partida termina.",
+        "pista": "Su seguridad decide la partida"
+      }
+    ]
+  },
+  {
+    "nivel": 23,
+    "preguntas": [
+      {
+        "p": "¿Qué es una captura al paso?",
+        "r": "captura especial de peón",
+        "exp": "La captura al paso permite capturar un peón que avanzó dos casillas junto a otro peón.",
+        "pista": "En passant"
+      }
+    ]
+  },
+  {
+    "nivel": 24,
+    "preguntas": [
+      {
+        "p": "¿Qué resultado ocurre si no hay mate y el jugador no tiene jugadas legales?",
+        "r": "tablas",
+        "exp": "El ahogado produce tablas cuando el jugador sin jaque no puede mover legalmente.",
+        "pista": "Empate"
+      }
+    ]
+  },
+  {
+    "nivel": 25,
+    "preguntas": [
+      {
+        "p": "¿Qué fase inicial busca desarrollo y control del centro?",
+        "r": "apertura",
+        "exp": "La apertura es la fase inicial donde se desarrollan piezas y se lucha por el centro.",
+        "pista": "Antes del medio juego"
+      }
+    ]
+  }
+]
